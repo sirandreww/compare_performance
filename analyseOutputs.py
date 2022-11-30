@@ -54,7 +54,7 @@ def get_result_from_output(text, word_that_indicated_safe, word_before_time):
         "test ran": False,
         "test finished": False,
         "test result": None,
-        "time": -1,
+        "time": None,
     }
     if len(text) != 0:
         line["test ran"] = True
@@ -113,11 +113,14 @@ def check_2_files(f1, f2, results, table):
         assert f1_line["test result"] is not None
         assert f2_line["test result"] is not None
         assert f2_line["test result"] == f2_line["test result"]
+        assert f1_line["time"] is not None
+        assert f2_line["time"] is not None
 
 
 def write_table_to_csv(table):
     # csv header
-    fieldnames = ['test_name', 'abc_finished', 'abc_result', 'abc_time', 'rfv_finished', 'rfv_result', 'rfv_time']
+    fieldnames = ['test_name', 'abc_finished', 'abc_result', 'abc_time', 'rfv_finished',
+                  'rfv_result', 'rfv_time']
     with open('results.csv', 'w', encoding='UTF8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
