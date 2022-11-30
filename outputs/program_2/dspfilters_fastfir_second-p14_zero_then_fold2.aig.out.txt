@@ -4,26 +4,8 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 20                                                                1    20      0.13 sec
   2 : 0 105 126                                                           2   134      0.89 sec
-  3 : 0 119 138 179                                                       4   265      2.37 sec
-  4 : 0 143 143 563 781                                                  14   383     11.52 sec
-  5 : 0 160 179 865 655 2620                                             12   466     38.33 sec
-  6 : 0 160 166 1164 749 2078 3397                                       20   517     70.10 sec
-  7 : 0 160 166 1144 739 1934 1422 2494                                   7   546     79.20 sec
-  8 : 0 160 155 292 220 412 214 110 866                                   0   546     80.11 sec
-  9 : 0 160 155 292 220 412 203 110 16 850                                0   546     80.90 sec
- 10 : 0 160 155 292 220 412 203 110 16 3 847                              0   546     81.65 sec
- 11 : 0 160 155 292 220 412 203 110 16 3 0 847                            0   546     82.42 sec
-Invariant F[10] : 847 clauses with 455 flops (out of 1104) (cex = 0, ave = 241.38)
-Verification of invariant with 847 clauses was successful.  Time =     0.04 sec
-Block = 2637  Oblig = 12557  Clause =  8664  Call =146132 (sat=49.4%)  Cex =   0  Start = 471
-SAT solving =    47.82 sec ( 57.99 %)
-  unsat     =     7.83 sec (  9.49 %)
-  sat       =    40.00 sec ( 48.50 %)
-Generalize  =    51.06 sec ( 61.92 %)
-Push clause =     8.81 sec ( 10.68 %)
-Ternary sim =    23.82 sec ( 28.89 %)
-Containment =     2.41 sec (  2.92 %)
-CNF compute =     0.80 sec (  0.97 %)
-Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    82.46 sec (100.00 %)
-Property proved.  Time =    82.48 sec
+  3 : 0 119 138 179                                                       4   265      2.36 sec
+  4 : 0 143 143 563 781                                                  14   383     11.43 sec
+  5 : 0 160 179 865 655 2620                                             12   466     37.99 sec
+  6 : 0 160 166 1164 749 2078 3397                                       20   517     69.47 sec
+slurmstepd-thanos3: error: *** JOB 69127 ON thanos3 CANCELLED AT 2022-11-30T21:40:53 DUE TO TIME LIMIT ***

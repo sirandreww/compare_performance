@@ -1,2 +1,2 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-slurmstepd-thanos1: error: *** JOB 68038 ON thanos1 CANCELLED AT 2022-11-30T19:55:23 DUE TO TIME LIMIT ***
+slurmstepd-thanos12: error: *** JOB 68993 ON thanos12 CANCELLED AT 2022-11-30T19:33:23 DUE TO TIME LIMIT ***

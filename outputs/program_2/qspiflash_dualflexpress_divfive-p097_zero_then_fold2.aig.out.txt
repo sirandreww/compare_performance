@@ -29,19 +29,19 @@ Frame Clauses                                                     Max Queue Flop
  25 : 0 5 8 11 5 1 2 2 1 1 1 2 1 1 1 1 1 1 1 1 1 2 4 10 12 117            6    59      0.22 sec
  26 : 0 5 8 11 5 1 2 2 1 1 1 2 1 1 1 1 1 1 1 1 1 1 2 4 2 12 110           8    59      0.22 sec
  27 : 0 5 8 11 5 1 2 2 1 1 1 2 1 1 1 1 1 1 1 1 1 1 2 1 2 2 8 106          0    59      0.23 sec
- 28 : ... 5 8 11 5 1 2 2 1 1 1 2 1 1 1 1 1 1 1 1 1 1 2 1 2 2 8 32 158     4    59      0.25 sec
+ 28 : ... 5 8 11 5 1 2 2 1 1 1 2 1 1 1 1 1 1 1 1 1 1 2 1 2 2 8 32 158     4    59      0.26 sec
  29 : ... 8 11 5 1 2 2 1 1 1 2 1 1 1 1 1 1 1 1 1 1 2 1 2 1 1 0 0 119      0    59      0.26 sec
 Invariant F[27] : 119 clauses with 57 flops (out of 166) (cex = 0, ave = 28.99)
 Verification of invariant with 119 clauses was successful.  Time =     0.00 sec
 Block =   87  Oblig =  1118  Clause =   659  Call =  8144 (sat=48.0%)  Cex =   0  Start =  10
-SAT solving =     0.17 sec ( 62.86 %)
-  unsat     =     0.02 sec (  8.77 %)
-  sat       =     0.14 sec ( 54.10 %)
-Generalize  =     0.13 sec ( 51.01 %)
-Push clause =     0.06 sec ( 22.95 %)
-Ternary sim =     0.03 sec ( 12.34 %)
+SAT solving =     0.17 sec ( 62.74 %)
+  unsat     =     0.02 sec (  8.75 %)
+  sat       =     0.14 sec ( 54.00 %)
+Generalize  =     0.14 sec ( 50.93 %)
+Push clause =     0.06 sec ( 22.88 %)
+Ternary sim =     0.03 sec ( 12.29 %)
 Containment =     0.00 sec (  0.28 %)
-CNF compute =     0.01 sec (  3.66 %)
+CNF compute =     0.01 sec (  3.70 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     0.26 sec (100.00 %)
+TOTAL       =     0.27 sec (100.00 %)
 Property proved.  Time =     0.27 sec

@@ -3,10 +3,10 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.06 sec
-  2 : 0 22 183                                                            2   237      1.06 sec
-  3 : 0 3 135 360                                                         2   301      3.34 sec
-  4 : 0 3 134 476 696                                                     3   359      8.86 sec
-  5 : 0 3 135 349 957 1030                                                6   430     18.02 sec
-  6 : 0 3 134 344 574 1476 1538                                           6   491     34.55 sec
-  7 : 0 3 134 344 569 862 2328 1937                                       6   555     58.10 sec
-slurmstepd-thanos10: error: *** JOB 68599 ON thanos10 CANCELLED AT 2022-11-30T20:43:53 DUE TO TIME LIMIT ***
+  2 : 0 22 183                                                            2   237      1.05 sec
+  3 : 0 3 135 360                                                         2   301      3.29 sec
+  4 : 0 3 134 476 696                                                     3   359      8.72 sec
+  5 : 0 3 135 349 957 1030                                                6   430     17.77 sec
+  6 : 0 3 134 344 574 1476 1538                                           6   491     34.28 sec
+  7 : 0 3 134 344 569 862 2328 1937                                       6   555     57.63 sec
+slurmstepd-thanos3: error: *** JOB 69012 ON thanos3 CANCELLED AT 2022-11-30T21:34:53 DUE TO TIME LIMIT ***

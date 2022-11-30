@@ -4,8 +4,8 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 21                                                                1    21      0.14 sec
   2 : 0 33 47                                                             2    40      0.53 sec
-  3 : 0 51 98 501                                                         4   262      4.81 sec
-  4 : 0 51 81 793 1031                                                   23   372     14.60 sec
-  5 : 0 56 98 798 587 1213                                                8   433     22.98 sec
-  6 : 0 72 102 1037 768 1205 2557                                        10   544     51.47 sec
-slurmstepd-thanos12: error: *** JOB 68543 ON thanos12 CANCELLED AT 2022-11-30T18:40:23 DUE TO TIME LIMIT ***
+  3 : 0 51 98 501                                                         4   262      4.82 sec
+  4 : 0 51 81 793 1031                                                   23   372     14.62 sec
+  5 : 0 56 98 798 587 1213                                                8   433     23.01 sec
+  6 : 0 72 102 1037 768 1205 2557                                        10   544     51.60 sec
+slurmstepd-thanos7: error: *** JOB 69159 ON thanos7 CANCELLED AT 2022-11-30T21:42:53 DUE TO TIME LIMIT ***

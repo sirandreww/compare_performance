@@ -3,12 +3,12 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 7                                                                 1     7      0.10 sec
-  2 : 0 14 30                                                             4    28      0.21 sec
-  3 : 0 16 43 174                                                        10   201      2.04 sec
-  4 : 0 14 32 45 239                                                      7   267      3.01 sec
-  5 : 0 14 32 39 134 487                                                 16   332      5.91 sec
-  6 : 0 14 31 37 119 441 457                                              7   395     10.25 sec
-  7 : 0 14 31 38 90 287 539 842                                          19   458     20.03 sec
-  8 : 0 14 31 37 82 238 576 1453 1473                                    15   521     43.28 sec
-  9 : 0 14 31 37 79 224 519 1298 1679 1159                               12   584     64.14 sec
-slurmstepd-thanos7: error: *** JOB 68397 ON thanos7 CANCELLED AT 2022-11-30T20:32:53 DUE TO TIME LIMIT ***
+  2 : 0 14 30                                                             4    28      0.22 sec
+  3 : 0 16 43 174                                                        10   201      2.05 sec
+  4 : 0 14 32 45 239                                                      7   267      2.98 sec
+  5 : 0 14 32 39 134 487                                                 16   332      5.68 sec
+  6 : 0 14 31 37 119 441 457                                              7   395      9.83 sec
+  7 : 0 14 31 38 90 287 539 842                                          19   458     19.52 sec
+  8 : 0 14 31 37 82 238 576 1453 1473                                    15   521     42.52 sec
+  9 : 0 14 31 37 79 224 519 1298 1679 1159                               12   584     63.25 sec
+slurmstepd-thanos2: error: *** JOB 69250 ON thanos2 CANCELLED AT 2022-11-30T21:48:23 DUE TO TIME LIMIT ***

@@ -5,21 +5,21 @@ Frame Clauses                                                     Max Queue Flop
   1 : 0 1                                                                 1     1      0.03 sec
   2 : 0 1 48                                                              1    49      0.13 sec
   3 : 0 1 237 405                                                         7   418      3.83 sec
-  4 : 0 1 116 119 402                                                     7   431      5.50 sec
-  5 : 0 1 76 86 83 454                                                    6   437      6.95 sec
-  6 : 0 1 74 65 148 160 863                                               7   457     11.51 sec
-  7 : 0 1 39 11 0 0 0 715                                                 0   457     12.70 sec
+  4 : 0 1 116 119 402                                                     7   431      5.49 sec
+  5 : 0 1 76 86 83 454                                                    6   437      6.93 sec
+  6 : 0 1 74 65 148 160 863                                               7   457     11.50 sec
+  7 : 0 1 39 11 0 0 0 715                                                 0   457     12.69 sec
 Invariant F[4] : 715 clauses with 457 flops (out of 718) (cex = 0, ave = 51.18)
-Verification of invariant with 715 clauses was successful.  Time =     0.64 sec
+Verification of invariant with 715 clauses was successful.  Time =     0.65 sec
 Block =  196  Oblig =  2452  Clause =  1555  Call = 34429 (sat=30.3%)  Cex =   0  Start = 111
-SAT solving =    11.38 sec ( 85.29 %)
+SAT solving =    11.38 sec ( 85.26 %)
   unsat     =     6.96 sec ( 52.13 %)
-  sat       =     4.42 sec ( 33.16 %)
+  sat       =     4.42 sec ( 33.13 %)
 Generalize  =     7.37 sec ( 55.22 %)
-Push clause =     3.05 sec ( 22.84 %)
+Push clause =     3.05 sec ( 22.83 %)
 Ternary sim =     0.28 sec (  2.13 %)
-Containment =     0.01 sec (  0.10 %)
-CNF compute =     0.20 sec (  1.52 %)
+Containment =     0.01 sec (  0.11 %)
+CNF compute =     0.20 sec (  1.50 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =    13.35 sec (100.00 %)
 Property proved.  Time =    13.36 sec

@@ -1,3 +1,7 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 361, 358, 0]
-slurmstepd-thanos6: error: *** JOB 68212 ON thanos6 CANCELLED AT 2022-11-30T20:14:53 DUE TO TIME LIMIT ***
+IC3 is on k = 2, clauses lengths = [0, 334, 331, 0]
+IC3 is on k = 3, clauses lengths = [0, 334, 331, 326, 0]
+IC3 is on k = 3, clauses lengths = [0, 334, 331, 326, 326]
+Elapsed time = 81.64185
+Safe, checking invariant.
+Invariant check passed!

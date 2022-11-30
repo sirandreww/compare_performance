@@ -4,23 +4,23 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     2      0.00 sec
   2 : 0 2 2                                                               2     6      0.00 sec
-  3 : 0 10 23 4                                                          21    31      0.01 sec
+  3 : 0 10 23 4                                                          21    31      0.02 sec
   4 : 0 5 12 11 2                                                         5    31      0.02 sec
   5 : 0 5 12 10 3 2                                                       2    31      0.02 sec
   6 : 0 5 12 10 2 4 3                                                     5    31      0.02 sec
-  7 : 0 5 12 10 1 2 2 7                                                   5    31      0.02 sec
+  7 : 0 5 12 10 1 2 2 7                                                   5    31      0.03 sec
   8 : 0 5 12 10 0 0 0 0 9                                                 0    31      0.03 sec
 Invariant F[4] : 9 clauses with 9 flops (out of 259) (cex = 0, ave = 37.26)
 Verification of invariant with 9 clauses was successful.  Time =     0.00 sec
 Block =    7  Oblig =   125  Clause =    55  Call =   522 (sat=67.8%)  Cex =   0  Start =   0
-SAT solving =     0.01 sec ( 43.79 %)
-  unsat     =     0.00 sec (  4.48 %)
-  sat       =     0.01 sec ( 39.31 %)
-Generalize  =     0.01 sec ( 31.50 %)
-Push clause =     0.01 sec ( 21.10 %)
-Ternary sim =     0.00 sec (  8.57 %)
-Containment =     0.00 sec (  0.14 %)
-CNF compute =     0.00 sec (  5.61 %)
+SAT solving =     0.02 sec ( 41.73 %)
+  unsat     =     0.00 sec (  4.13 %)
+  sat       =     0.01 sec ( 37.60 %)
+Generalize  =     0.01 sec ( 30.88 %)
+Push clause =     0.01 sec ( 19.74 %)
+Ternary sim =     0.00 sec (  8.34 %)
+Containment =     0.00 sec (  0.12 %)
+CNF compute =     0.00 sec (  5.78 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     0.03 sec (100.00 %)
-Property proved.  Time =     0.03 sec
+TOTAL       =     0.04 sec (100.00 %)
+Property proved.  Time =     0.04 sec

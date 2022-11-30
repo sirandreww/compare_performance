@@ -3,25 +3,25 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.13 sec
-  2 : 0 1 16                                                              1    17      0.14 sec
-  3 : 0 1 102 183                                                         8   204      0.52 sec
-  4 : 0 1 49 45 141                                                       0   204      0.56 sec
-  5 : 0 1 65 57 51 247                                                    9   211      0.88 sec
-  6 : 0 1 53 39 20 18 227                                                 0   211      0.94 sec
-  7 : 0 1 53 39 15 14 14 213                                              0   211      0.97 sec
-  8 : 0 1 54 46 16 14 14 14 340                                           9   213      1.31 sec
-  9 : 0 1 43 20 1 0 0 0 0 324                                             0   213      1.38 sec
+  2 : 0 1 16                                                              1    17      0.13 sec
+  3 : 0 1 102 183                                                         8   204      0.51 sec
+  4 : 0 1 49 45 141                                                       0   204      0.55 sec
+  5 : 0 1 65 57 51 247                                                    9   211      0.87 sec
+  6 : 0 1 53 39 20 18 227                                                 0   211      0.92 sec
+  7 : 0 1 53 39 15 14 14 213                                              0   211      0.96 sec
+  8 : 0 1 54 46 16 14 14 14 340                                           9   213      1.30 sec
+  9 : 0 1 43 20 1 0 0 0 0 324                                             0   213      1.36 sec
 Invariant F[5] : 324 clauses with 208 flops (out of 1033) (cex = 0, ave = 19.53)
 Verification of invariant with 324 clauses was successful.  Time =     0.01 sec
 Block =   63  Oblig =  1041  Clause =   622  Call = 10386 (sat=40.8%)  Cex =   0  Start =  30
-SAT solving =     0.99 sec ( 70.62 %)
-  unsat     =     0.26 sec ( 18.40 %)
-  sat       =     0.73 sec ( 52.23 %)
-Generalize  =     0.76 sec ( 54.37 %)
-Push clause =     0.26 sec ( 18.66 %)
-Ternary sim =     0.07 sec (  4.96 %)
+SAT solving =     0.97 sec ( 70.64 %)
+  unsat     =     0.26 sec ( 18.50 %)
+  sat       =     0.72 sec ( 52.14 %)
+Generalize  =     0.75 sec ( 54.39 %)
+Push clause =     0.26 sec ( 18.64 %)
+Ternary sim =     0.07 sec (  4.99 %)
 Containment =     0.00 sec (  0.09 %)
-CNF compute =     0.04 sec (  2.97 %)
+CNF compute =     0.04 sec (  2.94 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     1.40 sec (100.00 %)
-Property proved.  Time =     1.42 sec
+TOTAL       =     1.38 sec (100.00 %)
+Property proved.  Time =     1.40 sec

@@ -8,4 +8,4 @@ Frame Clauses                                                     Max Queue Flop
   4 : 0 3 73 171 504                                                      7   190      0.39 sec
   5 : 0 3 73 158 290 259                                                  6   195      0.45 sec
   6 : 0 3 71 154 94 134 301                                               0   195      0.48 sec
-slurmstepd-thanos6: error: *** JOB 68528 ON thanos6 CANCELLED AT 2022-11-30T20:40:23 DUE TO TIME LIMIT ***
+slurmstepd-thanos6: error: *** JOB 69088 ON thanos6 CANCELLED AT 2022-11-30T21:39:23 DUE TO TIME LIMIT ***

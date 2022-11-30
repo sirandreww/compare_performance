@@ -5,22 +5,22 @@ Frame Clauses                                                     Max Queue Flop
   1 : 0 1                                                                 1     1      0.03 sec
   2 : 0 1 48                                                              1    49      0.14 sec
   3 : 0 1 181 277                                                         7   373      2.31 sec
-  4 : 0 1 183 167 472                                                     7   437      6.31 sec
+  4 : 0 1 183 167 472                                                     7   437      6.32 sec
   5 : 0 1 89 78 100 558                                                   6   454      8.70 sec
-  6 : 0 1 83 40 68 64 658                                                 6   462     11.13 sec
-  7 : 0 1 56 8 3 2 2 671                                                  6   464     12.12 sec
+  6 : 0 1 83 40 68 64 658                                                 6   462     11.12 sec
+  7 : 0 1 56 8 3 2 2 671                                                  6   464     12.13 sec
   8 : 0 1 51 5 0 0 0 0 673                                                0   464     12.73 sec
 Invariant F[4] : 673 clauses with 458 flops (out of 718) (cex = 0, ave = 50.05)
 Verification of invariant with 673 clauses was successful.  Time =     0.61 sec
 Block =  192  Oblig =  2038  Clause =  1289  Call = 31871 (sat=26.7%)  Cex =   0  Start = 102
-SAT solving =    11.53 sec ( 86.40 %)
-  unsat     =     7.80 sec ( 58.41 %)
-  sat       =     3.74 sec ( 27.99 %)
-Generalize  =     7.09 sec ( 53.09 %)
-Push clause =     3.54 sec ( 26.50 %)
+SAT solving =    11.53 sec ( 86.41 %)
+  unsat     =     7.79 sec ( 58.37 %)
+  sat       =     3.74 sec ( 28.04 %)
+Generalize  =     7.09 sec ( 53.12 %)
+Push clause =     3.53 sec ( 26.48 %)
 Ternary sim =     0.25 sec (  1.90 %)
 Containment =     0.01 sec (  0.06 %)
-CNF compute =     0.19 sec (  1.42 %)
+CNF compute =     0.19 sec (  1.41 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =    13.35 sec (100.00 %)
 Property proved.  Time =    13.36 sec

@@ -1,5 +1,13 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 14, 7, 0]
-IC3 is on k = 3, clauses lengths = [0, 14, 7, 0, 0]
-IC3 is on k = 4, clauses lengths = [0, 53, 46, 33, 18, 0]
-slurmstepd-thanos9: error: *** JOB 68193 ON thanos9 CANCELLED AT 2022-11-30T20:12:53 DUE TO TIME LIMIT ***
+IC3 is on k = 2, clauses lengths = [0, 16, 9, 0]
+IC3 is on k = 3, clauses lengths = [0, 64, 55, 28, 0]
+IC3 is on k = 4, clauses lengths = [0, 64, 55, 28, 7, 0]
+IC3 is on k = 5, clauses lengths = [0, 66, 57, 30, 9, 2, 0]
+IC3 is on k = 6, clauses lengths = [0, 66, 57, 30, 9, 2, 0, 0]
+IC3 is on k = 7, clauses lengths = [0, 90, 81, 54, 33, 25, 21, 17, 0]
+IC3 is on k = 8, clauses lengths = [0, 90, 81, 54, 33, 25, 21, 17, 12, 0]
+IC3 is on k = 9, clauses lengths = [0, 90, 81, 54, 33, 25, 21, 17, 12, 8, 0]
+IC3 is on k = 10, clauses lengths = [0, 90, 81, 54, 33, 25, 21, 17, 12, 8, 5, 0]
+IC3 is on k = 11, clauses lengths = [0, 90, 81, 54, 33, 25, 21, 17, 12, 8, 5, 3, 0]
+IC3 is on k = 12, clauses lengths = [0, 90, 81, 54, 33, 25, 21, 17, 12, 8, 5, 3, 1, 0]
+slurmstepd-thanos3: error: *** JOB 68891 ON thanos3 CANCELLED AT 2022-11-30T21:21:53 DUE TO TIME LIMIT ***

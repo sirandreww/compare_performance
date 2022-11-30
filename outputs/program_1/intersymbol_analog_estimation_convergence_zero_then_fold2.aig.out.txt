@@ -1,5 +1,3 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 1, clauses lengths = [0, 9, 9]
-Elapsed time = 1.9898856
-Safe, checking invariant.
-Invariant check passed!
+IC3 is on k = 2, clauses lengths = [0, 155, 147, 0]
+slurmstepd-thanos1: error: *** JOB 68761 ON thanos1 CANCELLED AT 2022-11-30T21:06:23 DUE TO TIME LIMIT ***
