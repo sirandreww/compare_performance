@@ -69,3 +69,9 @@ def run_cmd(cmd: str):
 
 def is_file(path: str) -> bool:
     return os.path.isfile(path)
+
+
+def read_file(path: str) -> str:
+    with open(path) as f:
+        lines = f.read()
+        return lines
