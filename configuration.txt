@@ -6,8 +6,9 @@
     },
     "program 2": {
         "source path": "/home/andrew/Desktop/formal_verification/abc",
-        "compilation line": "make -j",
+        "compilation line": "make clean; make -j",
         "run line": "./abc -c \"read <test-file> ; pdr -v\" "
     },
-    "test files path": "",
+    "test files path": "/home/andrew/Desktop/formal_verification/rust/rust-formal-verification/tests/examples/hwmcc20",
+    "ending of desired files": "zero_then_fold2.aig"
 }

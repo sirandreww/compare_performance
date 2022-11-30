@@ -129,3 +129,5 @@ dmypy.json
 .pyre/
 
 .idea
+outputs/program_1/*.txt
+outputs/program_2/*.txt

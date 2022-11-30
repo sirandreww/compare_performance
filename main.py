@@ -4,107 +4,9 @@ import
 ***************************************************************************************************
 """
 
-import os
-import json
-
-"""
-***************************************************************************************************
-globals
-***************************************************************************************************
-"""
-
-WELCOME_MSG: str = """
-*************************************************
-Thank you for using this tool.
-The tool creates 2 executables and races them on
-multiple tests to get an image of performance.
-Author: Andrew Luka
-*************************************************
-"""
-SCRIPT_NAME: str = __file__
-CONFIG_FILE_NAME = "configuration.txt"
-
-
-"""
-***************************************************************************************************
-Comparison details
-***************************************************************************************************
-"""
-
-
-class ComparisonDetails:
-    def __init__(self):
-        self.configuration = {}
-
-    def load_parameters(self):
-        with open(get_path_to_saved_profile(), 'rb') as handle:
-            self.configuration = json.load(handle)
-
-    def get_parameters(self):
-        config_file_path = get_path_to_saved_profile()
-        if os.path.isfile(config_file_path):
-            print(f"Loading profile because we found this file:\n{config_file_path}")
-            self.load_parameters()
-        else:
-            raise Exception(f"No profile found at '{config_file_path}'")
-        print("Done loading run information.")
-
-    def run(self):
-        # get test parameters
-
-        # do each program alone
-        for i in range(1, 3):
-            program = f"program {i}"
-            source_path = self.configuration[program]["source path"]
-            compilation_line = self.configuration[program]["compilation line"]
-            run_line = self.configuration[program]["run line"]
-            change_directory(source_path)
-            run_cmd(compilation_line)
-
-
-
-
-"""
-***************************************************************************************************
-helper functions
-***************************************************************************************************
-"""
-
-
-def get_path_to_saved_profile() -> str:
-    def get_real_path_of_script() -> str:
-        file_path = os.path.realpath(SCRIPT_NAME)
-        return file_path
-
-    def pop_path(path: str) -> str:
-        split = path.split('/')
-        split.pop()
-        result = "/".join(split)
-        return result
-    main_py_path = get_real_path_of_script()
-    popped_path = pop_path(main_py_path)
-    pickle_file_path = f"{popped_path}/{CONFIG_FILE_NAME}"
-    return pickle_file_path
-
-
-def get_all_file_paths_in_dir_recursively(rootdir: str):
-    result = []
-    for subdir, dirs, files in os.walk(rootdir):
-        for file in files:
-            file_path = os.path.join(subdir, file)
-            result += [file_path]
-    return result
-
-
-def change_directory(path: str):
-    os.chdir(path)
-
-
-def run_cmd(cmd: str):
-    print(cmd)
-    cmd_result = os.system(cmd)
-    assert cmd_result == 0
-
+import src.globalDefinitions as globalDefinitions
+import src.comparisonDetails as comparisonDetails
+import src.helperFunctions as helperFunctions
 
 """
 ***************************************************************************************************
@@ -114,10 +16,18 @@ main
 
 
 def main():
-    print(WELCOME_MSG)
-    details = ComparisonDetails()
-    details.get_parameters()
-    details.run()
+    # print message
+    print(globalDefinitions.WELCOME_MSG)
+    # make object
+    details = comparisonDetails.ComparisonDetails()
+    # get configuration from jason
+    configuration_file_path = helperFunctions.get_path_to_saved_profile()
+    print(f"configuration_file_path = {configuration_file_path}")
+    details.get_parameters(configuration_file_path)
+    # perform run
+    output_directory = helperFunctions.get_path_to_output_directory()
+    print(f"output_directory = {output_directory}")
+    details.run(output_directory)
 
 
 """
