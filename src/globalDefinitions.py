@@ -12,7 +12,7 @@ multiple tests to get an image of performance.
 Author: Andrew Luka
 *************************************************
 """
-SCRIPT_NAME: str = "main.py"
+SCRIPT_NAME: str = "deployRuns.py"
 CONFIG_FILE_NAME = "configuration.txt"
 OUTPUT_DIRECTORY_NAME = "outputs"
 STRING_THAT_INDICATES_INPUT_FILE = "<test-file>"
