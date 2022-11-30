@@ -41,7 +41,7 @@ class ComparisonDetails:
         )
         output_file = test_path.split("/")[-1]
         name = f"program_{program_number}"
-        command_to_send = f"srun --cpus-per-task=1 --time=1  --output=\"{output_directory}/{name}/{output_file}.out.txt\"  {current_run_line} &  > /dev/null 2>&1"
+        command_to_send = f"srun --cpus-per-task=1 --time=1 --exclude=thanos[7-12] --output=\"{output_directory}/{name}/{output_file}.out.txt\"  {current_run_line} & "
         helperFunctions.run_cmd(command_to_send)
 
     def _run_tests_on_program_number(self, program_number, test_paths, output_directory):
