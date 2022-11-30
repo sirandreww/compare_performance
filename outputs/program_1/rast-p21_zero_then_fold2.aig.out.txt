@@ -1,0 +1,10 @@
+IC3 is on k = 1, clauses lengths = [0, 0, 0]
+IC3 is on k = 1, clauses lengths = [0, 0, 0]
+IC3 is on k = 1, clauses lengths = [0, 0, 0]
+Elapsed time = 0.58405864
+Safe, checking invariant.
+IC3 is on k = 1, clauses lengths = [0, 0, 0]
+Elapsed time = 0.6536906
+Safe, checking invariant.
+Invariant check passed!
+Invariant check passed!

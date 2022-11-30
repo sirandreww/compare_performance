@@ -1,0 +1,23 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019A/picorv32_mutBY_nomem-p1_zero_then_fold2.aig ; pdr -v".
+
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019A/picorv32_mutBY_nomem-p1_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.04 sec
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.04 sec
+  2 : 0 13 18                                                             4    27      0.06 sec
+  3 : 0 9 10 8                                                            0    27      0.06 sec
+  2 : 0 13 18                                                             4    27      0.06 sec
+  3 : 0 9 10 8                                                            0    27      0.06 sec
+  4 : 0 10 12 9 21                                                        5    38      0.07 sec
+  4 : 0 10 12 9 21                                                        5    38      0.07 sec
+  5 : 0 6 6 10 16 18                                                     10    45      0.09 sec
+  5 : 0 6 6 10 16 18                                                     10    45      0.09 sec
+  6 : 0 6 6 6 10 6 17                                                     0    45      0.10 sec
+  6 : 0 6 6 6 10 6 17                                                     0    45      0.09 sec
+  7 : 0 20 45 125 335 859 1404 1500                                     229   859     23.76 sec
+  7 : 0 20 45 125 335 859 1404 1500                                     229   859     23.79 sec
+slurmstepd-thanos2: error: *** STEP 62408.0 ON thanos2 CANCELLED AT 2022-11-30T18:13:53 DUE TO TIME LIMIT ***

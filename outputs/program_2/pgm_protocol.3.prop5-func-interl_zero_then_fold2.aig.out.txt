@@ -1,0 +1,37 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/beem/pgm_protocol.3.prop5-func-interl_zero_then_fold2.aig ; pdr -v".
+
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/beem/pgm_protocol.3.prop5-func-interl_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 5                                                                 1     5      0.01 sec
+  2 : 0 1 7                                                               1     8      0.01 sec
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 5                                                                 1     5      0.01 sec
+  2 : 0 1 7                                                               1     8      0.01 sec
+  3 : 0 6 9 27                                                            6    38      0.04 sec
+  3 : 0 6 9 27                                                            6    38      0.04 sec
+  4 : 0 6 8 16 39                                                         6    50      0.07 sec
+  4 : 0 6 8 16 39                                                         6    50      0.07 sec
+  5 : 0 7 7 8 14 35                                                       5    51      0.08 sec
+  5 : 0 7 7 8 14 35                                                       5    51      0.08 sec
+  6 : 0 6 6 6 10 14 39                                                    6    51      0.10 sec
+  6 : 0 6 6 6 10 14 39                                                    6    51      0.10 sec
+  7 : 0 6 6 6 8 10 17 50                                                  6    67      0.14 sec
+  7 : 0 6 6 6 8 10 17 50                                                  6    67      0.14 sec
+  8 : 0 6 6 6 8 8 8 26 30                                                 1    67      0.15 sec
+  8 : 0 6 6 6 8 8 8 26 30                                                 1    67      0.15 sec
+  9 : 0 11 21 31 59 89 124 177 178 173                                   72   108      2.55 sec
+  9 : 0 11 21 31 59 89 124 177 178 173                                   72   108      2.56 sec
+ 10 : 0 10 13 17 28 42 56 88 110 114 83                                   8   108      2.68 sec
+ 10 : 0 10 13 17 28 42 56 88 110 114 83                                   8   108      2.69 sec
+ 11 : 0 10 13 17 28 41 56 87 103 107 35 68                                6   109      2.80 sec
+ 11 : 0 10 13 17 28 41 56 87 103 107 35 68                                6   109      2.80 sec
+ 12 : 0 21 48 108 150 209 250 347 421 497 429 377 454                   336   207     14.74 sec
+ 12 : 0 21 48 108 150 209 250 347 421 497 429 377 454                   336   207     14.79 sec
+ 13 : 0 21 39 82 102 136 148 186 244 321 256 230 187 277                  4   207     15.25 sec
+ 13 : 0 21 39 82 102 136 148 186 244 321 256 230 187 277                  4   207     15.30 sec
+ 14 : 0 21 39 82 100 136 147 185 241 320 239 227 182 127 153              2   207     15.65 sec
+ 14 : 0 21 39 82 100 136 147 185 241 320 239 227 182 127 153              2   207     15.70 sec
+slurmstepd-thanos2: error: *** STEP 62243.0 ON thanos2 CANCELLED AT 2022-11-30T18:06:53 DUE TO TIME LIMIT ***

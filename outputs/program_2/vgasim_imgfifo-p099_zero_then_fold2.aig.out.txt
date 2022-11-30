@@ -1,0 +1,64 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/vgasim_imgfifo-p099_zero_then_fold2.aig ; pdr -v".
+
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/vgasim_imgfifo-p099_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.01 sec
+  2 : 0 1 25                                                              1    27      0.01 sec
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.01 sec
+  2 : 0 1 25                                                              1    27      0.01 sec
+  3 : 0 1 12 25                                                           1    27      0.01 sec
+  3 : 0 1 12 25                                                           1    27      0.01 sec
+  4 : 0 2 13 24 51                                                        4    45      0.03 sec
+  5 : 0 3 4 15 14 53                                                      6    53      0.04 sec
+  4 : 0 2 13 24 51                                                        4    45      0.03 sec
+  6 : 0 1 2 2 2 2 42                                                      0    53      0.04 sec
+  7 : 0 1 2 2 2 2 12 42                                                   1    53      0.05 sec
+  5 : 0 3 4 15 14 53                                                      6    53      0.04 sec
+  6 : 0 1 2 2 2 2 42                                                      0    53      0.04 sec
+  7 : 0 1 2 2 2 2 12 42                                                   1    53      0.05 sec
+  8 : 0 2 8 8 7 16 33 46 207                                             10    87      0.27 sec
+  9 : 0 2 6 4 4 3 4 5 15 152                                              1    87      0.28 sec
+  8 : 0 2 8 8 7 16 33 46 207                                             10    87      0.27 sec
+  9 : 0 2 6 4 4 3 4 5 15 152                                              1    87      0.28 sec
+ 10 : 0 2 7 8 14 19 30 51 78 227 721                                     11   126      1.25 sec
+ 10 : 0 2 7 8 14 19 30 51 78 227 721                                     11   126      1.25 sec
+ 11 : 0 2 5 6 12 17 16 41 58 86 83 569                                    3   126      1.33 sec
+ 11 : 0 2 5 6 12 17 16 41 58 86 83 569                                    3   126      1.33 sec
+ 12 : 0 2 5 6 12 17 16 41 56 68 54 33 546                                 2   126      1.37 sec
+ 12 : 0 2 5 6 12 17 16 41 56 68 54 33 546                                 2   126      1.37 sec
+ 13 : 0 2 5 6 12 17 16 41 56 67 53 21 5 540                               0   126      1.40 sec
+ 13 : 0 2 5 6 12 17 16 41 56 67 53 21 5 540                               0   126      1.40 sec
+ 14 : 0 2 5 6 12 17 16 41 56 67 53 21 5 0 540                             0   126      1.42 sec
+Invariant F[13] : 540 clauses with 121 flops (out of 602) (cex = 0, ave = 121.15)
+Verification of invariant with 540 clauses was successful.  Time =     0.01 sec
+Block =  256  Oblig =  2415  Clause =  1472  Call = 21219 (sat=54.0%)  Cex =   0  Start =  63
+SAT solving =     0.84 sec ( 58.82 %)
+  unsat     =     0.11 sec (  7.49 %)
+  sat       =     0.74 sec ( 51.33 %)
+Generalize  =     1.02 sec ( 71.21 %)
+Push clause =     0.12 sec (  8.19 %)
+Ternary sim =     0.32 sec ( 22.51 %)
+Containment =     0.04 sec (  2.55 %)
+CNF compute =     0.05 sec (  3.16 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     1.43 sec (100.00 %)
+ 14 : 0 2 5 6 12 17 16 41 56 67 53 21 5 0 540                             0   126      1.42 sec
+Property proved.  Time =     1.44 sec
+Invariant F[13] : 540 clauses with 121 flops (out of 602) (cex = 0, ave = 121.15)
+Verification of invariant with 540 clauses was successful.  Time =     0.01 sec
+Block =  256  Oblig =  2415  Clause =  1472  Call = 21219 (sat=54.0%)  Cex =   0  Start =  63
+SAT solving =     0.84 sec ( 58.72 %)
+  unsat     =     0.11 sec (  7.50 %)
+  sat       =     0.73 sec ( 51.23 %)
+Generalize  =     1.02 sec ( 71.20 %)
+Push clause =     0.12 sec (  8.19 %)
+Ternary sim =     0.32 sec ( 22.63 %)
+Containment =     0.04 sec (  2.54 %)
+CNF compute =     0.05 sec (  3.19 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     1.43 sec (100.00 %)
+Property proved.  Time =     1.44 sec

@@ -1,0 +1,17 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/cal107/cal107_zero_then_fold2.aig ; pdr -v".
+
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/cal107/cal107_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      2.83 sec
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      2.84 sec
+  2 : 0 1 48                                                              1    49      8.57 sec
+  2 : 0 1 48                                                              1    49      8.60 sec
+  3 : 0 1 229 345                                                         7   385     16.62 sec
+  3 : 0 1 229 345                                                         7   385     16.63 sec
+  4 : 0 1 199 197 462                                                     7   420     24.77 sec
+  4 : 0 1 199 197 462                                                     7   420     24.81 sec
+slurmstepd-thanos4: error: *** STEP 62417.0 ON thanos4 CANCELLED AT 2022-11-30T18:14:23 DUE TO TIME LIMIT ***

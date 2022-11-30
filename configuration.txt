@@ -1,14 +1,14 @@
 {
     "program 1": {
-        "source path": "../RFV-testing",
+        "source path": "/home/andrew/RFV-testing",
         "compilation line": "cargo build --release",
-        "run line": "./target/release/rfv-testing <test-file>"
+        "run line": "/home/andrew/RFV-testing/target/release/rfv-testing <test-file>"
     },
     "program 2": {
-        "source path": "../abc",
-        "compilation line": "make -j",
+        "source path": "/home/andrew/abc",
+        "compilation line": "make ABC_USE_NO_READLINE=1 -j12",
         "run line": "./abc -c \"read <test-file> ; pdr -v\" "
     },
-    "test files path": "../rust-formal-verification/tests/examples/hwmcc20",
+    "test files path": "/home/andrew/rust-formal-verification/tests/examples/hwmcc20",
     "ending of desired files": "zero_then_fold2.aig"
 }

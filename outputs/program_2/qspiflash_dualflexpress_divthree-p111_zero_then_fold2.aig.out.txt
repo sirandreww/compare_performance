@@ -1,0 +1,86 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/qspiflash_dualflexpress_divthree-p111_zero_then_fold2.aig ; pdr -v".
+
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/qspiflash_dualflexpress_divthree-p111_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 4                                                                 1     5      0.00 sec
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 4                                                                 1     5      0.00 sec
+  2 : 0 19 27                                                             4    35      0.01 sec
+  3 : 0 7 4 22                                                            0    35      0.01 sec
+  2 : 0 19 27                                                             4    35      0.01 sec
+  3 : 0 7 4 22                                                            0    35      0.01 sec
+  4 : 0 9 14 28 58                                                       13    57      0.03 sec
+  5 : 0 5 8 16 10 36                                                      0    57      0.03 sec
+  4 : 0 9 14 28 58                                                       13    57      0.03 sec
+  5 : 0 5 8 16 10 36                                                      0    57      0.03 sec
+  6 : 0 5 8 16 18 71 160                                                 13   106      0.12 sec
+  6 : 0 5 8 16 18 71 160                                                 13   106      0.12 sec
+  7 : 0 5 8 16 14 55 27 151                                               5   106      0.14 sec
+  7 : 0 5 8 16 14 55 27 151                                               5   106      0.14 sec
+  8 : 0 5 8 16 14 55 12 12 155                                            4   106      0.15 sec
+  8 : 0 5 8 16 14 55 12 12 155                                            4   106      0.15 sec
+  9 : 0 5 8 16 14 55 8 8 20 248                                           4   106      0.23 sec
+  9 : 0 5 8 16 14 55 8 8 20 248                                           4   106      0.23 sec
+ 10 : 0 5 8 16 14 55 6 7 3 10 215                                         3   107      0.25 sec
+ 10 : 0 5 8 16 14 55 6 7 3 10 215                                         3   107      0.25 sec
+ 11 : 0 5 8 16 14 55 6 7 3 4 6 223                                        4   107      0.26 sec
+ 11 : 0 5 8 16 14 55 6 7 3 4 6 223                                        4   107      0.26 sec
+ 12 : 0 5 8 16 14 55 6 7 3 4 3 9 233                                      3   107      0.27 sec
+ 12 : 0 5 8 16 14 55 6 7 3 4 3 9 233                                      3   107      0.27 sec
+ 13 : 0 5 8 16 14 55 6 7 3 4 3 2 7 238                                    4   107      0.28 sec
+ 13 : 0 5 8 16 14 55 6 7 3 4 3 2 7 238                                    4   107      0.28 sec
+ 14 : 0 5 8 16 14 55 6 7 3 4 3 2 3 6 248                                  3   107      0.29 sec
+ 14 : 0 5 8 16 14 55 6 7 3 4 3 2 3 6 248                                  3   107      0.29 sec
+ 15 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 5 257                                3   107      0.31 sec
+ 15 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 5 257                                3   107      0.31 sec
+ 16 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 5 265                              3   107      0.32 sec
+ 16 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 5 265                              3   107      0.32 sec
+ 17 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 7 273                            3   107      0.33 sec
+ 17 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 7 273                            3   107      0.33 sec
+ 18 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 7 278                          3   107      0.34 sec
+ 18 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 7 278                          3   107      0.34 sec
+ 19 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 9 285                        3   107      0.35 sec
+ 19 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 9 285                        3   107      0.35 sec
+ 20 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 8 19 305                     4   109      0.37 sec
+ 20 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 8 19 305                     4   109      0.37 sec
+ 21 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 3 2 8 307                    3   109      0.38 sec
+ 21 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 3 2 8 307                    3   109      0.38 sec
+ 22 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 3 2 3 8 313                  3   109      0.39 sec
+ 22 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 3 2 3 8 313                  3   109      0.39 sec
+ 23 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 3 2 4 10 19 329              8   109      0.41 sec
+ 23 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 3 2 4 10 19 329              8   109      0.41 sec
+ 24 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 3 2 4 4 4 17 327             6   109      0.43 sec
+ 24 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 3 2 4 4 4 17 327             6   109      0.43 sec
+ 25 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 3 2 4 4 0 0 0 324            0   109      0.44 sec
+Invariant F[22] : 324 clauses with 99 flops (out of 176) (cex = 0, ave = 35.84)
+Verification of invariant with 324 clauses was successful.  Time =     0.00 sec
+Block =   56  Oblig =  1307  Clause =   763  Call = 13899 (sat=45.1%)  Cex =   0  Start =  37
+SAT solving =     0.30 sec ( 66.56 %)
+  unsat     =     0.06 sec ( 12.59 %)
+  sat       =     0.24 sec ( 53.97 %)
+Generalize  =     0.21 sec ( 48.41 %)
+Push clause =     0.14 sec ( 31.22 %)
+Ternary sim =     0.05 sec ( 10.41 %)
+Containment =     0.00 sec (  0.40 %)
+CNF compute =     0.02 sec (  3.91 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     0.44 sec (100.00 %)
+ 25 : 0 5 8 16 14 55 6 7 3 4 3 2 3 2 2 2 3 3 3 2 4 4 0 0 0 324            0   109      0.43 sec
+Invariant F[22] : 324 clauses with 99 flops (out of 176) (cex = 0, ave = 35.84)
+Verification of invariant with 324 clauses was successful.  Time =     0.00 sec
+Block =   56  Oblig =  1307  Clause =   763  Call = 13899 (sat=45.1%)  Cex =   0  Start =  37
+SAT solving =     0.29 sec ( 66.52 %)
+  unsat     =     0.06 sec ( 12.62 %)
+  sat       =     0.24 sec ( 53.90 %)
+Generalize  =     0.21 sec ( 48.41 %)
+Push clause =     0.14 sec ( 31.24 %)
+Ternary sim =     0.05 sec ( 10.38 %)
+Containment =     0.00 sec (  0.40 %)
+CNF compute =     0.02 sec (  3.95 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     0.44 sec (100.00 %)
+Property proved.  Time =     0.45 sec
+Property proved.  Time =     0.45 sec

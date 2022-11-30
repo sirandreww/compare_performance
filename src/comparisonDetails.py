@@ -5,6 +5,7 @@ File that has the object that actually performs the run
 """
 
 import json
+import random
 import src.helperFunctions as helperFunctions
 import src.globalDefinitions as globalDefinitions
 
@@ -36,11 +37,11 @@ class ComparisonDetails:
     def _run_one_test_on_program_number(program_number, run_line, test_path, output_directory):
         current_run_line = run_line.replace(
             globalDefinitions.STRING_THAT_INDICATES_INPUT_FILE,
-            test_path
+            f"\"{test_path}\""
         )
         output_file = test_path.split("/")[-1]
         name = f"program_{program_number}"
-        command_to_send = f"{current_run_line} > \"{output_directory}/{name}/{output_file}.out.txt\""
+        command_to_send = f"srun --cpus-per-task=1 --time=1  --output=\"{output_directory}/{name}/{output_file}.out.txt\"  {current_run_line} &  > /dev/null 2>&1"
         helperFunctions.run_cmd(command_to_send)
 
     def _run_tests_on_program_number(self, program_number, test_paths, output_directory):
@@ -93,6 +94,7 @@ class ComparisonDetails:
             list_of_strings=files_in_test_directory,
             desired_ending=ending_of_desired_files
         )
+        random.shuffle(filtered_inputs)
 
         # do each program alone
         for i in range(1, 3):

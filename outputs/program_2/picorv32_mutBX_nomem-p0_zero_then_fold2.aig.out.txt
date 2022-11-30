@@ -1,0 +1,21 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019A/picorv32_mutBX_nomem-p0_zero_then_fold2.aig ; pdr -v".
+
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019A/picorv32_mutBX_nomem-p0_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 232                                                               1   192      2.34 sec
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 232                                                               1   192      2.34 sec
+  2 : 0 211 103                                                           1   228      3.47 sec
+  2 : 0 211 103                                                           1   228      3.47 sec
+  3 : 0 314 467 865                                                      25   434     21.33 sec
+  3 : 0 314 467 865                                                      25   434     21.35 sec
+  4 : 0 135 75 53 323                                                     0   434     21.51 sec
+  4 : 0 135 75 53 323                                                     0   434     21.53 sec
+  5 : 0 135 71 53 120 199                                                 0   434     21.73 sec
+  5 : 0 135 71 53 120 199                                                 0   434     21.75 sec
+  6 : 0 135 71 53 130 267 379                                             6   451     27.81 sec
+  6 : 0 135 71 53 130 267 379                                             6   451     27.83 sec
+slurmstepd-thanos1: error: *** STEP 62390.0 ON thanos1 CANCELLED AT 2022-11-30T18:13:23 DUE TO TIME LIMIT ***

@@ -1,0 +1,5 @@
+IC3 is on k = 1, clauses lengths = [0, 0, 0]
+IC3 is on k = 1, clauses lengths = [0, 0, 0]
+IC3 is on k = 2, clauses lengths = [0, 8, 4, 0]
+IC3 is on k = 2, clauses lengths = [0, 8, 4, 0]
+slurmstepd-thanos4: error: *** STEP 62088.0 ON thanos4 CANCELLED AT 2022-11-30T17:58:23 DUE TO TIME LIMIT ***

@@ -1,0 +1,15 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/circular_pointer_top_w128_d128_e0_zero_then_fold2.aig ; pdr -v".
+
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/circular_pointer_top_w128_d128_e0_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.12 sec
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.12 sec
+  2 : 0 22 311                                                            2   365      5.65 sec
+  2 : 0 22 311                                                            2   365      5.76 sec
+  3 : 0 3 263 712                                                         2   493     19.87 sec
+  3 : 0 3 263 712                                                         2   493     20.10 sec
+slurmstepd-thanos1: error: *** STEP 62232.0 ON thanos1 CANCELLED AT 2022-11-30T18:05:53 DUE TO TIME LIMIT ***
