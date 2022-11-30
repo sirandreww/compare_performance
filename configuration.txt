@@ -8,5 +8,6 @@
         "source path": "/home/andrew/Desktop/formal_verification/abc",
         "compilation line": "make -j",
         "run line": "./abc -c \"read <test-file> ; pdr -v\" "
-    }
+    },
+    "test files path": "",
 }

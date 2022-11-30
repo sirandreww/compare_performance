@@ -50,7 +50,18 @@ class ComparisonDetails:
         print("Done loading run information.")
 
     def run(self):
-        print(self.configuration)
+        # get test parameters
+
+        # do each program alone
+        for i in range(1, 3):
+            program = f"program {i}"
+            source_path = self.configuration[program]["source path"]
+            compilation_line = self.configuration[program]["compilation line"]
+            run_line = self.configuration[program]["run line"]
+            change_directory(source_path)
+            run_cmd(compilation_line)
+
+
 
 
 """
@@ -74,6 +85,25 @@ def get_path_to_saved_profile() -> str:
     popped_path = pop_path(main_py_path)
     pickle_file_path = f"{popped_path}/{CONFIG_FILE_NAME}"
     return pickle_file_path
+
+
+def get_all_file_paths_in_dir_recursively(rootdir: str):
+    result = []
+    for subdir, dirs, files in os.walk(rootdir):
+        for file in files:
+            file_path = os.path.join(subdir, file)
+            result += [file_path]
+    return result
+
+
+def change_directory(path: str):
+    os.chdir(path)
+
+
+def run_cmd(cmd: str):
+    print(cmd)
+    cmd_result = os.system(cmd)
+    assert cmd_result == 0
 
 
 """
