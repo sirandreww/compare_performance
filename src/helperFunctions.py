@@ -14,16 +14,33 @@ helper functions
 """
 
 
-def _get_real_path_of_script() -> str:
+def __get_real_path_of_script() -> str:
     file_path = os.path.realpath(globalDefinitions.SCRIPT_NAME)
     return file_path
 
 
-def _pop_path(path: str) -> str:
+def __pop_path(path: str) -> str:
     split = path.split('/')
     split.pop()
     result = "/".join(split)
     return result
+
+
+def __get_all_file_paths_in_dir_recursively(rootdir: str):
+    result = []
+    for subdir, dirs, files in os.walk(rootdir):
+        for file in files:
+            file_path = os.path.join(subdir, file)
+            result += [file_path]
+    return result
+
+
+def __filter_list_of_string_by_ending(list_of_strings, desired_ending: str):
+    filtered = []
+    for f in list_of_strings:
+        if f[-len(desired_ending):] == desired_ending:
+            filtered += [f]
+    return filtered
 
 
 """
@@ -34,27 +51,28 @@ API functions
 
 
 def get_path_to_saved_profile() -> str:
-    main_py_path = _get_real_path_of_script()
-    popped_path = _pop_path(main_py_path)
+    main_py_path = __get_real_path_of_script()
+    popped_path = __pop_path(main_py_path)
     pickle_file_path = f"{popped_path}/{globalDefinitions.CONFIG_FILE_NAME}"
     return pickle_file_path
 
 
 def get_path_to_output_directory() -> str:
-    main_py_path = _get_real_path_of_script()
-    popped_path = _pop_path(main_py_path)
+    main_py_path = __get_real_path_of_script()
+    popped_path = __pop_path(main_py_path)
     pickle_file_path = f"{popped_path}/{globalDefinitions.OUTPUT_DIRECTORY_NAME}"
     return pickle_file_path
 
 
-def get_all_file_paths_in_dir_recursively(rootdir: str):
-    result = []
-    for subdir, dirs, files in os.walk(rootdir):
-        for file in files:
-            file_path = os.path.join(subdir, file)
-            result += [file_path]
-    return result
-
+def get_all_file_paths_in_dir_that_have_desired_ending(rootdir: str, desired_ending):
+    files_in_root = __get_all_file_paths_in_dir_recursively(
+        rootdir=rootdir
+    )
+    filtered_inputs = __filter_list_of_string_by_ending(
+        list_of_strings=files_in_root,
+        desired_ending=desired_ending
+    )
+    return filtered_inputs
 
 def change_directory(path: str):
     print(f"cd {path}")

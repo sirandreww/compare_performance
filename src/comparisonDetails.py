@@ -59,14 +59,6 @@ class ComparisonDetails:
                 output_directory=output_directory
             )
 
-    @staticmethod
-    def filter_list_of_string_by_ending(list_of_strings, desired_ending):
-        filtered = []
-        for f in list_of_strings:
-            if f[-len(desired_ending):] == desired_ending:
-                filtered += [f]
-        return filtered
-
     """
     ***********************************************************************************************
     api functions
@@ -86,13 +78,9 @@ class ComparisonDetails:
 
     def run(self, output_directory):
         # get test parameters
-        files_in_test_directory = helperFunctions.get_all_file_paths_in_dir_recursively(
-            rootdir=self.configuration["test files path"]
-        )
-        ending_of_desired_files = self.configuration["ending of desired files"]
-        filtered_inputs = self.filter_list_of_string_by_ending(
-            list_of_strings=files_in_test_directory,
-            desired_ending=ending_of_desired_files
+        filtered_inputs = helperFunctions.get_all_file_paths_in_dir_that_have_desired_ending(
+            rootdir=self.configuration["test files path"],
+            desired_ending=self.configuration["ending of desired files"]
         )
         random.shuffle(filtered_inputs)
 
