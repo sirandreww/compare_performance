@@ -1,0 +1,10 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019A/picorv32_mutAX_nomem-p2_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 103                                                               1    99      1.16 sec
+  2 : 0 98 121                                                            1   118      2.44 sec
+  3 : 0 234 421 639                                                      32   405     17.08 sec
+  4 : 0 131 108 184 199                                                   0   405     17.36 sec
+  5 : 0 131 108 188 258 546                                               4   430     25.46 sec
+slurmstepd-thanos5: error: *** JOB 68450 ON thanos5 CANCELLED AT 2022-11-30T18:36:23 DUE TO TIME LIMIT ***

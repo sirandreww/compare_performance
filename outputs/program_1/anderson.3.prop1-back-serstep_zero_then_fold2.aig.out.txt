@@ -1,0 +1,4 @@
+IC3 is on k = 1, clauses lengths = [0, 0, 0]
+IC3 is on k = 2, clauses lengths = [0, 7, 4, 0]
+Elapsed time = 1.6937503
+Unsafe, depth = 2

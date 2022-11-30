@@ -1,0 +1,6 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/cal156/cal156_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.14 sec
+slurmstepd-thanos9: error: *** JOB 68386 ON thanos9 CANCELLED AT 2022-11-30T20:32:23 DUE TO TIME LIMIT ***

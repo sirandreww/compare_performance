@@ -1,27 +1,15 @@
 ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/arbitrated_top_n2_w64_d64_e0_zero_then_fold2.aig ; pdr -v".
 
-ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/arbitrated_top_n2_w64_d64_e0_zero_then_fold2.aig ; pdr -v".
-
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 7                                                                 1     7      0.07 sec
-VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
-Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 7                                                                 1     7      0.07 sec
-  2 : 0 3 15                                                              2    15      0.12 sec
-  2 : 0 3 15                                                              2    15      0.12 sec
-  3 : 0 16 49 195                                                         8   194      1.76 sec
-  3 : 0 16 49 195                                                         8   194      1.77 sec
-  4 : 0 8 17 41 240                                                       4   257      2.38 sec
-  4 : 0 8 17 41 240                                                       4   257      2.39 sec
-  5 : 0 7 17 26 106 376                                                   6   320      3.57 sec
-  5 : 0 7 17 26 106 376                                                   6   320      3.59 sec
-  6 : 0 7 16 25 102 325 522                                               9   383      6.69 sec
-  6 : 0 7 16 25 102 325 522                                               9   383      6.71 sec
-  7 : 0 7 16 24 109 376 528 783                                          10   445     12.35 sec
-  7 : 0 7 16 24 109 376 528 783                                          10   445     12.40 sec
-  8 : 0 7 16 18 88 274 356 904 1049                                       9   508     19.44 sec
-  8 : 0 7 16 18 88 274 356 904 1049                                       9   508     19.50 sec
-  9 : 0 7 16 18 88 275 434 1105 1939 1815                                12   571     42.57 sec
-  9 : 0 7 16 18 88 275 434 1105 1939 1815                                12   571     42.63 sec
-slurmstepd-thanos1: error: *** STEP 62475.0 ON thanos1 CANCELLED AT 2022-11-30T18:17:23 DUE TO TIME LIMIT ***
+  2 : 0 3 15                                                              2    15      0.11 sec
+  3 : 0 16 49 195                                                         8   194      1.50 sec
+  4 : 0 8 17 41 240                                                       4   257      2.04 sec
+  5 : 0 7 17 26 106 376                                                   6   320      3.07 sec
+  6 : 0 7 16 25 102 325 522                                               9   383      5.89 sec
+  7 : 0 7 16 24 109 376 528 783                                          10   445     11.10 sec
+  8 : 0 7 16 18 88 274 356 904 1049                                       9   508     17.76 sec
+  9 : 0 7 16 18 88 275 434 1105 1939 1815                                12   571     39.45 sec
+ 10 : 0 7 16 18 87 267 358 1106 1947 2414 1575                           18   628     60.94 sec
+slurmstepd-thanos11: error: *** JOB 68414 ON thanos11 CANCELLED AT 2022-11-30T20:34:23 DUE TO TIME LIMIT ***

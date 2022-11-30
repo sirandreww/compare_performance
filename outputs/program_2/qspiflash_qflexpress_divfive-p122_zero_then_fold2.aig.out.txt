@@ -1,0 +1,24 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/qspiflash_qflexpress_divfive-p122_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     2      0.00 sec
+  2 : 0 1 1                                                               1     3      0.00 sec
+  3 : 0 1 1 5                                                             1    10      0.00 sec
+  4 : 0 1 1 9 18                                                          2    22      0.01 sec
+  5 : 0 1 1 5 19 23                                                       4    22      0.02 sec
+  6 : 0 1 1 4 0 0 29                                                      0    22      0.02 sec
+Invariant F[4] : 29 clauses with 15 flops (out of 153) (cex = 0, ave = 30.05)
+Verification of invariant with 29 clauses was successful.  Time =     0.00 sec
+Block =   19  Oblig =    79  Clause =    56  Call =   673 (sat=59.4%)  Cex =   0  Start =   0
+SAT solving =     0.01 sec ( 45.34 %)
+  unsat     =     0.00 sec (  5.99 %)
+  sat       =     0.01 sec ( 39.35 %)
+Generalize  =     0.01 sec ( 45.97 %)
+Push clause =     0.00 sec (  5.17 %)
+Ternary sim =     0.00 sec (  9.23 %)
+Containment =     0.00 sec (  0.07 %)
+CNF compute =     0.00 sec (  2.37 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     0.03 sec (100.00 %)
+Property proved.  Time =     0.03 sec

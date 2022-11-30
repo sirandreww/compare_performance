@@ -1,11 +1,6 @@
 ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/mul7/mul7_zero_then_fold2.aig ; pdr -v".
 
-ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/mul7/mul7_zero_then_fold2.aig ; pdr -v".
-
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 512                                                               1   512      0.40 sec
-VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
-Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 512                                                               1   512      0.40 sec
-slurmstepd-thanos2: error: *** STEP 62280.0 ON thanos2 CANCELLED AT 2022-11-30T18:07:53 DUE TO TIME LIMIT ***
+slurmstepd-thanos10: error: *** JOB 68632 ON thanos10 CANCELLED AT 2022-11-30T20:45:23 DUE TO TIME LIMIT ***

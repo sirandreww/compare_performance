@@ -1,0 +1,24 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/cal86/cal86_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.11 sec
+  2 : 0 1 49                                                              1    52      0.29 sec
+  3 : 0 1 276 476                                                         6   403      3.82 sec
+  4 : 0 1 84 69 468                                                       4   403      5.21 sec
+  5 : 0 1 79 54 50 556                                                    5   403      7.00 sec
+  6 : 0 1 60 6 0 0 557                                                    0   403      7.78 sec
+Invariant F[4] : 557 clauses with 402 flops (out of 660) (cex = 0, ave = 31.15)
+Verification of invariant with 557 clauses was successful.  Time =     0.48 sec
+Block =  140  Oblig =  1424  Clause =   899  Call = 14621 (sat=38.0%)  Cex =   0  Start =  45
+SAT solving =     7.22 sec ( 87.37 %)
+  unsat     =     5.24 sec ( 63.46 %)
+  sat       =     1.98 sec ( 23.91 %)
+Generalize  =     3.61 sec ( 43.73 %)
+Push clause =     2.77 sec ( 33.55 %)
+Ternary sim =     0.15 sec (  1.81 %)
+Containment =     0.00 sec (  0.04 %)
+CNF compute =     0.07 sec (  0.86 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     8.27 sec (100.00 %)
+Property proved.  Time =     8.27 sec

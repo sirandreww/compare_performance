@@ -1,0 +1,30 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/qspiflash_dualflexpress_divfive-p092_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 4                                                                 1     5      0.00 sec
+  2 : 0 9 9                                                               4    19      0.00 sec
+  3 : 0 6 13 17                                                           3    33      0.01 sec
+  4 : 0 6 6 5 13                                                          0    33      0.01 sec
+  5 : 0 6 5 11 25 53                                                      5    42      0.03 sec
+  6 : 0 6 5 8 10 13 39                                                    0    42      0.03 sec
+  7 : 0 6 5 8 11 19 16 62                                                 8    48      0.04 sec
+  8 : 0 6 5 8 11 10 7 3 67                                                0    48      0.05 sec
+  9 : 0 6 5 8 11 10 7 3 2 65                                              0    48      0.05 sec
+ 10 : 0 6 5 8 11 10 7 3 2 1 64                                            0    48      0.05 sec
+ 11 : 0 6 5 8 11 10 7 3 2 1 1 63                                          0    48      0.06 sec
+ 12 : 0 6 5 8 11 10 7 3 2 1 1 0 63                                        0    48      0.06 sec
+Invariant F[11] : 63 clauses with 39 flops (out of 169) (cex = 0, ave = 26.03)
+Verification of invariant with 63 clauses was successful.  Time =     0.00 sec
+Block =   19  Oblig =   269  Clause =   157  Call =  2033 (sat=50.7%)  Cex =   0  Start =   2
+SAT solving =     0.03 sec ( 54.73 %)
+  unsat     =     0.00 sec (  7.18 %)
+  sat       =     0.03 sec ( 47.55 %)
+Generalize  =     0.03 sec ( 42.10 %)
+Push clause =     0.02 sec ( 24.29 %)
+Ternary sim =     0.01 sec ( 10.95 %)
+Containment =     0.00 sec (  0.18 %)
+CNF compute =     0.00 sec (  3.43 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     0.06 sec (100.00 %)
+Property proved.  Time =     0.07 sec

@@ -1,0 +1,31 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019B/marlann_compute_cp_fail1-p2_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 11                                                                1    11      0.00 sec
+  2 : 0 30 25                                                            10    35      0.00 sec
+  3 : 0 5 9 24                                                            2    36      0.01 sec
+  4 : 0 5 8 13 21                                                         3    38      0.01 sec
+  5 : 0 5 8 5 4 17                                                        0    38      0.01 sec
+  6 : 0 5 8 5 4 4 13                                                      0    38      0.01 sec
+  7 : 0 5 8 5 4 4 4 59                                                    5    58      0.02 sec
+  8 : 0 5 8 5 4 4 5 17 55                                                 6    61      0.02 sec
+  9 : 0 4 7 4 4 4 5 9 9 46                                                0    61      0.02 sec
+ 10 : 0 4 7 4 4 4 5 9 9 9 37                                              0    61      0.02 sec
+ 11 : 0 4 7 4 4 4 5 9 9 9 9 28                                            0    61      0.02 sec
+ 12 : 0 4 7 4 4 4 5 9 9 9 9 10 250                                       10    86      0.07 sec
+ 13 : 0 4 7 4 4 4 5 9 9 9 9 10 0 250                                      0    86      0.07 sec
+Invariant F[12] : 250 clauses with 84 flops (out of 113) (cex = 0, ave = 10.26)
+Verification of invariant with 250 clauses was successful.  Time =     0.00 sec
+Block =   53  Oblig =   678  Clause =   365  Call =  4042 (sat=50.3%)  Cex =   0  Start =   5
+SAT solving =     0.04 sec ( 52.39 %)
+  unsat     =     0.01 sec (  6.23 %)
+  sat       =     0.04 sec ( 46.16 %)
+Generalize  =     0.04 sec ( 45.68 %)
+Push clause =     0.01 sec ( 12.89 %)
+Ternary sim =     0.00 sec (  5.16 %)
+Containment =     0.00 sec (  0.44 %)
+CNF compute =     0.00 sec (  4.55 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     0.08 sec (100.00 %)
+Property proved.  Time =     0.08 sec

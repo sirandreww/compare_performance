@@ -1,14 +1,5 @@
 ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2018D/VexRiscv-regch0-30-p1_zero_then_fold2.aig ; pdr -v".
 
-ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2018D/VexRiscv-regch0-30-p1_zero_then_fold2.aig ; pdr -v".
-
-VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
-Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 1                                                                 1     1      0.02 sec
-  2 : 0 2 4                                                               2     5      0.02 sec
-  3 : 0 1 1 1                                                             0     5      0.02 sec
-  4 : 0 1 1 2 4                                                           3     7      0.02 sec
-  5 : 0 1 1 1 1 1                                                         0     7      0.02 sec
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.02 sec
@@ -19,23 +10,12 @@ Frame Clauses                                                     Max Queue Flop
   6 : 0 1 2 3 3 4 9                                                       9    21      0.03 sec
   7 : 0 1 1 1 1 1 1 6                                                     0    21      0.03 sec
   8 : 0 1 1 1 1 1 1 1 5                                                   0    21      0.03 sec
-  6 : 0 1 2 3 3 4 9                                                       9    21      0.03 sec
-  7 : 0 1 1 1 1 1 1 6                                                     0    21      0.03 sec
-  8 : 0 1 1 1 1 1 1 1 5                                                   0    21      0.03 sec
   9 : 0 2 4 3 5 10 7 6 6 15                                              16   109      0.15 sec
  10 : 0 2 2 2 3 5 2 5 3 2 12                                              0   109      0.15 sec
-  9 : 0 2 4 3 5 10 7 6 6 15                                              16   109      0.15 sec
- 10 : 0 2 2 2 3 5 2 5 3 2 12                                              0   109      0.15 sec
- 11 : 0 2 2 2 3 5 2 5 3 2 1 11                                            0   109      0.15 sec
  11 : 0 2 2 2 3 5 2 5 3 2 1 11                                            0   109      0.15 sec
  12 : 0 2 2 2 6 8 4 8 9 11 12 9 52                                       15   156      0.41 sec
- 12 : 0 2 2 2 6 8 4 8 9 11 12 9 52                                       15   156      0.40 sec
  13 : 0 2 2 2 5 7 3 3 4 6 2 2 2 43                                        0   156      0.41 sec
- 13 : 0 2 2 2 5 7 3 3 4 6 2 2 2 43                                        0   156      0.42 sec
- 14 : 0 2 2 2 6 10 5 5 6 11 9 11 18 33 69                                21   173      1.10 sec
  14 : 0 2 2 2 6 10 5 5 6 11 9 11 18 33 69                                21   173      1.11 sec
  15 : 0 2 2 2 6 7 7 5 6 10 6 9 8 20 15 54                                 0   173      1.12 sec
- 15 : 0 2 2 2 6 7 7 5 6 10 6 9 8 20 15 54                                 0   173      1.13 sec
- 16 : 0 4 4 7 16 32 36 43 42 78 68 75 61 123 114 147 330                 52   230      7.08 sec
- 16 : 0 4 4 7 16 32 36 43 42 78 68 75 61 123 114 147 330                 52   230      7.10 sec
-slurmstepd-thanos4: error: *** STEP 62389.0 ON thanos4 CANCELLED AT 2022-11-30T18:13:23 DUE TO TIME LIMIT ***
+ 16 : 0 4 4 7 16 32 36 43 42 78 68 75 61 123 114 147 330                 52   230      7.11 sec
+slurmstepd-thanos9: error: *** JOB 68638 ON thanos9 CANCELLED AT 2022-11-30T20:45:53 DUE TO TIME LIMIT ***

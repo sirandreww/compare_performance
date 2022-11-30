@@ -1,0 +1,9 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/beem/mcs.3.prop1-back-serstep_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     4      0.00 sec
+  2 : 0 4 4                                                               3    19      0.01 sec
+  3 : 0 4 982 878                                                       376    73      4.19 sec
+  4 : 0 4 993 4514 3508                                                 661   107     45.98 sec
+slurmstepd-thanos6: error: *** JOB 68621 ON thanos6 CANCELLED AT 2022-11-30T20:44:53 DUE TO TIME LIMIT ***

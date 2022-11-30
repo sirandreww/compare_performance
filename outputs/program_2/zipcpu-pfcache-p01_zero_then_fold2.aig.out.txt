@@ -1,0 +1,28 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2018D/zipcpu-pfcache-p01_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 5                                                                 1     6      0.01 sec
+  2 : 0 3 7                                                               2    10      0.01 sec
+  3 : 0 2 2 5                                                             1    10      0.01 sec
+  4 : 0 2 6 14 24                                                         3    34      0.02 sec
+  5 : 0 2 4 12 16 21                                                      2    46      0.02 sec
+  6 : 0 2 5 14 19 18 37                                                   8    61      0.04 sec
+  7 : 0 2 5 13 15 9 6 33                                                  0    61      0.04 sec
+  8 : 0 2 5 13 15 9 6 1 32                                                0    61      0.04 sec
+  9 : 0 3 12 28 31 27 20 9 17 91                                         26    79      0.12 sec
+ 10 : 0 3 2 3 0 0 0 0 0 0 66                                              0    79      0.12 sec
+Invariant F[4] : 66 clauses with 69 flops (out of 587) (cex = 0, ave = 69.25)
+Verification of invariant with 66 clauses was successful.  Time =     0.00 sec
+Block =   29  Oblig =   428  Clause =   257  Call =  2580 (sat=46.6%)  Cex =   0  Start =   3
+SAT solving =     0.06 sec ( 44.78 %)
+  unsat     =     0.01 sec (  5.99 %)
+  sat       =     0.05 sec ( 38.79 %)
+Generalize  =     0.07 sec ( 53.79 %)
+Push clause =     0.01 sec (  8.46 %)
+Ternary sim =     0.03 sec ( 22.00 %)
+Containment =     0.00 sec (  0.58 %)
+CNF compute =     0.00 sec (  3.78 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     0.13 sec (100.00 %)
+Property proved.  Time =     0.13 sec

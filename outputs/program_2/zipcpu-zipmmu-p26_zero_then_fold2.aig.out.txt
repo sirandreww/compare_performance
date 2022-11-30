@@ -1,17 +1,9 @@
 ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2018D/zipcpu-zipmmu-p26_zero_then_fold2.aig ; pdr -v".
 
-ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2018D/zipcpu-zipmmu-p26_zero_then_fold2.aig ; pdr -v".
-
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.00 sec
-  2 : 0 2 5                                                               2     6      0.00 sec
-VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
-Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 1                                                                 1     1      0.00 sec
-  2 : 0 2 5                                                               2     6      0.00 sec
-  3 : 0 1 5 14                                                            2    21      0.01 sec
+  2 : 0 2 5                                                               2     6      0.01 sec
   3 : 0 1 5 14                                                            2    21      0.01 sec
   4 : 0 6 19 54 75                                                       12    65      0.07 sec
-  4 : 0 6 19 54 75                                                       12    65      0.07 sec
-slurmstepd-thanos1: error: *** STEP 62344.0 ON thanos1 CANCELLED AT 2022-11-30T18:10:53 DUE TO TIME LIMIT ***
+slurmstepd-thanos9: error: *** JOB 68523 ON thanos9 CANCELLED AT 2022-11-30T20:39:53 DUE TO TIME LIMIT ***

@@ -1,0 +1,7 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/unsafe/buggy_ridecore_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 64                                                                1    64      0.40 sec
+  2 : 0 1272 1275                                                         2  1278     14.18 sec
+slurmstepd-thanos3: error: *** JOB 68509 ON thanos3 CANCELLED AT 2022-11-30T20:38:53 DUE TO TIME LIMIT ***

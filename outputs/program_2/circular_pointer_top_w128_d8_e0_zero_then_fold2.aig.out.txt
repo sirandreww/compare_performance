@@ -1,0 +1,13 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/circular_pointer_top_w128_d8_e0_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.01 sec
+  2 : 0 9 274                                                             4   278      0.31 sec
+  3 : 0 5 265 653                                                         4   412      1.33 sec
+  4 : 0 5 266 822 1240                                                    5   538      3.79 sec
+  5 : 0 6 268 544 1774 1885                                               7   666      9.29 sec
+  6 : 0 6 268 543 1765 3109 3046                                         10   788     20.48 sec
+  7 : 0 6 268 543 1760 1924 3991 3940                                     8   915     35.95 sec
+  8 : 0 6 268 543 1760 1715 2735 6041 5167                               10  1042     61.78 sec
+slurmstepd-thanos11: error: *** JOB 68365 ON thanos11 CANCELLED AT 2022-11-30T20:31:23 DUE TO TIME LIMIT ***

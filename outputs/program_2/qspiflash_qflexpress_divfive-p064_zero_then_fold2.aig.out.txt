@@ -1,0 +1,36 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/qspiflash_qflexpress_divfive-p064_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 4                                                                 1     4      0.00 sec
+  2 : 0 7 18                                                              3    26      0.01 sec
+  3 : 0 5 3 22                                                            3    29      0.01 sec
+  4 : 0 5 3 8 24                                                          2    33      0.01 sec
+  5 : 0 5 3 5 15 37                                                       4    39      0.02 sec
+  6 : 0 5 3 6 17 24 60                                                    8    42      0.03 sec
+  7 : 0 5 3 5 10 25 25 85                                                10    43      0.05 sec
+  8 : 0 5 3 5 9 11 12 17 68                                               6    46      0.06 sec
+  9 : 0 5 3 5 9 10 7 5 6 62                                               0    46      0.06 sec
+ 10 : 0 5 3 5 9 10 7 5 6 3 61                                             1    46      0.07 sec
+ 11 : 0 5 3 6 9 12 8 6 6 3 13 84                                         11    46      0.08 sec
+ 12 : 0 5 3 7 9 12 8 5 6 3 5 38 101                                      15    48      0.11 sec
+ 13 : 0 5 3 9 10 12 8 5 6 2 2 13 31 99                                   16    50      0.13 sec
+ 14 : 0 5 3 9 9 12 8 5 6 2 2 9 11 28 101                                  6    50      0.14 sec
+ 15 : 0 5 3 9 9 12 8 5 6 2 2 4 2 3 4 86                                   0    50      0.15 sec
+ 16 : 0 5 3 9 9 12 8 5 6 2 2 4 2 3 4 11 89                                2    50      0.15 sec
+ 17 : 0 5 3 9 9 12 8 5 6 2 2 4 2 3 4 8 17 91                              8    50      0.16 sec
+ 18 : 0 5 3 9 9 12 8 5 6 2 2 4 2 3 4 2 0 0 98                             0    50      0.17 sec
+Invariant F[16] : 98 clauses with 41 flops (out of 161) (cex = 0, ave = 29.76)
+Verification of invariant with 98 clauses was successful.  Time =     0.00 sec
+Block =  158  Oblig =   805  Clause =   460  Call =  5246 (sat=52.4%)  Cex =   0  Start =   9
+SAT solving =     0.10 sec ( 57.36 %)
+  unsat     =     0.01 sec (  8.25 %)
+  sat       =     0.09 sec ( 49.10 %)
+Generalize  =     0.08 sec ( 48.31 %)
+Push clause =     0.04 sec ( 20.80 %)
+Ternary sim =     0.03 sec ( 16.15 %)
+Containment =     0.00 sec (  0.41 %)
+CNF compute =     0.01 sec (  3.34 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     0.17 sec (100.00 %)
+Property proved.  Time =     0.18 sec

@@ -1,21 +1,13 @@
 ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/dspfilters_fastfir_second-p18_zero_then_fold2.aig ; pdr -v".
 
-ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/dspfilters_fastfir_second-p18_zero_then_fold2.aig ; pdr -v".
-
-VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
-Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 46                                                                1    46      0.38 sec
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 46                                                                1    46      0.38 sec
   2 : 0 102 124                                                           2   118      1.15 sec
-  2 : 0 102 124                                                           2   118      1.16 sec
   3 : 0 100 108 45                                                        2   149      1.42 sec
-  3 : 0 100 108 45                                                        2   149      1.43 sec
-  4 : 0 100 107 26 25                                                     1   150      1.57 sec
   4 : 0 100 107 26 25                                                     1   150      1.56 sec
-  5 : 0 100 107 35 80 554                                                 4   412      7.28 sec
-  5 : 0 100 107 35 80 554                                                 4   412      7.29 sec
-  6 : 0 100 110 48 100 888 1438                                          18   620     24.87 sec
-  6 : 0 100 110 48 100 888 1438                                          18   620     24.91 sec
-slurmstepd-thanos1: error: *** STEP 62207.0 ON thanos1 CANCELLED AT 2022-11-30T18:04:53 DUE TO TIME LIMIT ***
+  5 : 0 100 107 35 80 554                                                 4   412      7.23 sec
+  6 : 0 100 110 48 100 888 1438                                          18   620     24.54 sec
+  7 : 0 100 111 56 117 1163 596 2450                                     16   725     46.47 sec
+  8 : 0 100 112 55 129 1347 259 685 3265                                 11   732     65.33 sec
+slurmstepd-thanos4: error: *** JOB 68537 ON thanos4 CANCELLED AT 2022-11-30T20:40:23 DUE TO TIME LIMIT ***

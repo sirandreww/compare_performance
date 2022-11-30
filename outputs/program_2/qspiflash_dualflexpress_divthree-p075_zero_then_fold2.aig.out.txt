@@ -1,0 +1,32 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/qspiflash_dualflexpress_divthree-p075_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 2                                                                 1     2      0.00 sec
+  2 : 0 9 8                                                               5    14      0.00 sec
+  3 : 0 7 7 14                                                            2    20      0.01 sec
+  4 : 0 4 5 3 9                                                           0    20      0.01 sec
+  5 : 0 4 5 3 4 5                                                         0    20      0.01 sec
+  6 : 0 4 9 27 82 111 120                                                35    53      0.11 sec
+  7 : 0 4 5 12 41 42 61 64                                                0    53      0.12 sec
+  8 : 0 4 5 12 41 42 59 21 43                                             0    53      0.12 sec
+  9 : 0 4 5 12 41 42 59 21 5 38                                           0    53      0.13 sec
+ 10 : 0 4 5 15 51 75 131 157 227 291 393                                 71    58      0.71 sec
+ 11 : 0 4 5 14 47 56 83 97 132 102 82 159                                 0    58      0.74 sec
+ 12 : 0 4 5 14 47 56 80 96 128 102 77 10 148                              0    58      0.77 sec
+ 13 : 0 4 5 14 47 56 80 96 128 102 77 10 2 146                            0    58      0.79 sec
+ 14 : 0 4 5 14 47 56 80 96 128 102 77 10 2 0 146                          0    58      0.82 sec
+Invariant F[13] : 146 clauses with 45 flops (out of 167) (cex = 0, ave = 40.49)
+Verification of invariant with 146 clauses was successful.  Time =     0.00 sec
+Block =   34  Oblig =  2817  Clause =  1483  Call = 21471 (sat=60.3%)  Cex =   0  Start =  64
+SAT solving =     0.58 sec ( 69.99 %)
+  unsat     =     0.09 sec ( 10.38 %)
+  sat       =     0.49 sec ( 59.60 %)
+Generalize  =     0.52 sec ( 62.44 %)
+Push clause =     0.14 sec ( 17.17 %)
+Ternary sim =     0.09 sec ( 10.51 %)
+Containment =     0.01 sec (  0.92 %)
+CNF compute =     0.03 sec (  3.13 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     0.83 sec (100.00 %)
+Property proved.  Time =     0.83 sec

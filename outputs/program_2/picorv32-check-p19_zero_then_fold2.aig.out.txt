@@ -1,0 +1,23 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2018D/picorv32-check-p19_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.01 sec
+  2 : 0 5 6                                                               2     8      0.02 sec
+  3 : 0 5 5 10                                                            3    13      0.02 sec
+  4 : 0 1 5 3 73                                                          2    73      0.03 sec
+  5 : 0 1 5 3 0 73                                                        0    73      0.03 sec
+Invariant F[4] : 73 clauses with 73 flops (out of 1491) (cex = 0, ave = 7.88)
+Verification of invariant with 73 clauses was successful.  Time =     0.00 sec
+Block =    7  Oblig =   163  Clause =    89  Call =   581 (sat=56.3%)  Cex =   0  Start =   0
+SAT solving =     0.01 sec ( 23.19 %)
+  unsat     =     0.00 sec (  2.34 %)
+  sat       =     0.01 sec ( 20.85 %)
+Generalize  =     0.01 sec ( 29.06 %)
+Push clause =     0.00 sec (  3.22 %)
+Ternary sim =     0.00 sec (  8.29 %)
+Containment =     0.00 sec (  0.09 %)
+CNF compute =     0.00 sec (  2.50 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     0.04 sec (100.00 %)
+Property proved.  Time =     0.05 sec

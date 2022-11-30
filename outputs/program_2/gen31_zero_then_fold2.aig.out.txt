@@ -1,0 +1,21 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/gen31/gen31_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.02 sec
+  2 : 0 1 512                                                             2   514      0.25 sec
+  3 : 0 1 0 512                                                           0   514      0.26 sec
+Invariant F[2] : 512 clauses with 514 flops (out of 771) (cex = 0, ave = 4.48)
+Verification of invariant with 512 clauses was successful.  Time =     0.01 sec
+Block =  379  Oblig =   647  Clause =   513  Call =  2827 (sat=54.4%)  Cex =   0  Start =   7
+SAT solving =     0.13 sec ( 47.98 %)
+  unsat     =     0.03 sec ( 11.24 %)
+  sat       =     0.10 sec ( 36.74 %)
+Generalize  =     0.09 sec ( 31.89 %)
+Push clause =     0.01 sec (  3.85 %)
+Ternary sim =     0.07 sec ( 25.95 %)
+Containment =     0.00 sec (  0.25 %)
+CNF compute =     0.00 sec (  1.60 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     0.27 sec (100.00 %)
+Property proved.  Time =     0.28 sec

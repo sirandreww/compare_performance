@@ -1,15 +1,8 @@
 ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/zipversa_composecrc_prf-p10_zero_then_fold2.aig ; pdr -v".
 
-ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/zipversa_composecrc_prf-p10_zero_then_fold2.aig ; pdr -v".
-
-VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
-Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 1                                                                 1     1      0.00 sec
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.00 sec
   2 : 0 34 99                                                             2   102      0.02 sec
-  2 : 0 34 99                                                             2   102      0.02 sec
   3 : 0 34 796 842                                                        3   120      0.52 sec
-  3 : 0 34 796 842                                                        3   120      0.52 sec
-slurmstepd-thanos3: error: *** STEP 62399.0 ON thanos3 CANCELLED AT 2022-11-30T18:13:23 DUE TO TIME LIMIT ***
+slurmstepd-thanos5: error: *** JOB 68602 ON thanos5 CANCELLED AT 2022-11-30T18:43:53 DUE TO TIME LIMIT ***

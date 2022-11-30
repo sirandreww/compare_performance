@@ -1,0 +1,25 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/dspfilters_fastfir_second-p21_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 21                                                                1    21      0.11 sec
+  2 : 0 25 35                                                             2    29      0.42 sec
+  3 : 0 25 42 33                                                          2    89      0.71 sec
+  4 : 0 25 42 14 481                                                      3   282      4.78 sec
+  5 : 0 25 42 14 150 520                                                  2   283      6.56 sec
+  6 : 0 25 42 14 149 19 501                                               0   283      6.74 sec
+  7 : 0 25 42 14 149 19 0 501                                             0   283      6.88 sec
+Invariant F[6] : 501 clauses with 261 flops (out of 1104) (cex = 0, ave = 224.92)
+Verification of invariant with 501 clauses was successful.  Time =     0.04 sec
+Block =  418  Oblig =  1079  Clause =   761  Call = 11166 (sat=55.5%)  Cex =   0  Start =  33
+SAT solving =     3.92 sec ( 56.55 %)
+  unsat     =     0.47 sec (  6.78 %)
+  sat       =     3.45 sec ( 49.77 %)
+Generalize  =     4.15 sec ( 59.94 %)
+Push clause =     0.55 sec (  7.87 %)
+Ternary sim =     2.32 sec ( 33.45 %)
+Containment =     0.03 sec (  0.40 %)
+CNF compute =     0.04 sec (  0.53 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =     6.93 sec (100.00 %)
+Property proved.  Time =     6.94 sec

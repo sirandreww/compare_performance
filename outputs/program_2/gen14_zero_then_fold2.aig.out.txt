@@ -1,40 +1,20 @@
 ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/gen14/gen14_zero_then_fold2.aig ; pdr -v".
 
-ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/gen14/gen14_zero_then_fold2.aig ; pdr -v".
-
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 8                                                                 1     9      0.00 sec
-  2 : 0 0 8                                                               0     9      0.00 sec
+  2 : 0 0 8                                                               0     9      0.01 sec
 Invariant F[1] : 8 clauses with 9 flops (out of 525) (cex = 0, ave = 2.00)
 Verification of invariant with 8 clauses was successful.  Time =     0.00 sec
 Block =    8  Oblig =     8  Clause =     8  Call =    42 (sat=57.1%)  Cex =   0  Start =   0
-SAT solving =     0.00 sec (  2.74 %)
-  unsat     =     0.00 sec (  0.58 %)
-  sat       =     0.00 sec (  2.16 %)
-Generalize  =     0.00 sec (  1.39 %)
-Push clause =     0.00 sec (  0.56 %)
-Ternary sim =     0.00 sec (  0.47 %)
-Containment =     0.00 sec (  0.00 %)
-CNF compute =     0.00 sec (  0.29 %)
+SAT solving =     0.00 sec (  2.79 %)
+  unsat     =     0.00 sec (  0.51 %)
+  sat       =     0.00 sec (  2.28 %)
+Generalize  =     0.00 sec (  1.44 %)
+Push clause =     0.00 sec (  0.48 %)
+Ternary sim =     0.00 sec (  0.49 %)
+Containment =     0.00 sec (  0.01 %)
+CNF compute =     0.00 sec (  0.23 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.01 sec (100.00 %)
 Property proved.  Time =     0.02 sec
-VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
-Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 8                                                                 1     9      0.00 sec
-  2 : 0 0 8                                                               0     9      0.00 sec
-Invariant F[1] : 8 clauses with 9 flops (out of 525) (cex = 0, ave = 2.00)
-Verification of invariant with 8 clauses was successful.  Time =     0.00 sec
-Block =    8  Oblig =     8  Clause =     8  Call =    42 (sat=57.1%)  Cex =   0  Start =   0
-SAT solving =     0.00 sec (  4.24 %)
-  unsat     =     0.00 sec (  0.81 %)
-  sat       =     0.00 sec (  3.43 %)
-Generalize  =     0.00 sec (  2.26 %)
-Push clause =     0.00 sec (  0.69 %)
-Ternary sim =     0.00 sec (  0.80 %)
-Containment =     0.00 sec (  0.03 %)
-CNF compute =     0.00 sec (  0.42 %)
-Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     0.01 sec (100.00 %)
-Property proved.  Time =     0.01 sec

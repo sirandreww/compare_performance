@@ -1,0 +1,18 @@
+IC3 is on k = 1, clauses lengths = [0, 0, 0]
+IC3 is on k = 2, clauses lengths = [0, 44, 36, 0]
+IC3 is on k = 3, clauses lengths = [0, 93, 83, 74, 0]
+IC3 is on k = 4, clauses lengths = [0, 103, 94, 86, 77, 0]
+IC3 is on k = 5, clauses lengths = [0, 103, 94, 86, 77, 70, 0]
+IC3 is on k = 6, clauses lengths = [0, 176, 168, 160, 149, 141, 131, 0]
+IC3 is on k = 7, clauses lengths = [0, 206, 198, 190, 180, 172, 162, 147, 0]
+IC3 is on k = 8, clauses lengths = [0, 206, 198, 190, 180, 172, 162, 147, 126, 0]
+IC3 is on k = 9, clauses lengths = [0, 217, 209, 201, 191, 183, 173, 160, 142, 122, 0]
+IC3 is on k = 10, clauses lengths = [0, 300, 292, 284, 274, 266, 256, 246, 230, 212, 201, 0]
+IC3 is on k = 11, clauses lengths = [0, 454, 446, 438, 428, 420, 409, 399, 383, 363, 352, 340, 0]
+IC3 is on k = 12, clauses lengths = [0, 454, 446, 438, 428, 420, 409, 399, 383, 363, 352, 340, 332, 0]
+IC3 is on k = 13, clauses lengths = [0, 454, 446, 438, 428, 420, 409, 399, 383, 363, 352, 340, 332, 325, 0]
+IC3 is on k = 14, clauses lengths = [0, 454, 446, 438, 428, 420, 409, 399, 383, 363, 352, 340, 332, 325, 318, 0]
+IC3 is on k = 14, clauses lengths = [0, 470, 462, 454, 444, 436, 426, 415, 399, 380, 369, 363, 361, 361, 361, 361]
+Elapsed time = 82.332726
+Safe, checking invariant.
+Invariant check passed!

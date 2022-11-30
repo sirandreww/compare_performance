@@ -1,0 +1,12 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/arbitrated_top_n3_w64_d128_e0_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 8                                                                 1     8      0.23 sec
+  2 : 0 19 113                                                            4   232      2.46 sec
+  3 : 0 14 58 253                                                         4   365      8.94 sec
+  4 : 0 11 27 54 289                                                      4   428     11.54 sec
+  5 : 0 10 27 38 182 495                                                  5   492     18.78 sec
+  6 : 0 10 26 35 73 503 604                                               7   554     30.77 sec
+  7 : 0 10 26 36 65 448 655 874                                          35   618     52.27 sec
+slurmstepd-thanos8: error: *** JOB 68403 ON thanos8 CANCELLED AT 2022-11-30T20:33:23 DUE TO TIME LIMIT ***

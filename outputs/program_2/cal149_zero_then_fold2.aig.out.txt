@@ -1,50 +1,25 @@
 ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/cal149/cal149_zero_then_fold2.aig ; pdr -v".
 
-ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/cal149/cal149_zero_then_fold2.aig ; pdr -v".
-
-VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
-Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 1                                                                 1     1      0.05 sec
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.05 sec
   2 : 0 1 32                                                              1    33      0.16 sec
-  2 : 0 1 32                                                              1    33      0.16 sec
-  3 : 0 1 163 298                                                         7   328      2.17 sec
-  3 : 0 1 163 298                                                         7   328      2.17 sec
-  4 : 0 1 120 143 424                                                     6   359      4.50 sec
-  4 : 0 1 120 143 424                                                     6   359      4.51 sec
-  5 : 0 1 69 93 91 548                                                    6   359      6.31 sec
-  5 : 0 1 69 93 91 548                                                    6   359      6.33 sec
-  6 : 0 1 28 19 23 16 556                                                 6   360      7.25 sec
-  6 : 0 1 28 19 23 16 556                                                 6   360      7.26 sec
-  7 : 0 1 19 0 0 0 0 543                                                  0   360      7.65 sec
-  7 : 0 1 19 0 0 0 0 543                                                  0   360      7.66 sec
+  3 : 0 1 163 298                                                         7   328      2.15 sec
+  4 : 0 1 120 143 424                                                     6   359      4.47 sec
+  5 : 0 1 69 93 91 548                                                    6   359      6.28 sec
+  6 : 0 1 28 19 23 16 556                                                 6   360      7.21 sec
+  7 : 0 1 19 0 0 0 0 543                                                  0   360      7.61 sec
 Invariant F[3] : 543 clauses with 359 flops (out of 718) (cex = 0, ave = 32.07)
-Verification of invariant with 543 clauses was successful.  Time =     0.28 sec
+Verification of invariant with 543 clauses was successful.  Time =     0.29 sec
 Block =  141  Oblig =  1692  Clause =  1078  Call = 20831 (sat=33.1%)  Cex =   0  Start =  66
-SAT solving =     6.84 sec ( 86.25 %)
-  unsat     =     4.22 sec ( 53.19 %)
-  sat       =     2.62 sec ( 33.06 %)
-Generalize  =     4.52 sec ( 56.98 %)
-Push clause =     1.78 sec ( 22.42 %)
-Ternary sim =     0.20 sec (  2.58 %)
+SAT solving =     6.82 sec ( 86.32 %)
+  unsat     =     4.22 sec ( 53.35 %)
+  sat       =     2.61 sec ( 32.97 %)
+Generalize  =     4.49 sec ( 56.78 %)
+Push clause =     1.78 sec ( 22.58 %)
+Ternary sim =     0.20 sec (  2.55 %)
 Containment =     0.00 sec (  0.05 %)
-CNF compute =     0.12 sec (  1.51 %)
+CNF compute =     0.11 sec (  1.44 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     7.93 sec (100.00 %)
-Property proved.  Time =     7.94 sec
-Invariant F[3] : 543 clauses with 359 flops (out of 718) (cex = 0, ave = 32.07)
-Verification of invariant with 543 clauses was successful.  Time =     0.28 sec
-Block =  141  Oblig =  1692  Clause =  1078  Call = 20831 (sat=33.1%)  Cex =   0  Start =  66
-SAT solving =     6.86 sec ( 86.28 %)
-  unsat     =     4.22 sec ( 53.17 %)
-  sat       =     2.63 sec ( 33.11 %)
-Generalize  =     4.53 sec ( 57.05 %)
-Push clause =     1.78 sec ( 22.38 %)
-Ternary sim =     0.20 sec (  2.56 %)
-Containment =     0.00 sec (  0.05 %)
-CNF compute =     0.12 sec (  1.51 %)
-Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     7.95 sec (100.00 %)
-Property proved.  Time =     7.96 sec
+TOTAL       =     7.90 sec (100.00 %)
+Property proved.  Time =     7.91 sec

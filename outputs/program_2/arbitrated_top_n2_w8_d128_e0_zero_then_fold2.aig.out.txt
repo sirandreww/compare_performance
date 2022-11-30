@@ -1,0 +1,21 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/arbitrated_top_n2_w8_d128_e0_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.01 sec
+  2 : 0 10 20                                                             2    16      0.04 sec
+  3 : 0 17 70 92                                                          6    73      0.26 sec
+  4 : 0 4 11 34 64                                                        4    79      0.32 sec
+  5 : 0 4 12 32 60 107                                                    6    86      0.48 sec
+  6 : 0 4 12 29 55 132 159                                                7   100      0.83 sec
+  7 : 0 4 12 27 53 122 181 196                                           12   107      1.35 sec
+  8 : 0 4 12 27 52 120 145 250 249                                        9   114      2.12 sec
+  9 : 0 4 12 27 52 116 141 229 433 403                                   19   121      3.80 sec
+ 10 : 0 4 12 27 52 115 121 231 411 613 452                               17   128      5.99 sec
+ 11 : 0 4 12 27 57 136 157 286 525 681 948 670                           81   142     10.93 sec
+ 12 : 0 4 12 22 57 117 138 225 459 523 794 952 529                       38   142     14.07 sec
+ 13 : 0 4 12 22 57 116 140 223 449 497 757 897 1200 871                  32   149     20.59 sec
+ 14 : 0 4 12 22 57 116 140 221 446 479 733 875 1279 1560 1053            39   156     29.49 sec
+ 15 : ... 4 12 22 57 116 140 221 445 468 691 789 1206 1389 1609 1078     47   163     38.26 sec
+ 16 : ... 22 57 116 140 221 443 462 688 804 1199 1398 1806 2138 1497     58   170     54.83 sec
+slurmstepd-thanos2: error: *** JOB 68609 ON thanos2 CANCELLED AT 2022-11-30T20:44:23 DUE TO TIME LIMIT ***

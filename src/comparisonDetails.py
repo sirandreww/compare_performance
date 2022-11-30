@@ -34,14 +34,15 @@ class ComparisonDetails:
             self.configuration = json.load(handle)
 
     @staticmethod
-    def _run_one_test_on_program_number(program_number, run_line, test_path, output_directory):
+    def _run_one_test_on_program_number(test_number, program_number, run_line, test_path, output_directory):
         current_run_line = run_line.replace(
             globalDefinitions.STRING_THAT_INDICATES_INPUT_FILE,
             f"\"{test_path}\""
         )
         output_file = test_path.split("/")[-1]
         name = f"program_{program_number}"
-        command_to_send = f"srun --cpus-per-task=1 --time=1 --exclude=thanos[7-12] --output=\"{output_directory}/{name}/{output_file}.out.txt\"  {current_run_line} & "
+        job_name = ("rfv" if program_number == 1 else "abc") + str(test_number)
+        command_to_send = f"sbatch --cpus-per-task=1 --time=1 -J {job_name} --output=\"{output_directory}/{name}/{output_file}.out.txt\"  --wrap='{current_run_line}' "
         helperFunctions.run_cmd(command_to_send)
 
     def _run_tests_on_program_number(self, program_number, test_paths, output_directory):
@@ -51,8 +52,9 @@ class ComparisonDetails:
         run_line: str = self.configuration[program]["run line"]
         helperFunctions.change_directory(source_path)
         helperFunctions.run_cmd(compilation_line)
-        for test_path in test_paths:
+        for test_number, test_path in enumerate(test_paths):
             self._run_one_test_on_program_number(
+            	 test_number=test_number + 1,
                 program_number=program_number,
                 run_line=run_line,
                 test_path=test_path,

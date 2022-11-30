@@ -1,17 +1,25 @@
 ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/cal107/cal107_zero_then_fold2.aig ; pdr -v".
 
-ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/industry/cal107/cal107_zero_then_fold2.aig ; pdr -v".
-
-VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
-Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 1                                                                 1     1      2.83 sec
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      2.84 sec
-  2 : 0 1 48                                                              1    49      8.57 sec
   2 : 0 1 48                                                              1    49      8.60 sec
-  3 : 0 1 229 345                                                         7   385     16.62 sec
-  3 : 0 1 229 345                                                         7   385     16.63 sec
-  4 : 0 1 199 197 462                                                     7   420     24.77 sec
-  4 : 0 1 199 197 462                                                     7   420     24.81 sec
-slurmstepd-thanos4: error: *** STEP 62417.0 ON thanos4 CANCELLED AT 2022-11-30T18:14:23 DUE TO TIME LIMIT ***
+  3 : 0 1 229 345                                                         7   385     16.60 sec
+  4 : 0 1 199 197 462                                                     7   420     24.69 sec
+  5 : 0 1 202 307 288 996                                                 8   446     40.76 sec
+  6 : 0 1 90 82 135 121 1184                                              6   463     52.11 sec
+  7 : 0 1 53 8 0 0 0 1030                                                 0   463     53.30 sec
+Invariant F[4] : 1030 clauses with 459 flops (out of 718) (cex = 0, ave = 54.74)
+Verification of invariant with 1030 clauses was successful.  Time =     0.67 sec
+Block =  227  Oblig =  3958  Clause =  2489  Call = 58143 (sat=30.3%)  Cex =   0  Start = 190
+SAT solving =    50.52 sec ( 93.61 %)
+  unsat     =    41.39 sec ( 76.69 %)
+  sat       =     9.13 sec ( 16.92 %)
+Generalize  =    15.54 sec ( 28.79 %)
+Push clause =     4.27 sec (  7.91 %)
+Ternary sim =     0.59 sec (  1.08 %)
+Containment =     0.03 sec (  0.06 %)
+CNF compute =     0.37 sec (  0.68 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =    53.97 sec (100.00 %)
+Property proved.  Time =    53.98 sec

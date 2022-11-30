@@ -1,21 +1,11 @@
 ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2018D/zipcpu-zipmmu-p39_zero_then_fold2.aig ; pdr -v".
 
-ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2018D/zipcpu-zipmmu-p39_zero_then_fold2.aig ; pdr -v".
-
-VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
-Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 1                                                                 1     1      0.00 sec
-  2 : 0 4 9                                                               2    12      0.01 sec
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.00 sec
   2 : 0 4 9                                                               2    12      0.01 sec
   3 : 0 2 67 78                                                           2    95      0.04 sec
-  3 : 0 2 67 78                                                           2    95      0.04 sec
-  4 : 0 3 73 171 504                                                      7   190      0.39 sec
   4 : 0 3 73 171 504                                                      7   190      0.39 sec
   5 : 0 3 73 158 290 259                                                  6   195      0.45 sec
-  5 : 0 3 73 158 290 259                                                  6   195      0.45 sec
   6 : 0 3 71 154 94 134 301                                               0   195      0.48 sec
-  6 : 0 3 71 154 94 134 301                                               0   195      0.48 sec
-slurmstepd-thanos4: error: *** STEP 62357.0 ON thanos4 CANCELLED AT 2022-11-30T18:11:53 DUE TO TIME LIMIT ***
+slurmstepd-thanos6: error: *** JOB 68528 ON thanos6 CANCELLED AT 2022-11-30T20:40:23 DUE TO TIME LIMIT ***

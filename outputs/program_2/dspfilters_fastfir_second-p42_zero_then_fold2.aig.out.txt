@@ -1,0 +1,13 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/wolf/2019C/dspfilters_fastfir_second-p42_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 20                                                                1    20      0.12 sec
+  2 : 0 48 61                                                             2   110      0.52 sec
+  3 : 0 48 45 38                                                          2   115      0.68 sec
+  4 : 0 48 44 19 32                                                       1   116      0.83 sec
+  5 : 0 48 44 27 28 886                                                   4   385      9.07 sec
+  6 : 0 48 44 30 28 594 2213                                              5   569     28.50 sec
+  7 : 0 48 44 46 44 762 5 3360                                            6   628     47.29 sec
+  8 : 0 48 44 63 53 893 10 803 4725                                       7   661     76.27 sec
+slurmstepd-thanos5: error: *** JOB 68480 ON thanos5 CANCELLED AT 2022-11-30T18:37:53 DUE TO TIME LIMIT ***

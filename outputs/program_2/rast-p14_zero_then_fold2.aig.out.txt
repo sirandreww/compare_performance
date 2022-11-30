@@ -1,0 +1,20 @@
+ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwmcc20/2020/mann/rast-p14_zero_then_fold2.aig ; pdr -v".
+
+VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
+Frame Clauses                                                     Max Queue Flops Cex      Time
+  1 : 0 1                                                                 1     1      0.07 sec
+  2 : 0 18 18                                                             4    36      0.07 sec
+  3 : 0 16 2 8                                                            0    36      0.07 sec
+  4 : 0 17 3 3 10                                                         4    39      0.08 sec
+  5 : 0 16 2 1 2 12364                                                    4   147     14.94 sec
+  6 : 0 16 2 1 1 4138 16797                                               9   218     32.58 sec
+  7 : 0 16 2 1 1 4114 5558 16248                                          9   218     47.27 sec
+  8 : 0 16 2 1 1 4114 1643 3801 15669                                     5   218     51.89 sec
+  9 : 0 16 2 1 1 4114 1624 424 1122 18226                                 7   218     56.78 sec
+ 10 : 0 16 2 1 1 4114 1650 389 210 664 18779                             12   218     61.27 sec
+ 11 : 0 16 2 1 1 4114 1644 386 95 134 1029 18509                         10   218     65.46 sec
+ 12 : 0 16 2 1 1 4114 1653 405 139 105 188 603 18973                     14   218     70.04 sec
+ 13 : 0 16 2 1 1 4114 1649 395 118 110 105 263 1036 18578                16   218     74.50 sec
+ 14 : 0 16 2 1 1 4114 1653 402 121 114 115 128 199 861 18879             21   218     79.24 sec
+ 15 : 0 16 2 1 1 4114 1653 402 126 116 124 127 195 255 973 18713         26   218     83.84 sec
+slurmstepd-thanos1: error: *** JOB 68532 ON thanos1 CANCELLED AT 2022-11-30T20:40:23 DUE TO TIME LIMIT ***
