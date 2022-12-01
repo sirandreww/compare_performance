@@ -6,26 +6,26 @@ Frame Clauses                                                     Max Queue Flop
   2 : 0 3 7                                                               2    10      0.01 sec
   3 : 0 2 2 5                                                             1    10      0.01 sec
   4 : 0 2 8 17 25                                                         3    37      0.02 sec
-  5 : 0 2 5 13 17 21                                                      2    45      0.03 sec
-  6 : 0 2 5 13 18 14 30                                                   4    51      0.04 sec
-  7 : 0 2 5 13 15 17 25 45                                                6    61      0.06 sec
+  5 : 0 2 5 13 17 21                                                      2    45      0.02 sec
+  6 : 0 2 5 13 18 14 30                                                   4    51      0.03 sec
+  7 : 0 2 5 13 15 17 25 45                                                6    61      0.05 sec
   8 : 0 2 5 12 12 12 8 6 37                                               0    61      0.06 sec
   9 : 0 2 6 14 17 21 18 12 12 54                                         17    70      0.09 sec
- 10 : 0 2 5 12 12 8 8 4 9 7 49                                            2    70      0.10 sec
+ 10 : 0 2 5 12 12 8 8 4 9 7 49                                            2    70      0.09 sec
  11 : 0 2 5 12 12 8 8 4 5 5 4 49                                          0    70      0.10 sec
  12 : 0 2 11 26 24 23 23 21 14 9 13 12 98                                39    91      0.19 sec
  13 : 0 2 3 5 0 0 0 0 0 0 0 0 0 69                                        0    91      0.19 sec
 Invariant F[4] : 69 clauses with 62 flops (out of 587) (cex = 0, ave = 69.21)
 Verification of invariant with 69 clauses was successful.  Time =     0.00 sec
 Block =   34  Oblig =   602  Clause =   362  Call =  4293 (sat=47.1%)  Cex =   0  Start =   8
-SAT solving =     0.10 sec ( 51.95 %)
-  unsat     =     0.01 sec (  6.99 %)
-  sat       =     0.09 sec ( 44.96 %)
-Generalize  =     0.11 sec ( 55.17 %)
-Push clause =     0.02 sec ( 11.33 %)
-Ternary sim =     0.04 sec ( 18.90 %)
-Containment =     0.00 sec (  0.55 %)
-CNF compute =     0.01 sec (  4.00 %)
+SAT solving =     0.10 sec ( 52.06 %)
+  unsat     =     0.01 sec (  6.97 %)
+  sat       =     0.09 sec ( 45.09 %)
+Generalize  =     0.11 sec ( 56.13 %)
+Push clause =     0.02 sec ( 11.44 %)
+Ternary sim =     0.04 sec ( 20.00 %)
+Containment =     0.00 sec (  0.58 %)
+CNF compute =     0.01 sec (  3.86 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.20 sec (100.00 %)
 Property proved.  Time =     0.20 sec

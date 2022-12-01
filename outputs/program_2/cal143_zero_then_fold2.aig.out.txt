@@ -5,22 +5,22 @@ Frame Clauses                                                     Max Queue Flop
   1 : 0 1                                                                 1     1      0.17 sec
   2 : 0 1 32                                                              1    33      0.39 sec
   3 : 0 1 143 238                                                         7   299      2.26 sec
-  4 : 0 1 97 102 316                                                      6   340      3.93 sec
-  5 : 0 1 64 61 66 329                                                    6   347      4.96 sec
-  6 : 0 1 68 59 63 66 462                                                 7   365      7.46 sec
-  7 : 0 1 41 26 28 47 43 574                                              7   367      9.51 sec
-  8 : 0 1 36 7 0 0 0 0 498                                                0   367     10.02 sec
+  4 : 0 1 97 102 316                                                      6   340      3.92 sec
+  5 : 0 1 64 61 66 329                                                    6   347      4.95 sec
+  6 : 0 1 68 59 63 66 462                                                 7   365      7.43 sec
+  7 : 0 1 41 26 28 47 43 574                                              7   367      9.48 sec
+  8 : 0 1 36 7 0 0 0 0 498                                                0   367     10.00 sec
 Invariant F[4] : 498 clauses with 366 flops (out of 718) (cex = 0, ave = 37.77)
 Verification of invariant with 498 clauses was successful.  Time =     0.31 sec
 Block =  147  Oblig =  1784  Clause =  1109  Call = 23855 (sat=31.3%)  Cex =   0  Start =  76
-SAT solving =     9.03 sec ( 87.34 %)
-  unsat     =     5.75 sec ( 55.62 %)
-  sat       =     3.28 sec ( 31.73 %)
-Generalize  =     5.24 sec ( 50.72 %)
-Push clause =     2.16 sec ( 20.93 %)
-Ternary sim =     0.24 sec (  2.32 %)
-Containment =     0.00 sec (  0.04 %)
-CNF compute =     0.13 sec (  1.28 %)
+SAT solving =     9.00 sec ( 87.30 %)
+  unsat     =     5.73 sec ( 55.59 %)
+  sat       =     3.27 sec ( 31.71 %)
+Generalize  =     5.22 sec ( 50.62 %)
+Push clause =     2.16 sec ( 20.90 %)
+Ternary sim =     0.24 sec (  2.33 %)
+Containment =     0.00 sec (  0.05 %)
+CNF compute =     0.13 sec (  1.29 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    10.34 sec (100.00 %)
-Property proved.  Time =    10.35 sec
+TOTAL       =    10.31 sec (100.00 %)
+Property proved.  Time =    10.33 sec

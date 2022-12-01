@@ -13,14 +13,14 @@ Frame Clauses                                                     Max Queue Flop
   9 : 0 3 37 72 78 125 176 205 231 83                                     2   122      0.48 sec
  10 : 0 3 37 72 78 125 177 208 233 97 24                                 14   123      0.54 sec
 Block =  305  Oblig =  1800  Clause =  1153  Call = 15511 (sat=72.5%)  Cex =   0  Start =  44
-SAT solving =     0.45 sec ( 82.20 %)
-  unsat     =     0.07 sec ( 13.07 %)
-  sat       =     0.38 sec ( 69.13 %)
-Generalize  =     0.34 sec ( 61.87 %)
-Push clause =     0.12 sec ( 21.46 %)
-Ternary sim =     0.01 sec (  2.49 %)
+SAT solving =     0.45 sec ( 82.14 %)
+  unsat     =     0.07 sec ( 13.15 %)
+  sat       =     0.37 sec ( 68.99 %)
+Generalize  =     0.33 sec ( 61.67 %)
+Push clause =     0.12 sec ( 21.73 %)
+Ternary sim =     0.01 sec (  2.54 %)
 Containment =     0.00 sec (  0.18 %)
-CNF compute =     0.02 sec (  2.85 %)
-Refinement  =     0.00 sec (  0.06 %)
+CNF compute =     0.02 sec (  2.92 %)
+Refinement  =     0.00 sec (  0.02 %)
 TOTAL       =     0.54 sec (100.00 %)
 Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/shift_register_top_w16_d8_e0_zero_then_fold2" was asserted in frame 19.  Time =     0.55 sec

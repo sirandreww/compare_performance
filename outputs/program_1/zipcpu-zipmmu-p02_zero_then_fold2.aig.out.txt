@@ -1,2 +1,4 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-slurmstepd-thanos1: error: *** JOB 68914 ON thanos1 CANCELLED AT 2022-11-30T21:24:23 DUE TO TIME LIMIT ***
+IC3 is on k = 2, clauses lengths = [0, 433, 430, 0]
+IC3 is on k = 3, clauses lengths = [0, 443, 440, 434, 0]
+slurmstepd-thanos11: error: *** JOB 69599 ON thanos11 CANCELLED AT 2022-12-01T01:57:24 DUE TO TIME LIMIT ***

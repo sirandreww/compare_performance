@@ -11,8 +11,24 @@ Frame Clauses                                                     Max Queue Flop
   7 : 0 5 2 3 2 5 5 19                                                    8   106      0.06 sec
   8 : 0 5 2 3 1 1 1 1 13                                                  0   106      0.06 sec
   9 : 0 5 2 3 1 1 1 1 1 12                                                0   106      0.06 sec
- 10 : 0 5 2 3 1 1 1 1 1 2 15                                              2   106      0.07 sec
+ 10 : 0 5 2 3 1 1 1 1 1 2 15                                              2   106      0.06 sec
  11 : 0 5 2 3 1 1 1 1 1 1 1 12                                            0   106      0.07 sec
- 12 : 0 6 2 3 8 17 17 30 26 34 17 21 155                                 35   254      1.24 sec
- 13 : 0 6 2 3 8 23 25 35 29 49 37 51 61 179                              40   264      2.95 sec
-slurmstepd-thanos7: error: *** JOB 69020 ON thanos7 CANCELLED AT 2022-11-30T21:35:23 DUE TO TIME LIMIT ***
+ 12 : 0 6 2 3 8 17 17 30 26 34 17 21 155                                 35   254      1.25 sec
+ 13 : 0 6 2 3 8 23 25 35 29 49 37 51 61 179                              40   264      2.96 sec
+ 14 : ... 21 13 7 75 614 1952 2709 2506 3324 2464 2524 2369 2389 6172    75   450    463.61 sec
+ 15 : 0 19 9 5 10 42 36 45 29 32 16 9 5 3 1 348                           0   450    463.78 sec
+ 16 : 0 19 9 5 10 42 36 45 29 31 16 9 5 3 1 0 348                         0   450    463.82 sec
+Invariant F[15] : 348 clauses with 245 flops (out of 1918) (cex = 0, ave = 177.68)
+Verification of invariant with 348 clauses was successful.  Time =     0.00 sec
+Block =   25  Oblig = 41359  Clause = 27309  Call =2296270 (sat=93.4%)  Cex =   0  Start =7646
+SAT solving =   312.81 sec ( 67.44 %)
+  unsat     =    10.96 sec (  2.36 %)
+  sat       =   301.85 sec ( 65.08 %)
+Generalize  =   444.54 sec ( 95.84 %)
+Push clause =     0.28 sec (  0.06 %)
+Ternary sim =     2.51 sec (  0.54 %)
+Containment =     4.15 sec (  0.89 %)
+CNF compute =    59.96 sec ( 12.93 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =   463.83 sec (100.00 %)
+Property proved.  Time =   463.85 sec

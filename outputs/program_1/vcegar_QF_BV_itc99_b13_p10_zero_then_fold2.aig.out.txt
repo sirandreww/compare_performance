@@ -1,9 +1,9 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 16, 13, 0]
-IC3 is on k = 3, clauses lengths = [0, 23, 21, 20, 0]
-IC3 is on k = 4, clauses lengths = [0, 23, 21, 20, 19, 0]
-IC3 is on k = 5, clauses lengths = [0, 23, 21, 20, 19, 15, 0]
-IC3 is on k = 5, clauses lengths = [0, 50, 49, 49, 49, 49, 49]
-Elapsed time = 0.28292713
+IC3 is on k = 2, clauses lengths = [0, 11, 10, 0]
+IC3 is on k = 3, clauses lengths = [0, 27, 26, 25, 0]
+IC3 is on k = 4, clauses lengths = [0, 27, 26, 25, 23, 0]
+IC3 is on k = 5, clauses lengths = [0, 27, 26, 25, 23, 21, 0]
+IC3 is on k = 5, clauses lengths = [0, 47, 47, 47, 47, 47, 47]
+Elapsed time = 0.3235007
 Safe, checking invariant.
 Invariant check passed!

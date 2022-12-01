@@ -1,3 +1,3 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-Elapsed time = 8.823402
+Elapsed time = 10.931966
 Unsafe, depth = 1

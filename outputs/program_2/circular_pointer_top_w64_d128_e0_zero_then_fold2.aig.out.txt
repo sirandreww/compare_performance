@@ -3,10 +3,15 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.06 sec
-  2 : 0 22 183                                                            2   237      1.05 sec
-  3 : 0 3 135 360                                                         2   301      3.29 sec
-  4 : 0 3 134 476 696                                                     3   359      8.72 sec
-  5 : 0 3 135 349 957 1030                                                6   430     17.77 sec
-  6 : 0 3 134 344 574 1476 1538                                           6   491     34.28 sec
-  7 : 0 3 134 344 569 862 2328 1937                                       6   555     57.63 sec
-slurmstepd-thanos3: error: *** JOB 69012 ON thanos3 CANCELLED AT 2022-11-30T21:34:53 DUE TO TIME LIMIT ***
+  2 : 0 22 183                                                            2   237      1.06 sec
+  3 : 0 3 135 360                                                         2   301      3.31 sec
+  4 : 0 3 134 476 696                                                     3   359      8.77 sec
+  5 : 0 3 135 349 957 1030                                                6   430     17.90 sec
+  6 : 0 3 134 344 574 1476 1538                                           6   491     34.38 sec
+  7 : 0 3 134 344 569 862 2328 1937                                       6   555     57.88 sec
+  8 : 0 3 134 344 568 683 1692 3680 3066                                  8   614    103.18 sec
+  9 : 0 3 134 344 568 678 1683 2659 4737 3302                            17   678    159.21 sec
+ 10 : 0 3 134 345 570 682 1548 2540 3619 6989 5144                       21   741    264.45 sec
+ 11 : 0 3 134 345 569 670 1383 2216 3300 5452 8513 5343                  16   805    391.52 sec
+ 12 : 0 3 134 345 569 670 1383 2210 3103 4636 5355 9638 5176             19   869    522.90 sec
+slurmstepd-thanos11: error: *** JOB 69759 ON thanos11 CANCELLED AT 2022-12-01T03:10:54 DUE TO TIME LIMIT ***

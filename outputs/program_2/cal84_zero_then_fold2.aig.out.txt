@@ -6,19 +6,19 @@ Frame Clauses                                                     Max Queue Flop
   2 : 0 1 54                                                              1    53      0.04 sec
   3 : 0 1 270 496                                                         6   425      2.67 sec
   4 : 0 1 63 58 491                                                       4   425      3.65 sec
-  5 : 0 1 58 22 37 539                                                    5   425      4.55 sec
-  6 : 0 1 51 10 0 0 539                                                   0   425      5.09 sec
+  5 : 0 1 58 22 37 539                                                    5   425      4.54 sec
+  6 : 0 1 51 10 0 0 539                                                   0   425      5.08 sec
 Invariant F[4] : 539 clauses with 425 flops (out of 660) (cex = 0, ave = 29.85)
 Verification of invariant with 539 clauses was successful.  Time =     0.39 sec
 Block =  136  Oblig =  1350  Clause =   858  Call = 13229 (sat=39.0%)  Cex =   0  Start =  41
-SAT solving =     4.72 sec ( 86.10 %)
-  unsat     =     3.35 sec ( 61.11 %)
-  sat       =     1.37 sec ( 24.98 %)
+SAT solving =     4.72 sec ( 86.20 %)
+  unsat     =     3.36 sec ( 61.30 %)
+  sat       =     1.36 sec ( 24.91 %)
 Generalize  =     2.58 sec ( 47.04 %)
-Push clause =     2.08 sec ( 38.01 %)
-Ternary sim =     0.10 sec (  1.84 %)
+Push clause =     2.09 sec ( 38.09 %)
+Ternary sim =     0.10 sec (  1.74 %)
 Containment =     0.00 sec (  0.05 %)
-CNF compute =     0.06 sec (  1.18 %)
+CNF compute =     0.06 sec (  1.17 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     5.48 sec (100.00 %)
-Property proved.  Time =     5.49 sec
+TOTAL       =     5.47 sec (100.00 %)
+Property proved.  Time =     5.48 sec

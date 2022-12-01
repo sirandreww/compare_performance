@@ -1,6 +1,9 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 4, 2, 0]
-IC3 is on k = 3, clauses lengths = [0, 8, 6, 2, 0]
-IC3 is on k = 4, clauses lengths = [0, 16, 14, 8, 4, 0]
-IC3 is on k = 5, clauses lengths = [0, 27, 25, 19, 14, 6, 0]
-slurmstepd-thanos10: error: *** JOB 68682 ON thanos10 CANCELLED AT 2022-11-30T20:57:23 DUE TO TIME LIMIT ***
+IC3 is on k = 2, clauses lengths = [0, 2, 1, 0]
+IC3 is on k = 3, clauses lengths = [0, 4, 3, 1, 0]
+IC3 is on k = 4, clauses lengths = [0, 6, 5, 3, 1, 0]
+IC3 is on k = 5, clauses lengths = [0, 6, 5, 3, 1, 0, 0]
+IC3 is on k = 6, clauses lengths = [0, 27, 26, 24, 22, 19, 11, 0]
+IC3 is on k = 7, clauses lengths = [0, 27, 26, 24, 22, 19, 11, 1, 0]
+IC3 is on k = 8, clauses lengths = [0, 29, 28, 26, 24, 21, 13, 3, 1, 0]
+slurmstepd-thanos11: error: *** JOB 69559 ON thanos11 CANCELLED AT 2022-12-01T01:25:54 DUE TO TIME LIMIT ***

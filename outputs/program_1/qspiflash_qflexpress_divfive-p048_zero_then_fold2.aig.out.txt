@@ -1,5 +1,11 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 39, 38, 0]
-IC3 is on k = 3, clauses lengths = [0, 39, 38, 37, 0]
-IC3 is on k = 4, clauses lengths = [0, 93, 91, 89, 86, 0]
-slurmstepd-thanos8: error: *** JOB 68692 ON thanos8 CANCELLED AT 2022-11-30T20:58:53 DUE TO TIME LIMIT ***
+IC3 is on k = 2, clauses lengths = [0, 231, 211, 0]
+IC3 is on k = 3, clauses lengths = [0, 1206, 1164, 995, 0]
+IC3 is on k = 4, clauses lengths = [0, 1391, 1349, 1179, 951, 0]
+IC3 is on k = 5, clauses lengths = [0, 1414, 1372, 1202, 975, 922, 0]
+IC3 is on k = 6, clauses lengths = [0, 1699, 1657, 1492, 1283, 1230, 1212, 0]
+IC3 is on k = 7, clauses lengths = [0, 1699, 1657, 1492, 1283, 1230, 1212, 1209, 0]
+IC3 is on k = 7, clauses lengths = [0, 1699, 1657, 1492, 1283, 1230, 1212, 1209, 1209]
+Elapsed time = 568.22864
+Safe, checking invariant.
+Invariant check passed!

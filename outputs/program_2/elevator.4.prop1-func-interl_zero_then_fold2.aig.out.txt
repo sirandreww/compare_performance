@@ -3,8 +3,8 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     2      0.00 sec
-  2 : 0 2 2                                                               2     6      0.00 sec
-  3 : 0 10 23 4                                                          21    31      0.02 sec
+  2 : 0 2 2                                                               2     6      0.01 sec
+  3 : 0 10 23 4                                                          21    31      0.01 sec
   4 : 0 5 12 11 2                                                         5    31      0.02 sec
   5 : 0 5 12 10 3 2                                                       2    31      0.02 sec
   6 : 0 5 12 10 2 4 3                                                     5    31      0.02 sec
@@ -13,14 +13,14 @@ Frame Clauses                                                     Max Queue Flop
 Invariant F[4] : 9 clauses with 9 flops (out of 259) (cex = 0, ave = 37.26)
 Verification of invariant with 9 clauses was successful.  Time =     0.00 sec
 Block =    7  Oblig =   125  Clause =    55  Call =   522 (sat=67.8%)  Cex =   0  Start =   0
-SAT solving =     0.02 sec ( 41.73 %)
-  unsat     =     0.00 sec (  4.13 %)
-  sat       =     0.01 sec ( 37.60 %)
-Generalize  =     0.01 sec ( 30.88 %)
-Push clause =     0.01 sec ( 19.74 %)
-Ternary sim =     0.00 sec (  8.34 %)
+SAT solving =     0.01 sec ( 39.86 %)
+  unsat     =     0.00 sec (  4.00 %)
+  sat       =     0.01 sec ( 35.86 %)
+Generalize  =     0.01 sec ( 29.08 %)
+Push clause =     0.01 sec ( 19.22 %)
+Ternary sim =     0.00 sec (  7.79 %)
 Containment =     0.00 sec (  0.12 %)
-CNF compute =     0.00 sec (  5.78 %)
+CNF compute =     0.00 sec (  5.53 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.04 sec (100.00 %)
 Property proved.  Time =     0.04 sec

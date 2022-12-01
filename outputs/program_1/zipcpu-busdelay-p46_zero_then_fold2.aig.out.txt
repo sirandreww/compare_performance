@@ -1,5 +1,8 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 269, 266, 0]
-IC3 is on k = 3, clauses lengths = [0, 340, 337, 334, 0]
-IC3 is on k = 4, clauses lengths = [0, 361, 358, 355, 315, 0]
-slurmstepd-thanos9: error: *** JOB 68828 ON thanos9 CANCELLED AT 2022-11-30T21:14:53 DUE TO TIME LIMIT ***
+IC3 is on k = 2, clauses lengths = [0, 309, 304, 0]
+IC3 is on k = 3, clauses lengths = [0, 395, 390, 365, 0]
+IC3 is on k = 4, clauses lengths = [0, 755, 750, 731, 682, 0]
+IC3 is on k = 5, clauses lengths = [0, 953, 948, 931, 883, 822, 0]
+IC3 is on k = 6, clauses lengths = [0, 1369, 1365, 1353, 1314, 1257, 1079, 0]
+IC3 is on k = 7, clauses lengths = [0, 1987, 1983, 1971, 1930, 1866, 1704, 1236, 0]
+slurmstepd-thanos5: error: *** JOB 69606 ON thanos5 CANCELLED AT 2022-12-01T00:06:24 DUE TO TIME LIMIT ***

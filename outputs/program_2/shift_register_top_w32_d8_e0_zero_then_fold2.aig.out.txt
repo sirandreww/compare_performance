@@ -8,19 +8,19 @@ Frame Clauses                                                     Max Queue Flop
   4 : 0 3 69 136 135                                                      7   104      0.08 sec
   5 : 0 3 69 134 137 72                                                   3   105      0.11 sec
   6 : 0 3 69 135 138 284 268                                             12   169      0.34 sec
-  7 : 0 3 69 135 138 160 239 158                                          3   169      0.40 sec
+  7 : 0 3 69 135 138 160 239 158                                          3   169      0.41 sec
   8 : 0 3 69 136 141 165 126 158 113                                     26   172      0.47 sec
-  9 : 0 3 69 136 141 159 148 301 312 368                                  9   260      0.90 sec
+  9 : 0 3 69 136 141 159 148 301 312 368                                  9   260      0.89 sec
  10 : 0 3 69 136 141 159 148 238 196 380 26                              14   260      1.00 sec
 Block =  459  Oblig =  2894  Clause =  1910  Call = 25017 (sat=70.6%)  Cex =   0  Start =  76
-SAT solving =     0.83 sec ( 82.56 %)
+SAT solving =     0.83 sec ( 82.57 %)
   unsat     =     0.13 sec ( 12.77 %)
-  sat       =     0.70 sec ( 69.79 %)
-Generalize  =     0.63 sec ( 63.04 %)
+  sat       =     0.70 sec ( 69.80 %)
+Generalize  =     0.63 sec ( 63.10 %)
 Push clause =     0.21 sec ( 20.60 %)
-Ternary sim =     0.03 sec (  2.68 %)
+Ternary sim =     0.03 sec (  2.70 %)
 Containment =     0.00 sec (  0.24 %)
-CNF compute =     0.03 sec (  2.98 %)
+CNF compute =     0.03 sec (  3.00 %)
 Refinement  =     0.00 sec (  0.02 %)
-TOTAL       =     1.01 sec (100.00 %)
-Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/shift_register_top_w32_d8_e0_zero_then_fold2" was asserted in frame 16.  Time =     1.01 sec
+TOTAL       =     1.00 sec (100.00 %)
+Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/shift_register_top_w32_d8_e0_zero_then_fold2" was asserted in frame 16.  Time =     1.00 sec

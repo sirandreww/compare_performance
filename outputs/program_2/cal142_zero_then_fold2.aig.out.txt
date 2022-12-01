@@ -4,22 +4,22 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.07 sec
   2 : 0 1 32                                                              1    33      0.19 sec
-  3 : 0 1 186 347                                                         7   334      2.56 sec
-  4 : 0 1 101 64 362                                                      7   342      3.71 sec
-  5 : 0 1 64 51 55 367                                                    6   342      4.63 sec
-  6 : 0 1 63 40 64 40 484                                                 9   348      6.20 sec
-  7 : 0 1 39 4 0 0 0 493                                                  0   348      6.90 sec
+  3 : 0 1 186 347                                                         7   334      2.57 sec
+  4 : 0 1 101 64 362                                                      7   342      3.72 sec
+  5 : 0 1 64 51 55 367                                                    6   342      4.65 sec
+  6 : 0 1 63 40 64 40 484                                                 9   348      6.23 sec
+  7 : 0 1 39 4 0 0 0 493                                                  0   348      6.93 sec
 Invariant F[4] : 493 clauses with 347 flops (out of 718) (cex = 0, ave = 31.65)
 Verification of invariant with 493 clauses was successful.  Time =     0.30 sec
 Block =  101  Oblig =  1383  Clause =   857  Call = 15152 (sat=35.7%)  Cex =   0  Start =  47
-SAT solving =     6.22 sec ( 86.34 %)
-  unsat     =     4.06 sec ( 56.31 %)
-  sat       =     2.16 sec ( 30.04 %)
-Generalize  =     3.55 sec ( 49.34 %)
-Push clause =     1.98 sec ( 27.47 %)
-Ternary sim =     0.19 sec (  2.65 %)
+SAT solving =     6.24 sec ( 86.21 %)
+  unsat     =     4.06 sec ( 56.10 %)
+  sat       =     2.18 sec ( 30.11 %)
+Generalize  =     3.57 sec ( 49.40 %)
+Push clause =     1.99 sec ( 27.45 %)
+Ternary sim =     0.20 sec (  2.73 %)
 Containment =     0.00 sec (  0.03 %)
-CNF compute =     0.09 sec (  1.19 %)
+CNF compute =     0.09 sec (  1.21 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     7.20 sec (100.00 %)
-Property proved.  Time =     7.21 sec
+TOTAL       =     7.24 sec (100.00 %)
+Property proved.  Time =     7.25 sec

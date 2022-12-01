@@ -1,6 +1,6 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 23, 16, 0]
-IC3 is on k = 2, clauses lengths = [0, 23, 16, 16]
-Elapsed time = 73.508385
+IC3 is on k = 2, clauses lengths = [0, 20, 13, 0]
+IC3 is on k = 2, clauses lengths = [0, 20, 13, 13]
+Elapsed time = 62.57169
 Safe, checking invariant.
 Invariant check passed!

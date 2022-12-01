@@ -1,7 +1,7 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 334, 331, 0]
-IC3 is on k = 3, clauses lengths = [0, 334, 331, 326, 0]
-IC3 is on k = 3, clauses lengths = [0, 334, 331, 326, 326]
-Elapsed time = 81.64185
+IC3 is on k = 2, clauses lengths = [0, 445, 441, 0]
+IC3 is on k = 3, clauses lengths = [0, 480, 475, 471, 0]
+IC3 is on k = 3, clauses lengths = [0, 480, 475, 471, 471]
+Elapsed time = 118.59677
 Safe, checking invariant.
 Invariant check passed!
