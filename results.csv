@@ -1,133 +1,133 @@
 test_name,abc_finished,abc_result,abc_time,rfv_finished,rfv_result,rfv_time
-VexRiscv-regch0-15-p0_zero_then_fold2.aig,True,safe,0.00,False,,
+VexRiscv-regch0-15-p0_zero_then_fold2.aig,False,,,False,,
 VexRiscv-regch0-20-p0_zero_then_fold2.aig,False,,,False,,
 VexRiscv-regch0-30-p1_zero_then_fold2.aig,False,,,False,,
-anderson.3.prop1-back-serstep_zero_then_fold2.aig,True,not safe,0.04,True,not safe,2.1355243
+anderson.3.prop1-back-serstep_zero_then_fold2.aig,True,not safe,0.04,True,not safe,0.095513135
 arbitrated_top_n2_w128_d32_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n2_w128_d64_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n2_w64_d64_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n2_w8_d128_e0_zero_then_fold2.aig,False,,,False,,
-arbitrated_top_n2_w8_d16_e0_zero_then_fold2.aig,True,not safe,20.05,False,,
+arbitrated_top_n2_w8_d16_e0_zero_then_fold2.aig,True,not safe,20.04,False,,
 arbitrated_top_n2_w8_d32_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n2_w8_d64_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n3_w16_d128_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n3_w16_d32_e0_zero_then_fold2.aig,False,,,False,,
-arbitrated_top_n3_w32_d16_e0_zero_then_fold2.aig,True,not safe,165.19,False,,
+arbitrated_top_n3_w32_d16_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n3_w64_d128_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n3_w64_d64_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n3_w8_d128_e0_zero_then_fold2.aig,False,,,False,,
-arbitrated_top_n3_w8_d16_e0_zero_then_fold2.aig,True,not safe,24.09,False,,
+arbitrated_top_n3_w8_d16_e0_zero_then_fold2.aig,True,not safe,24.08,False,,
 arbitrated_top_n4_w128_d16_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n4_w128_d64_e0_zero_then_fold2.aig,False,,,False,,
-arbitrated_top_n4_w16_d16_e0_zero_then_fold2.aig,True,not safe,394.42,False,,
+arbitrated_top_n4_w16_d16_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n4_w16_d32_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n4_w16_d64_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n4_w32_d32_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n4_w64_d32_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n4_w8_d64_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n5_w128_d64_e0_zero_then_fold2.aig,False,,,False,,
-arbitrated_top_n5_w128_d8_e0_zero_then_fold2.aig,True,not safe,80.78,False,,
+arbitrated_top_n5_w128_d8_e0_zero_then_fold2.aig,True,not safe,80.84,False,,
 arbitrated_top_n5_w32_d32_e0_zero_then_fold2.aig,False,,,False,,
-arbitrated_top_n5_w64_d16_e0_zero_then_fold2.aig,True,not safe,506.45,False,,
+arbitrated_top_n5_w64_d16_e0_zero_then_fold2.aig,False,,,False,,
 arbitrated_top_n5_w8_d32_e0_zero_then_fold2.aig,False,,,False,,
-at.6.prop1-back-serstep_zero_then_fold2.aig,True,not safe,42.03,False,,
-blocks.4.prop1-back-serstep_zero_then_fold2.aig,True,not safe,107.48,False,,
-brp2.2.prop1-func-interl_zero_then_fold2.aig,True,not safe,274.40,False,,
-brp2.3.prop1-back-serstep_zero_then_fold2.aig,True,not safe,1.34,False,,
+at.6.prop1-back-serstep_zero_then_fold2.aig,True,not safe,42.11,True,not safe,6.0873747
+blocks.4.prop1-back-serstep_zero_then_fold2.aig,False,,,True,not safe,80.788086
+brp2.2.prop1-func-interl_zero_then_fold2.aig,False,,,False,,
+brp2.3.prop1-back-serstep_zero_then_fold2.aig,True,not safe,1.33,True,not safe,19.44732
 brp2.6.prop3-back-serstep_zero_then_fold2.aig,False,,,False,,
 buggy_ridecore_zero_then_fold2.aig,False,,,False,,
-cal102_zero_then_fold2.aig,True,safe,0.74,False,,
+cal102_zero_then_fold2.aig,False,,,False,,
 cal106_zero_then_fold2.aig,True,safe,0.55,False,,
-cal107_zero_then_fold2.aig,True,safe,0.69,False,,
-cal112_zero_then_fold2.aig,True,safe,0.79,False,,
+cal107_zero_then_fold2.aig,True,safe,0.67,False,,
+cal112_zero_then_fold2.aig,False,,,False,,
 cal117_zero_then_fold2.aig,True,safe,0.61,False,,
-cal118_zero_then_fold2.aig,True,safe,0.64,False,,
+cal118_zero_then_fold2.aig,True,safe,0.66,False,,
 cal119_zero_then_fold2.aig,True,safe,0.41,False,,
 cal122_zero_then_fold2.aig,True,safe,0.53,False,,
 cal123_zero_then_fold2.aig,True,safe,0.25,False,,
-cal125_zero_then_fold2.aig,True,safe,0.41,False,,
-cal129_zero_then_fold2.aig,True,safe,0.26,False,,
+cal125_zero_then_fold2.aig,True,safe,0.40,False,,
+cal129_zero_then_fold2.aig,True,safe,0.27,False,,
 cal140_zero_then_fold2.aig,True,safe,0.23,False,,
 cal142_zero_then_fold2.aig,True,safe,0.30,False,,
 cal143_zero_then_fold2.aig,True,safe,0.31,False,,
 cal149_zero_then_fold2.aig,True,safe,0.28,False,,
 cal156_zero_then_fold2.aig,False,,,False,,
-cal159_zero_then_fold2.aig,True,safe,0.00,False,,
+cal159_zero_then_fold2.aig,True,safe,0.00,True,safe,25.7083
 cal161_zero_then_fold2.aig,True,safe,0.00,False,,
-cal162_zero_then_fold2.aig,True,safe,0.00,False,,
-cal176_zero_then_fold2.aig,True,safe,0.02,False,,
+cal162_zero_then_fold2.aig,True,safe,0.00,True,safe,48.61762
+cal176_zero_then_fold2.aig,True,safe,0.01,False,,
 cal192_zero_then_fold2.aig,False,,,False,,
 cal201_zero_then_fold2.aig,False,,,False,,
 cal206_zero_then_fold2.aig,False,,,False,,
 cal209_zero_then_fold2.aig,False,,,False,,
 cal210_zero_then_fold2.aig,False,,,False,,
-cal21_zero_then_fold2.aig,True,safe,0.00,False,,
+cal21_zero_then_fold2.aig,True,safe,0.00,True,safe,1.1220169
 cal220_zero_then_fold2.aig,False,,,False,,
 cal224_zero_then_fold2.aig,False,,,False,,
 cal227_zero_then_fold2.aig,False,,,False,,
 cal234_zero_then_fold2.aig,False,,,False,,
 cal2_zero_then_fold2.aig,False,,,False,,
-cal33_zero_then_fold2.aig,True,safe,0.00,True,safe,409.80338
+cal33_zero_then_fold2.aig,True,safe,0.00,True,safe,7.0884333
 cal34_zero_then_fold2.aig,True,safe,0.01,False,,
-cal35_zero_then_fold2.aig,True,safe,0.00,False,,
-cal37_zero_then_fold2.aig,True,safe,0.00,False,,
-cal41_zero_then_fold2.aig,True,safe,0.00,True,safe,57.82305
-cal4_zero_then_fold2.aig,True,safe,0.00,True,safe,165.75502
+cal35_zero_then_fold2.aig,True,safe,0.00,True,safe,5.1237993
+cal37_zero_then_fold2.aig,True,safe,0.00,True,safe,7.610254
+cal41_zero_then_fold2.aig,True,safe,0.00,True,safe,0.70924
+cal4_zero_then_fold2.aig,True,safe,0.00,True,safe,1.4770238
 cal81_zero_then_fold2.aig,True,safe,0.00,False,,
 cal84_zero_then_fold2.aig,True,safe,0.39,False,,
 cal86_zero_then_fold2.aig,True,safe,0.48,False,,
 cal87_zero_then_fold2.aig,True,safe,0.41,False,,
-cal90_zero_then_fold2.aig,True,safe,0.49,False,,
-cal97_zero_then_fold2.aig,True,safe,0.69,False,,
+cal90_zero_then_fold2.aig,True,safe,0.48,False,,
+cal97_zero_then_fold2.aig,True,safe,0.70,False,,
 cal99_zero_then_fold2.aig,True,safe,0.61,False,,
 circular_pointer_top_w128_d128_e0_zero_then_fold2.aig,False,,,False,,
 circular_pointer_top_w128_d64_e0_zero_then_fold2.aig,False,,,False,,
-circular_pointer_top_w128_d8_e0_zero_then_fold2.aig,True,not safe,193.63,False,,
+circular_pointer_top_w128_d8_e0_zero_then_fold2.aig,False,,,False,,
 circular_pointer_top_w16_d128_e0_zero_then_fold2.aig,False,,,False,,
 circular_pointer_top_w16_d32_e0_zero_then_fold2.aig,False,,,False,,
 circular_pointer_top_w16_d64_e0_zero_then_fold2.aig,False,,,False,,
-circular_pointer_top_w32_d16_e0_zero_then_fold2.aig,True,not safe,392.49,False,,
+circular_pointer_top_w32_d16_e0_zero_then_fold2.aig,False,,,False,,
 circular_pointer_top_w32_d32_e0_zero_then_fold2.aig,False,,,False,,
 circular_pointer_top_w64_d128_e0_zero_then_fold2.aig,False,,,False,,
-circular_pointer_top_w64_d8_e0_zero_then_fold2.aig,True,not safe,55.73,False,,
-circular_pointer_top_w8_d16_e0_zero_then_fold2.aig,True,not safe,13.98,False,,
+circular_pointer_top_w64_d8_e0_zero_then_fold2.aig,True,not safe,55.96,False,,
+circular_pointer_top_w8_d16_e0_zero_then_fold2.aig,True,not safe,14.06,False,,
 dspfilters_fastfir_second-p04_zero_then_fold2.aig,True,safe,0.04,False,,
 dspfilters_fastfir_second-p05_zero_then_fold2.aig,True,safe,0.01,False,,
 dspfilters_fastfir_second-p06_zero_then_fold2.aig,True,safe,0.00,False,,
 dspfilters_fastfir_second-p07_zero_then_fold2.aig,True,safe,0.01,False,,
 dspfilters_fastfir_second-p09_zero_then_fold2.aig,True,safe,0.02,False,,
-dspfilters_fastfir_second-p10_zero_then_fold2.aig,True,safe,0.74,False,,
+dspfilters_fastfir_second-p10_zero_then_fold2.aig,False,,,False,,
 dspfilters_fastfir_second-p11_zero_then_fold2.aig,True,safe,0.00,False,,
-dspfilters_fastfir_second-p14_zero_then_fold2.aig,True,safe,0.04,False,,
+dspfilters_fastfir_second-p14_zero_then_fold2.aig,False,,,False,,
 dspfilters_fastfir_second-p16_zero_then_fold2.aig,True,safe,0.45,False,,
 dspfilters_fastfir_second-p18_zero_then_fold2.aig,False,,,False,,
 dspfilters_fastfir_second-p21_zero_then_fold2.aig,True,safe,0.04,False,,
 dspfilters_fastfir_second-p22_zero_then_fold2.aig,True,safe,0.00,False,,
-dspfilters_fastfir_second-p25_zero_then_fold2.aig,True,safe,0.89,False,,
-dspfilters_fastfir_second-p26_zero_then_fold2.aig,True,safe,0.08,False,,
-dspfilters_fastfir_second-p42_zero_then_fold2.aig,True,safe,1.23,False,,
+dspfilters_fastfir_second-p25_zero_then_fold2.aig,False,,,False,,
+dspfilters_fastfir_second-p26_zero_then_fold2.aig,False,,,False,,
+dspfilters_fastfir_second-p42_zero_then_fold2.aig,False,,,False,,
 dspfilters_fastfir_second-p43_zero_then_fold2.aig,False,,,False,,
 dspfilters_fastfir_second-p45_zero_then_fold2.aig,False,,,False,,
-elevator.4.prop1-func-interl_zero_then_fold2.aig,True,safe,0.00,False,,
+elevator.4.prop1-func-interl_zero_then_fold2.aig,True,safe,0.00,True,safe,35.672745
 frogs.5.prop1-func-interl_zero_then_fold2.aig,False,,,False,,
-gen10_zero_then_fold2.aig,True,safe,0.00,True,safe,62.57169
-gen12_zero_then_fold2.aig,True,safe,0.00,True,safe,89.73031
-gen14_zero_then_fold2.aig,True,safe,0.00,True,safe,121.90304
-gen21_zero_then_fold2.aig,True,safe,0.00,True,safe,125.76671
+gen10_zero_then_fold2.aig,True,safe,0.00,True,safe,1.3345087
+gen12_zero_then_fold2.aig,True,safe,0.00,True,safe,1.3631555
+gen14_zero_then_fold2.aig,True,safe,0.00,True,safe,1.3287947
+gen21_zero_then_fold2.aig,True,safe,0.00,True,safe,0.6739595
 gen31_zero_then_fold2.aig,True,safe,0.01,False,,
 gen35_zero_then_fold2.aig,True,safe,0.00,False,,
-gen39_zero_then_fold2.aig,True,safe,0.00,False,,
+gen39_zero_then_fold2.aig,True,safe,0.00,True,safe,3.45666
 gen43_zero_then_fold2.aig,True,safe,0.00,False,,
 gen44_zero_then_fold2.aig,True,safe,0.00,False,,
 h_RCU_zero_then_fold2.aig,False,,,False,,
-h_TreeArb_zero_then_fold2.aig,True,safe,0.00,True,safe,131.05899
-intersymbol_analog_estimation_convergence_zero_then_fold2.aig,True,safe,0.01,False,,
+h_TreeArb_zero_then_fold2.aig,True,safe,0.00,True,safe,3.0420377
+intersymbol_analog_estimation_convergence_zero_then_fold2.aig,True,safe,0.01,True,safe,0.8260658
 krebs.3.prop1-func-interl_zero_then_fold2.aig,False,,,False,,
-marlann_compute_cp_fail1-p2_zero_then_fold2.aig,True,safe,0.00,True,safe,103.527245
+marlann_compute_cp_fail1-p2_zero_then_fold2.aig,True,safe,0.00,True,safe,3.2098804
 marlann_compute_cp_fail2-p0_zero_then_fold2.aig,True,safe,0.00,False,,
-marlann_compute_cp_pass-p2_zero_then_fold2.aig,True,safe,0.00,True,safe,102.41763
+marlann_compute_cp_pass-p2_zero_then_fold2.aig,True,safe,0.00,True,safe,2.8364222
 mcs.3.prop1-back-serstep_zero_then_fold2.aig,False,,,False,,
-miim_zero_then_fold2.aig,True,safe,0.00,True,safe,329.41486
+miim_zero_then_fold2.aig,True,safe,0.00,True,safe,3.370955
 msmie.3.prop1-func-interl_zero_then_fold2.aig,False,,,False,,
 mul1_zero_then_fold2.aig,False,,,False,,
 mul2_zero_then_fold2.aig,False,,,False,,
@@ -137,7 +137,7 @@ mul9_zero_then_fold2.aig,False,,,False,,
 paper_v3_zero_then_fold2.aig,True,safe,0.00,False,,
 peg_solitaire.3.prop1-back-serstep_zero_then_fold2.aig,False,,,False,,
 pgm_protocol.3.prop5-func-interl_zero_then_fold2.aig,False,,,False,,
-pgm_protocol.7.prop1-back-serstep_zero_then_fold2.aig,True,safe,0.02,False,,
+pgm_protocol.7.prop1-back-serstep_zero_then_fold2.aig,False,,,False,,
 picorv32-check-p05_zero_then_fold2.aig,True,safe,0.00,False,,
 picorv32-check-p09_zero_then_fold2.aig,True,safe,0.00,False,,
 picorv32-check-p12_zero_then_fold2.aig,True,safe,0.00,False,,
@@ -165,18 +165,18 @@ picorv32_mutCX_nomem-p8_zero_then_fold2.aig,False,,,False,,
 picorv32_mutCY_nomem-p0_zero_then_fold2.aig,False,,,False,,
 picorv32_mutCY_nomem-p3_zero_then_fold2.aig,False,,,False,,
 ponylink-slaveTXlen-unsat_zero_then_fold2.aig,False,,,False,,
-qspiflash_dualflexpress_divfive-p007_zero_then_fold2.aig,True,safe,0.12,False,,
+qspiflash_dualflexpress_divfive-p007_zero_then_fold2.aig,False,,,False,,
 qspiflash_dualflexpress_divfive-p009_zero_then_fold2.aig,False,,,False,,
-qspiflash_dualflexpress_divfive-p016_zero_then_fold2.aig,True,safe,0.00,True,safe,178.99606
-qspiflash_dualflexpress_divfive-p022_zero_then_fold2.aig,True,safe,0.00,True,safe,54.416893
+qspiflash_dualflexpress_divfive-p016_zero_then_fold2.aig,True,safe,0.00,True,safe,1.3835777
+qspiflash_dualflexpress_divfive-p022_zero_then_fold2.aig,True,safe,0.00,True,safe,0.97551155
 qspiflash_dualflexpress_divfive-p037_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_dualflexpress_divfive-p050_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_dualflexpress_divfive-p054_zero_then_fold2.aig,True,safe,0.00,False,,
-qspiflash_dualflexpress_divfive-p058_zero_then_fold2.aig,True,safe,0.00,False,,
+qspiflash_dualflexpress_divfive-p058_zero_then_fold2.aig,True,safe,0.00,True,safe,36.05767
 qspiflash_dualflexpress_divfive-p074_zero_then_fold2.aig,True,safe,0.01,False,,
 qspiflash_dualflexpress_divfive-p079_zero_then_fold2.aig,True,safe,0.00,False,,
-qspiflash_dualflexpress_divfive-p092_zero_then_fold2.aig,True,safe,0.00,False,,
-qspiflash_dualflexpress_divfive-p097_zero_then_fold2.aig,True,safe,0.00,False,,
+qspiflash_dualflexpress_divfive-p092_zero_then_fold2.aig,True,safe,0.00,True,safe,66.56601
+qspiflash_dualflexpress_divfive-p097_zero_then_fold2.aig,True,safe,0.00,True,safe,28.238768
 qspiflash_dualflexpress_divfive-p112_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_dualflexpress_divfive-p116_zero_then_fold2.aig,True,safe,0.01,False,,
 qspiflash_dualflexpress_divfive-p120_zero_then_fold2.aig,True,safe,0.00,False,,
@@ -186,14 +186,14 @@ qspiflash_dualflexpress_divfive-p128_zero_then_fold2.aig,True,safe,0.01,False,,
 qspiflash_dualflexpress_divfive-p133_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_dualflexpress_divfive-p135_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_dualflexpress_divfive-p136_zero_then_fold2.aig,True,safe,0.00,False,,
-qspiflash_dualflexpress_divfive-p143_zero_then_fold2.aig,True,safe,0.00,True,safe,0.006371285
+qspiflash_dualflexpress_divfive-p143_zero_then_fold2.aig,True,safe,0.00,True,safe,0.009829148
 qspiflash_dualflexpress_divfive-p154_zero_then_fold2.aig,True,safe,0.00,False,,
-qspiflash_dualflexpress_divfive-p161_zero_then_fold2.aig,True,safe,0.04,False,,
+qspiflash_dualflexpress_divfive-p161_zero_then_fold2.aig,False,,,False,,
 qspiflash_dualflexpress_divfive-p164_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_dualflexpress_divthree-p005_zero_then_fold2.aig,True,safe,0.01,False,,
-qspiflash_dualflexpress_divthree-p006_zero_then_fold2.aig,True,safe,0.00,False,,
+qspiflash_dualflexpress_divthree-p006_zero_then_fold2.aig,True,safe,0.00,True,safe,36.669147
 qspiflash_dualflexpress_divthree-p007_zero_then_fold2.aig,True,safe,0.02,False,,
-qspiflash_dualflexpress_divthree-p010_zero_then_fold2.aig,True,safe,0.16,False,,
+qspiflash_dualflexpress_divthree-p010_zero_then_fold2.aig,False,,,False,,
 qspiflash_dualflexpress_divthree-p012_zero_then_fold2.aig,True,safe,0.02,False,,
 qspiflash_dualflexpress_divthree-p032_zero_then_fold2.aig,True,safe,0.01,False,,
 qspiflash_dualflexpress_divthree-p034_zero_then_fold2.aig,True,safe,0.01,False,,
@@ -213,65 +213,65 @@ qspiflash_dualflexpress_divthree-p124_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_dualflexpress_divthree-p134_zero_then_fold2.aig,True,safe,0.04,False,,
 qspiflash_dualflexpress_divthree-p136_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_dualflexpress_divthree-p141_zero_then_fold2.aig,True,safe,0.00,False,,
-qspiflash_dualflexpress_divthree-p143_zero_then_fold2.aig,True,safe,0.00,True,safe,0.007449822
+qspiflash_dualflexpress_divthree-p143_zero_then_fold2.aig,True,safe,0.00,True,safe,0.007900342
 qspiflash_dualflexpress_divthree-p151_zero_then_fold2.aig,False,,,False,,
-qspiflash_dualflexpress_divthree-p153_zero_then_fold2.aig,True,safe,0.06,False,,
-qspiflash_dualflexpress_divthree-p158_zero_then_fold2.aig,True,safe,0.00,False,,
+qspiflash_dualflexpress_divthree-p153_zero_then_fold2.aig,False,,,False,,
+qspiflash_dualflexpress_divthree-p158_zero_then_fold2.aig,True,safe,0.00,True,safe,1.0719029
 qspiflash_dualflexpress_divthree-p161_zero_then_fold2.aig,True,safe,0.03,False,,
 qspiflash_dualflexpress_divthree-p164_zero_then_fold2.aig,True,safe,0.00,False,,
-qspiflash_qflexpress_divfive-p017_zero_then_fold2.aig,True,safe,0.00,True,safe,118.59677
+qspiflash_qflexpress_divfive-p017_zero_then_fold2.aig,True,safe,0.00,True,safe,1.5899377
 qspiflash_qflexpress_divfive-p029_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_qflexpress_divfive-p036_zero_then_fold2.aig,True,safe,0.00,False,,
-qspiflash_qflexpress_divfive-p038_zero_then_fold2.aig,True,safe,0.00,False,,
-qspiflash_qflexpress_divfive-p048_zero_then_fold2.aig,True,safe,0.00,True,safe,568.22864
+qspiflash_qflexpress_divfive-p038_zero_then_fold2.aig,True,safe,0.00,True,safe,18.79241
+qspiflash_qflexpress_divfive-p048_zero_then_fold2.aig,True,safe,0.00,True,safe,14.691169
 qspiflash_qflexpress_divfive-p063_zero_then_fold2.aig,True,safe,0.03,False,,
 qspiflash_qflexpress_divfive-p064_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_qflexpress_divfive-p067_zero_then_fold2.aig,True,safe,0.02,False,,
-qspiflash_qflexpress_divfive-p075_zero_then_fold2.aig,True,safe,0.04,False,,
+qspiflash_qflexpress_divfive-p075_zero_then_fold2.aig,False,,,False,,
 qspiflash_qflexpress_divfive-p079_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_qflexpress_divfive-p094_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_qflexpress_divfive-p100_zero_then_fold2.aig,True,safe,0.02,False,,
-qspiflash_qflexpress_divfive-p104_zero_then_fold2.aig,True,safe,0.00,False,,
+qspiflash_qflexpress_divfive-p104_zero_then_fold2.aig,True,safe,0.00,True,safe,47.978977
 qspiflash_qflexpress_divfive-p107_zero_then_fold2.aig,True,safe,0.01,False,,
 qspiflash_qflexpress_divfive-p113_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_qflexpress_divfive-p121_zero_then_fold2.aig,True,safe,0.01,False,,
-qspiflash_qflexpress_divfive-p122_zero_then_fold2.aig,True,safe,0.00,True,safe,437.35608
+qspiflash_qflexpress_divfive-p122_zero_then_fold2.aig,True,safe,0.00,True,safe,4.8203163
 qspiflash_qflexpress_divfive-p137_zero_then_fold2.aig,True,safe,0.00,False,,
 qspiflash_qflexpress_divfive-p139_zero_then_fold2.aig,True,safe,0.00,False,,
 rast-p00_zero_then_fold2.aig,True,safe,0.43,False,,
-rast-p01_zero_then_fold2.aig,True,safe,0.00,True,safe,0.13779972
-rast-p03_zero_then_fold2.aig,True,safe,0.00,True,safe,0.21871935
-rast-p04_zero_then_fold2.aig,True,safe,0.00,True,safe,0.13444772
-rast-p06_zero_then_fold2.aig,True,safe,0.00,True,safe,0.24812233
-rast-p11_zero_then_fold2.aig,True,safe,0.00,False,,
+rast-p01_zero_then_fold2.aig,True,safe,0.00,True,safe,0.27170512
+rast-p03_zero_then_fold2.aig,True,safe,0.00,True,safe,0.28684115
+rast-p04_zero_then_fold2.aig,True,safe,0.00,True,safe,0.25963378
+rast-p06_zero_then_fold2.aig,True,safe,0.00,True,safe,0.28794608
+rast-p11_zero_then_fold2.aig,True,safe,0.00,True,safe,16.962925
 rast-p14_zero_then_fold2.aig,False,,,False,,
 rast-p16_zero_then_fold2.aig,False,,,False,,
 rast-p17_zero_then_fold2.aig,False,,,False,,
-rast-p18_zero_then_fold2.aig,True,safe,0.00,True,safe,0.24783033
-rast-p19_zero_then_fold2.aig,True,safe,0.00,True,safe,0.23371674
-rast-p21_zero_then_fold2.aig,True,safe,0.00,True,safe,0.2848321
+rast-p18_zero_then_fold2.aig,True,safe,0.00,True,safe,0.30650854
+rast-p19_zero_then_fold2.aig,True,safe,0.00,True,safe,0.29936975
+rast-p21_zero_then_fold2.aig,True,safe,0.00,True,safe,0.32375774
 ridecore_zero_then_fold2.aig,False,,,False,,
 rushhour.4.prop1-func-interl_zero_then_fold2.aig,False,,,False,,
-shift_register_top_w128_d16_e0_zero_then_fold2.aig,True,not safe,45.15,False,,
+shift_register_top_w128_d16_e0_zero_then_fold2.aig,True,not safe,44.85,False,,
 shift_register_top_w128_d64_e0_zero_then_fold2.aig,False,,,False,,
 shift_register_top_w16_d128_e0_zero_then_fold2.aig,False,,,False,,
-shift_register_top_w16_d16_e0_zero_then_fold2.aig,True,not safe,2.63,False,,
-shift_register_top_w16_d32_e0_zero_then_fold2.aig,True,not safe,19.73,False,,
-shift_register_top_w16_d64_e0_zero_then_fold2.aig,True,not safe,173.03,False,,
-shift_register_top_w16_d8_e0_zero_then_fold2.aig,True,not safe,0.55,False,,
+shift_register_top_w16_d16_e0_zero_then_fold2.aig,True,not safe,2.64,False,,
+shift_register_top_w16_d32_e0_zero_then_fold2.aig,True,not safe,19.84,False,,
+shift_register_top_w16_d64_e0_zero_then_fold2.aig,False,,,False,,
+shift_register_top_w16_d8_e0_zero_then_fold2.aig,True,not safe,0.54,True,not safe,20.38209
 shift_register_top_w32_d128_e0_zero_then_fold2.aig,False,,,False,,
-shift_register_top_w32_d16_e0_zero_then_fold2.aig,True,not safe,6.92,False,,
-shift_register_top_w32_d8_e0_zero_then_fold2.aig,True,not safe,1.00,False,,
-shift_register_top_w64_d8_e0_zero_then_fold2.aig,True,not safe,2.25,False,,
+shift_register_top_w32_d16_e0_zero_then_fold2.aig,True,not safe,6.86,False,,
+shift_register_top_w32_d8_e0_zero_then_fold2.aig,True,not safe,1.01,False,,
+shift_register_top_w64_d8_e0_zero_then_fold2.aig,True,not safe,2.27,False,,
 shift_register_top_w8_d128_e0_zero_then_fold2.aig,False,,,False,,
-simple_alu_zero_then_fold2.aig,True,safe,0.00,True,safe,0.039648388
-stack-p1_zero_then_fold2.aig,True,not safe,0.03,True,not safe,0.056138713
-stack-p2_zero_then_fold2.aig,True,safe,0.00,False,,
-vcegar_QF_BV_ar_zero_then_fold2.aig,True,safe,0.01,False,,
-vcegar_QF_BV_itc99_b13_p10_zero_then_fold2.aig,True,safe,0.00,True,safe,0.3235007
+simple_alu_zero_then_fold2.aig,True,safe,0.00,True,safe,0.019134754
+stack-p1_zero_then_fold2.aig,True,not safe,0.03,True,not safe,0.054251615
+stack-p2_zero_then_fold2.aig,True,safe,0.00,True,safe,44.03018
+vcegar_QF_BV_ar_zero_then_fold2.aig,False,,,False,,
+vcegar_QF_BV_itc99_b13_p10_zero_then_fold2.aig,True,safe,0.00,True,safe,0.021738308
 vcegar_arrays_itc99_b12_p2_zero_then_fold2.aig,False,,,False,,
 vgasim_imgfifo-p036_zero_then_fold2.aig,True,safe,0.00,False,,
-vgasim_imgfifo-p047_zero_then_fold2.aig,True,safe,0.00,False,,
+vgasim_imgfifo-p047_zero_then_fold2.aig,True,safe,0.00,True,safe,46.8062
 vgasim_imgfifo-p064_zero_then_fold2.aig,True,safe,0.00,False,,
 vgasim_imgfifo-p066_zero_then_fold2.aig,True,safe,0.00,False,,
 vgasim_imgfifo-p070_zero_then_fold2.aig,True,safe,0.00,False,,
@@ -285,18 +285,18 @@ vgasim_imgfifo-p105_zero_then_fold2.aig,True,safe,0.17,False,,
 vgasim_imgfifo-p109_zero_then_fold2.aig,True,safe,0.00,False,,
 vgasim_imgfifo-p110_zero_then_fold2.aig,True,safe,0.00,False,,
 vgasim_imgfifo-p111_zero_then_fold2.aig,True,safe,0.00,False,,
-vis_arrays_am2901_zero_then_fold2.aig,True,not safe,0.01,True,not safe,10.931966
-vis_arrays_am2910_p1_zero_then_fold2.aig,True,safe,0.00,True,safe,0.6684288
-vis_arrays_am2910_p2_zero_then_fold2.aig,True,safe,0.00,True,safe,0.047969915
-vis_arrays_am2910_p3_zero_then_fold2.aig,True,safe,0.00,True,safe,7.239143
-vis_arrays_buf_bug_zero_then_fold2.aig,True,not safe,3.11,False,,
+vis_arrays_am2901_zero_then_fold2.aig,True,not safe,0.01,True,not safe,0.09619505
+vis_arrays_am2910_p1_zero_then_fold2.aig,True,safe,0.00,True,safe,0.013859791
+vis_arrays_am2910_p2_zero_then_fold2.aig,True,safe,0.00,True,safe,0.008329863
+vis_arrays_am2910_p3_zero_then_fold2.aig,True,safe,0.00,True,safe,0.36140573
+vis_arrays_buf_bug_zero_then_fold2.aig,True,not safe,3.15,False,,
 vis_arrays_bufferAlloc_zero_then_fold2.aig,False,,,False,,
 zipcpu-busdelay-p00_zero_then_fold2.aig,True,safe,0.78,False,,
 zipcpu-busdelay-p15_zero_then_fold2.aig,True,safe,0.00,False,,
-zipcpu-busdelay-p30_zero_then_fold2.aig,True,safe,0.50,False,,
+zipcpu-busdelay-p30_zero_then_fold2.aig,True,safe,0.49,False,,
 zipcpu-busdelay-p36_zero_then_fold2.aig,True,safe,0.10,False,,
-zipcpu-busdelay-p43_zero_then_fold2.aig,True,safe,0.00,True,safe,104.924126
-zipcpu-busdelay-p46_zero_then_fold2.aig,True,safe,0.45,False,,
+zipcpu-busdelay-p43_zero_then_fold2.aig,True,safe,0.00,True,safe,6.052388
+zipcpu-busdelay-p46_zero_then_fold2.aig,True,safe,0.44,False,,
 zipcpu-busdelay-p47_zero_then_fold2.aig,True,safe,0.00,False,,
 zipcpu-pfcache-p01_zero_then_fold2.aig,True,safe,0.00,False,,
 zipcpu-pfcache-p02_zero_then_fold2.aig,True,safe,0.00,False,,
@@ -304,22 +304,22 @@ zipcpu-pfcache-p13_zero_then_fold2.aig,True,safe,0.00,False,,
 zipcpu-pfcache-p20_zero_then_fold2.aig,True,safe,0.00,False,,
 zipcpu-pfcache-p22_zero_then_fold2.aig,True,safe,0.07,False,,
 zipcpu-pfcache-p24_zero_then_fold2.aig,True,safe,0.00,False,,
-zipcpu-pfcache-p27_zero_then_fold2.aig,True,safe,0.00,False,,
+zipcpu-pfcache-p27_zero_then_fold2.aig,True,safe,0.00,True,safe,69.788185
 zipcpu-pfcache-p28_zero_then_fold2.aig,True,safe,0.00,False,,
 zipcpu-zipmmu-p00_zero_then_fold2.aig,False,,,False,,
 zipcpu-zipmmu-p02_zero_then_fold2.aig,False,,,False,,
-zipcpu-zipmmu-p09_zero_then_fold2.aig,True,safe,0.00,False,,
+zipcpu-zipmmu-p09_zero_then_fold2.aig,True,safe,0.00,True,safe,58.25581
 zipcpu-zipmmu-p14_zero_then_fold2.aig,False,,,False,,
 zipcpu-zipmmu-p26_zero_then_fold2.aig,False,,,False,,
 zipcpu-zipmmu-p31_zero_then_fold2.aig,False,,,False,,
 zipcpu-zipmmu-p33_zero_then_fold2.aig,False,,,False,,
 zipcpu-zipmmu-p39_zero_then_fold2.aig,False,,,False,,
 zipcpu-zipmmu-p48_zero_then_fold2.aig,False,,,False,,
-zipversa_composecrc_prf-p00_zero_then_fold2.aig,True,safe,0.00,True,safe,4.9998026
+zipversa_composecrc_prf-p00_zero_then_fold2.aig,True,safe,0.00,True,safe,0.11652986
 zipversa_composecrc_prf-p03_zero_then_fold2.aig,False,,,False,,
-zipversa_composecrc_prf-p07_zero_then_fold2.aig,True,safe,0.00,True,safe,0.006667798
+zipversa_composecrc_prf-p07_zero_then_fold2.aig,True,safe,0.00,True,safe,0.010064186
 zipversa_composecrc_prf-p10_zero_then_fold2.aig,False,,,False,,
-zipversa_composecrc_prf-p11_zero_then_fold2.aig,True,safe,0.00,True,safe,0.007466097
+zipversa_composecrc_prf-p11_zero_then_fold2.aig,True,safe,0.00,True,safe,0.008654617
 zipversa_composecrc_prf-p15_zero_then_fold2.aig,True,safe,0.00,False,,
 zipversa_composecrc_prf-p17_zero_then_fold2.aig,True,safe,0.00,False,,
 zipversa_composecrc_prf-p22_zero_then_fold2.aig,True,safe,0.00,False,,
