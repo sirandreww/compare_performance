@@ -44,7 +44,7 @@ class ComparisonDetails:
         name = f"program_{program_number}"
         job_name = ("rfv" if program_number == 1 else "abc") + str(test_number)
         cpus_per_task = 1
-        time_in_minutes = 1
+        time_in_minutes = 10
         number_of_tasks_per_node = 24
         command_to_send = f"sbatch --cpus-per-task={cpus_per_task} --ntasks-per-node={number_of_tasks_per_node} --time={time_in_minutes} -J {job_name} --output=\"{output_directory}/{name}/{output_file}.out.txt\"  --wrap='time {current_run_line}' "
         helperFunctions.run_cmd(command_to_send)
