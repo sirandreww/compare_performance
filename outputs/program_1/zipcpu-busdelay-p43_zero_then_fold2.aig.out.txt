@@ -1,11 +1,41 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 137, 136, 0]
-IC3 is on k = 3, clauses lengths = [0, 238, 237, 235, 0]
-IC3 is on k = 4, clauses lengths = [0, 238, 237, 235, 197, 0]
-IC3 is on k = 5, clauses lengths = [0, 388, 387, 385, 348, 338, 0]
-IC3 is on k = 6, clauses lengths = [0, 486, 485, 483, 446, 436, 409, 0]
-IC3 is on k = 7, clauses lengths = [0, 488, 487, 485, 448, 438, 411, 402, 0]
-IC3 is on k = 7, clauses lengths = [0, 488, 487, 485, 448, 438, 411, 402, 402]
-Elapsed time = 104.924126
+Number of SAT calls = 2
+Time since start = 0.008388077
+Time in SAT calls = 0.001849459
+IC3 is on k = 2, clauses lengths = [0, 215, 218, 0]
+Number of SAT calls = 33775
+Time since start = 1.5118275
+Time in SAT calls = 1.4031639
+IC3 is on k = 3, clauses lengths = [0, 258, 266, 270, 0]
+Number of SAT calls = 42305
+Time since start = 1.864017
+Time in SAT calls = 1.7294126
+IC3 is on k = 4, clauses lengths = [0, 473, 532, 545, 549, 0]
+Number of SAT calls = 88032
+Time since start = 4.4047966
+Time in SAT calls = 4.125263
+IC3 is on k = 5, clauses lengths = [0, 459, 581, 636, 649, 653, 0]
+Number of SAT calls = 106531
+Time since start = 5.340357
+Time in SAT calls = 5.0061574
+IC3 is on k = 6, clauses lengths = [0, 473, 506, 610, 665, 678, 682, 0]
+Number of SAT calls = 114123
+Time since start = 5.688739
+Time in SAT calls = 5.335523
+IC3 is on k = 7, clauses lengths = [0, 465, 473, 506, 610, 665, 678, 682, 0]
+Number of SAT calls = 117738
+Time since start = 5.8041964
+Time in SAT calls = 5.445461
+IC3 is on k = 8, clauses lengths = [0, 452, 465, 473, 506, 610, 665, 678, 682, 0]
+Number of SAT calls = 121818
+Time since start = 5.9258847
+Time in SAT calls = 5.5609617
+IC3 is on k = 8, clauses lengths = [452, 452, 465, 473, 506, 610, 665, 678, 682, 0]
+Number of SAT calls = 126350
+Time since start = 6.052359
+Time in SAT calls = 5.6818323
+Elapsed time = 6.052388
 Safe, checking invariant.
 Invariant check passed!
+6.90user 0.00system 0:06.91elapsed 99%CPU (0avgtext+0avgdata 27124maxresident)k
+8inputs+8outputs (0major+5965minor)pagefaults 0swaps

@@ -6,20 +6,22 @@ Frame Clauses                                                     Max Queue Flop
   2 : 0 1 32                                                              1    33      0.33 sec
   3 : 0 1 182 297                                                         8   333      2.76 sec
   4 : 0 1 144 137 346                                                     8   355      4.82 sec
-  5 : 0 1 118 160 131 536                                                 7   381      9.20 sec
-  6 : 0 1 21 16 19 15 660                                                 6   381     11.52 sec
-  7 : 0 1 15 0 0 0 0 627                                                  0   381     12.08 sec
+  5 : 0 1 118 160 131 536                                                 7   381      9.22 sec
+  6 : 0 1 21 16 19 15 660                                                 6   381     11.54 sec
+  7 : 0 1 15 0 0 0 0 627                                                  0   381     12.10 sec
 Invariant F[3] : 627 clauses with 380 flops (out of 718) (cex = 0, ave = 45.45)
 Verification of invariant with 627 clauses was successful.  Time =     0.41 sec
 Block =  120  Oblig =  1887  Clause =  1174  Call = 24513 (sat=31.4%)  Cex =   0  Start =  79
-SAT solving =    10.89 sec ( 87.16 %)
-  unsat     =     7.02 sec ( 56.21 %)
-  sat       =     3.87 sec ( 30.95 %)
-Generalize  =     6.63 sec ( 53.03 %)
-Push clause =     2.87 sec ( 22.93 %)
+SAT solving =    10.92 sec ( 87.19 %)
+  unsat     =     7.05 sec ( 56.30 %)
+  sat       =     3.87 sec ( 30.89 %)
+Generalize  =     6.63 sec ( 52.97 %)
+Push clause =     2.87 sec ( 22.95 %)
 Ternary sim =     0.28 sec (  2.25 %)
 Containment =     0.01 sec (  0.06 %)
-CNF compute =     0.15 sec (  1.21 %)
+CNF compute =     0.15 sec (  1.19 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    12.50 sec (100.00 %)
-Property proved.  Time =    12.51 sec
+TOTAL       =    12.52 sec (100.00 %)
+Property proved.  Time =    12.53 sec
+12.50user 0.06system 0:12.57elapsed 99%CPU (0avgtext+0avgdata 62100maxresident)k
+0inputs+8outputs (0major+13776minor)pagefaults 0swaps

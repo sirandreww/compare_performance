@@ -6,22 +6,8 @@ Frame Clauses                                                     Max Queue Flop
   2 : 0 9 274                                                             4   278      0.31 sec
   3 : 0 5 265 653                                                         4   412      1.33 sec
   4 : 0 5 266 822 1240                                                    5   538      3.80 sec
-  5 : 0 6 268 544 1774 1885                                               7   666      9.29 sec
-  6 : 0 6 268 543 1765 3109 3046                                         10   788     20.52 sec
-  7 : 0 6 268 543 1760 1924 3991 3940                                     8   915     36.05 sec
-  8 : 0 6 268 543 1760 1715 2735 6041 5167                               10  1042     61.96 sec
-  9 : 0 7 271 547 1840 1633 2562 3351 8703 7687                          25  1170    105.52 sec
- 10 : 0 7 270 547 1844 1561 2225 3369 6290 11788 8804                    24  1298    171.26 sec
- 11 : 0 9 280 566 1901 1660 2391 3543 6536 5509 9966 2983                61  1298    193.61 sec
-Block =16422  Oblig = 65066  Clause = 47082  Call =714085 (sat=75.1%)  Cex =   0  Start =2320
-SAT solving =   154.70 sec ( 79.90 %)
-  unsat     =    15.55 sec (  8.03 %)
-  sat       =   139.15 sec ( 71.87 %)
-Generalize  =   134.27 sec ( 69.35 %)
-Push clause =    28.52 sec ( 14.73 %)
-Ternary sim =    10.33 sec (  5.33 %)
-Containment =     1.19 sec (  0.62 %)
-CNF compute =     7.22 sec (  3.73 %)
-Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =   193.62 sec (100.00 %)
-Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/circular_pointer_top_w128_d8_e0_zero_then_fold2" was asserted in frame 18.  Time =   193.63 sec
+  5 : 0 6 268 544 1774 1885                                               7   666      9.31 sec
+  6 : 0 6 268 543 1765 3109 3046                                         10   788     20.54 sec
+  7 : 0 6 268 543 1760 1924 3991 3940                                     8   915     36.20 sec
+  8 : 0 6 268 543 1760 1715 2735 6041 5167                               10  1042     62.36 sec
+slurmstepd-thanos12: error: *** JOB 72678 ON thanos12 CANCELLED AT 2022-12-21T16:44:17 DUE TO TIME LIMIT ***

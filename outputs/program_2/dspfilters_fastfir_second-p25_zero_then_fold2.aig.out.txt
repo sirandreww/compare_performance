@@ -3,31 +3,11 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 18                                                                1    18      0.12 sec
-  2 : 0 25 38                                                             2    42      0.45 sec
+  2 : 0 25 38                                                             2    42      0.46 sec
   3 : 0 25 31 7                                                           0    42      0.50 sec
-  4 : 0 25 36 64 294                                                      5   368      3.66 sec
-  5 : 0 25 32 37 27 720                                                   4   426      8.57 sec
-  6 : 0 25 29 53 57 495 1692                                              5   582     23.42 sec
-  7 : 0 25 29 68 69 603 627 2328                                         13   645     39.15 sec
-  8 : 0 25 29 77 76 752 560 973 3602                                      7   680     65.52 sec
-  9 : 0 25 33 93 95 832 615 1100 1452 4174                               12   734     98.56 sec
- 10 : 0 25 30 40 89 837 651 1165 1211 1098 5554                          17   742    132.94 sec
- 11 : 0 25 30 40 89 824 646 1125 1104 999 403 5469                        4   742    140.79 sec
- 12 : 0 25 30 40 89 822 645 1114 1096 994 331 232 5647                    5   742    149.60 sec
- 13 : 0 25 30 40 89 821 645 1113 1096 992 267 153 111 5889                6   742    157.56 sec
- 14 : 0 25 30 40 89 821 645 1113 1096 991 205 84 22 22 5979               8   742    162.32 sec
- 15 : 0 25 30 40 89 821 645 1113 1096 984 194 72 0 0 0 5997               0   742    165.89 sec
-Invariant F[12] : 5997 clauses with 719 flops (out of 1104) (cex = 0, ave = 339.85)
-Verification of invariant with 5997 clauses was successful.  Time =     0.89 sec
-Block = 2936  Oblig = 20032  Clause = 12869  Call =279255 (sat=48.5%)  Cex =   0  Start = 914
-SAT solving =    99.56 sec ( 59.69 %)
-  unsat     =    20.57 sec ( 12.33 %)
-  sat       =    78.99 sec ( 47.36 %)
-Generalize  =   100.72 sec ( 60.39 %)
-Push clause =    25.57 sec ( 15.33 %)
-Ternary sim =    38.32 sec ( 22.97 %)
-Containment =    10.78 sec (  6.47 %)
-CNF compute =     2.08 sec (  1.25 %)
-Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =   166.79 sec (100.00 %)
-Property proved.  Time =   166.82 sec
+  4 : 0 25 36 64 294                                                      5   368      3.69 sec
+  5 : 0 25 32 37 27 720                                                   4   426      8.63 sec
+  6 : 0 25 29 53 57 495 1692                                              5   582     23.53 sec
+  7 : 0 25 29 68 69 603 627 2328                                         13   645     39.28 sec
+  8 : 0 25 29 77 76 752 560 973 3602                                      7   680     65.76 sec
+slurmstepd-thanos12: error: *** JOB 72724 ON thanos12 CANCELLED AT 2022-12-21T17:13:17 DUE TO TIME LIMIT ***

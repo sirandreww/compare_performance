@@ -1,2 +1,21 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-slurmstepd-thanos11: error: *** JOB 69490 ON thanos11 CANCELLED AT 2022-12-01T00:33:24 DUE TO TIME LIMIT ***
+Number of SAT calls = 2
+Time since start = 0.020240858
+Time in SAT calls = 0.003378043
+IC3 is on k = 2, clauses lengths = [0, 25, 27, 0]
+Number of SAT calls = 19477
+Time since start = 4.167632
+Time in SAT calls = 3.8953912
+IC3 is on k = 3, clauses lengths = [0, 102, 106, 110, 0]
+Number of SAT calls = 80236
+Time since start = 17.814785
+Time in SAT calls = 16.75978
+IC3 is on k = 3, clauses lengths = [384, 384, 398, 402, 0]
+Number of SAT calls = 298419
+Time since start = 69.78812
+Time in SAT calls = 65.90079
+Elapsed time = 69.788185
+Safe, checking invariant.
+Invariant check passed!
+74.15user 0.01system 1:14.18elapsed 99%CPU (0avgtext+0avgdata 56468maxresident)k
+40inputs+16outputs (0major+13910minor)pagefaults 0swaps

@@ -1,5 +1,41 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 594, 592, 0]
-IC3 is on k = 3, clauses lengths = [0, 1065, 1048, 1009, 0]
-IC3 is on k = 4, clauses lengths = [0, 1747, 1727, 1688, 1394, 0]
-slurmstepd-thanos5: error: *** JOB 69577 ON thanos5 CANCELLED AT 2022-11-30T23:45:24 DUE TO TIME LIMIT ***
+Number of SAT calls = 2
+Time since start = 0.007964714
+Time in SAT calls = 0.001571615
+IC3 is on k = 2, clauses lengths = [0, 121, 129, 0]
+Number of SAT calls = 20903
+Time since start = 0.95323765
+Time in SAT calls = 0.8814721
+IC3 is on k = 3, clauses lengths = [0, 195, 203, 206, 0]
+Number of SAT calls = 33933
+Time since start = 1.6007423
+Time in SAT calls = 1.4870789
+IC3 is on k = 4, clauses lengths = [0, 304, 328, 349, 355, 0]
+Number of SAT calls = 66055
+Time since start = 2.8434858
+Time in SAT calls = 2.6319993
+IC3 is on k = 5, clauses lengths = [0, 599, 749, 786, 809, 815, 0]
+Number of SAT calls = 145434
+Time since start = 7.2339177
+Time in SAT calls = 6.77419
+IC3 is on k = 6, clauses lengths = [0, 925, 1114, 1277, 1315, 1338, 1344, 0]
+Number of SAT calls = 239139
+Time since start = 13.08006
+Time in SAT calls = 12.324792
+IC3 is on k = 7, clauses lengths = [0, 1159, 1544, 1728, 1889, 1927, 1950, 1956, 0]
+Number of SAT calls = 349417
+Time since start = 20.790512
+Time in SAT calls = 19.688622
+IC3 is on k = 8, clauses lengths = [0, 1466, 2042, 2421, 2596, 2750, 2788, 2811, 2817, 0]
+Number of SAT calls = 508763
+Time since start = 32.407238
+Time in SAT calls = 30.803387
+IC3 is on k = 9, clauses lengths = [0, 2543, 3250, 3810, 4122, 4280, 4430, 4468, 4491, 4497]
+Number of SAT calls = 822804
+Time since start = 57.181335
+Time in SAT calls = 54.563255
+IC3 is on k = 10, clauses lengths = [0, 2412, 3162, 3928, 4502, 4825, 4988, 5138, 5176, 5199]
+Number of SAT calls = 987645
+Time since start = 71.535194
+Time in SAT calls = 68.42358
+slurmstepd-thanos12: error: *** JOB 72331 ON thanos12 CANCELLED AT 2022-12-21T09:55:13 DUE TO TIME LIMIT ***

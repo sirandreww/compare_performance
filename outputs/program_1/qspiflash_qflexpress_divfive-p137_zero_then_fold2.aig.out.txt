@@ -1,6 +1,41 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 1024, 1012, 0]
-IC3 is on k = 3, clauses lengths = [0, 1024, 1012, 816, 0]
-IC3 is on k = 4, clauses lengths = [0, 1330, 1318, 1264, 1059, 0]
-IC3 is on k = 5, clauses lengths = [0, 1844, 1832, 1771, 1714, 1487, 0]
-slurmstepd-thanos8: error: *** JOB 69612 ON thanos8 CANCELLED AT 2022-12-01T02:08:54 DUE TO TIME LIMIT ***
+Number of SAT calls = 2
+Time since start = 0.011697143
+Time in SAT calls = 0.002108395
+IC3 is on k = 2, clauses lengths = [0, 279, 289, 0]
+Number of SAT calls = 48363
+Time since start = 2.464468
+Time in SAT calls = 2.2981763
+IC3 is on k = 3, clauses lengths = [0, 332, 354, 361, 0]
+Number of SAT calls = 61503
+Time since start = 3.0989516
+Time in SAT calls = 2.8873668
+IC3 is on k = 4, clauses lengths = [0, 474, 492, 511, 518, 0]
+Number of SAT calls = 89076
+Time since start = 4.543208
+Time in SAT calls = 4.243587
+IC3 is on k = 5, clauses lengths = [0, 384, 487, 505, 524, 531, 0]
+Number of SAT calls = 93282
+Time since start = 4.722742
+Time in SAT calls = 4.412301
+IC3 is on k = 6, clauses lengths = [0, 1327, 1511, 1701, 1739, 1764, 1769, 0]
+Number of SAT calls = 336380
+Time since start = 17.869593
+Time in SAT calls = 16.76873
+IC3 is on k = 7, clauses lengths = [0, 1132, 1327, 1511, 1701, 1739, 1764, 1769, 0]
+Number of SAT calls = 346192
+Time since start = 18.22115
+Time in SAT calls = 17.107822
+IC3 is on k = 8, clauses lengths = [0, 944, 1132, 1327, 1511, 1701, 1739, 1764, 1769, 0]
+Number of SAT calls = 357136
+Time since start = 18.637314
+Time in SAT calls = 17.51022
+IC3 is on k = 9, clauses lengths = [0, 1184, 1240, 1330, 1496, 1670, 1860, 1898, 1923, 1928]
+Number of SAT calls = 400289
+Time since start = 20.692436
+Time in SAT calls = 19.449081
+IC3 is on k = 10, clauses lengths = [0, 1010, 1184, 1240, 1330, 1496, 1670, 1860, 1898, 1923]
+Number of SAT calls = 414819
+Time since start = 21.172777
+Time in SAT calls = 19.911306
+slurmstepd-thanos12: error: *** JOB 72422 ON thanos12 CANCELLED AT 2022-12-21T11:50:14 DUE TO TIME LIMIT ***

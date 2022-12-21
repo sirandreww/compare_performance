@@ -1,11 +1,33 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 127, 124, 0]
-IC3 is on k = 3, clauses lengths = [0, 128, 125, 120, 0]
-IC3 is on k = 4, clauses lengths = [0, 166, 163, 158, 156, 0]
-IC3 is on k = 5, clauses lengths = [0, 1038, 1029, 1009, 979, 887, 0]
-IC3 is on k = 6, clauses lengths = [0, 1038, 1029, 1009, 979, 887, 697, 0]
-IC3 is on k = 7, clauses lengths = [0, 1038, 1029, 1009, 979, 887, 697, 507, 0]
-IC3 is on k = 8, clauses lengths = [0, 1038, 1029, 1009, 979, 887, 697, 507, 480, 0]
-IC3 is on k = 9, clauses lengths = [0, 1038, 1029, 1009, 979, 887, 697, 507, 480, 461, 0]
-IC3 is on k = 10, clauses lengths = [0, 1038, 1029, 1009, 979, 887, 697, 507, 480, 461, 453, 0]
-slurmstepd-thanos11: error: *** JOB 69390 ON thanos11 CANCELLED AT 2022-11-30T23:18:54 DUE TO TIME LIMIT ***
+Number of SAT calls = 2
+Time since start = 0.013009381
+Time in SAT calls = 0.00237798
+IC3 is on k = 2, clauses lengths = [0, 201, 213, 0]
+Number of SAT calls = 42938
+Time since start = 2.4105968
+Time in SAT calls = 2.23768
+IC3 is on k = 3, clauses lengths = [0, 184, 201, 213, 0]
+Number of SAT calls = 43353
+Time since start = 2.428218
+Time in SAT calls = 2.2528126
+IC3 is on k = 4, clauses lengths = [0, 415, 454, 472, 474, 0]
+Number of SAT calls = 101248
+Time since start = 5.5662756
+Time in SAT calls = 5.17183
+IC3 is on k = 5, clauses lengths = [0, 531, 598, 639, 659, 661, 0]
+Number of SAT calls = 142383
+Time since start = 8.094095
+Time in SAT calls = 7.547009
+IC3 is on k = 6, clauses lengths = [0, 404, 531, 598, 639, 659, 661, 0]
+Number of SAT calls = 145472
+Time since start = 8.224713
+Time in SAT calls = 7.6725607
+IC3 is on k = 7, clauses lengths = [0, 318, 404, 531, 598, 639, 659, 661, 0]
+Number of SAT calls = 148965
+Time since start = 8.385039
+Time in SAT calls = 7.8273687
+IC3 is on k = 8, clauses lengths = [0, 388, 450, 547, 684, 751, 792, 812, 814, 0]
+Number of SAT calls = 187553
+Time since start = 10.809589
+Time in SAT calls = 10.11154
+slurmstepd-thanos12: error: *** JOB 72428 ON thanos12 CANCELLED AT 2022-12-21T11:57:44 DUE TO TIME LIMIT ***

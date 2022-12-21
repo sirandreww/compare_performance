@@ -4,27 +4,29 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.00 sec
   2 : 0 10 38                                                             3    41      0.01 sec
-  3 : 0 5 27 71                                                           3    54      0.03 sec
+  3 : 0 5 27 71                                                           3    54      0.02 sec
   4 : 0 4 25 93 114                                                       5    61      0.07 sec
   5 : 0 4 24 71 140 151                                                   4    68      0.15 sec
   6 : 0 4 24 70 121 287 266                                               8    75      0.35 sec
-  7 : 0 4 24 70 119 232 458 377                                          10    82      0.72 sec
-  8 : 0 4 24 70 119 225 393 670 466                                      10    89      1.30 sec
+  7 : 0 4 24 70 119 232 458 377                                          10    82      0.73 sec
+  8 : 0 4 24 70 119 225 393 670 466                                      10    89      1.31 sec
   9 : 0 4 24 70 119 221 356 552 878 612                                  11    96      2.18 sec
  10 : 0 4 24 71 121 230 373 540 769 1301 836                             37   104      3.85 sec
- 11 : 0 4 24 69 120 206 283 407 612 927 1546 1163                        17   112      6.28 sec
- 12 : 0 4 24 69 120 204 265 399 590 720 1090 1668 611                    16   120      7.65 sec
- 13 : 0 4 24 69 119 203 267 399 588 711 1121 1575 1890 1420              26   128     11.83 sec
- 14 : 0 4 24 69 119 186 281 398 578 683 1003 1240 1368 1823 637          45   128     13.97 sec
+ 11 : 0 4 24 69 120 206 283 407 612 927 1546 1163                        17   112      6.29 sec
+ 12 : 0 4 24 69 120 204 265 399 590 720 1090 1668 611                    16   120      7.68 sec
+ 13 : 0 4 24 69 119 203 267 399 588 711 1121 1575 1890 1420              26   128     11.90 sec
+ 14 : 0 4 24 69 119 186 281 398 578 683 1003 1240 1368 1823 637          45   128     14.04 sec
 Block = 2166  Oblig = 16440  Clause = 11214  Call =221510 (sat=71.6%)  Cex =   0  Start = 726
-SAT solving =    11.84 sec ( 84.69 %)
-  unsat     =     2.69 sec ( 19.24 %)
-  sat       =     9.15 sec ( 65.45 %)
-Generalize  =    10.01 sec ( 71.67 %)
-Push clause =     2.70 sec ( 19.30 %)
+SAT solving =    11.89 sec ( 84.63 %)
+  unsat     =     2.68 sec ( 19.05 %)
+  sat       =     9.22 sec ( 65.58 %)
+Generalize  =    10.08 sec ( 71.72 %)
+Push clause =     2.69 sec ( 19.18 %)
 Ternary sim =     0.23 sec (  1.61 %)
 Containment =     0.05 sec (  0.34 %)
-CNF compute =     0.57 sec (  4.10 %)
+CNF compute =     0.58 sec (  4.11 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    13.97 sec (100.00 %)
-Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/circular_pointer_top_w8_d16_e0_zero_then_fold2" was asserted in frame 35.  Time =    13.98 sec
+TOTAL       =    14.05 sec (100.00 %)
+Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/circular_pointer_top_w8_d16_e0_zero_then_fold2" was asserted in frame 35.  Time =    14.06 sec
+13.52user 0.56system 0:14.10elapsed 99%CPU (0avgtext+0avgdata 46944maxresident)k
+0inputs+8outputs (0major+10046minor)pagefaults 0swaps

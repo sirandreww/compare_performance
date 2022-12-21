@@ -4,7 +4,7 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 11                                                                1    11      0.00 sec
   2 : 0 30 25                                                            10    35      0.00 sec
-  3 : 0 5 9 24                                                            2    36      0.00 sec
+  3 : 0 5 9 24                                                            2    36      0.01 sec
   4 : 0 5 8 13 21                                                         3    38      0.01 sec
   5 : 0 5 8 5 4 17                                                        0    38      0.01 sec
   6 : 0 5 8 5 4 4 13                                                      0    38      0.01 sec
@@ -18,14 +18,16 @@ Frame Clauses                                                     Max Queue Flop
 Invariant F[12] : 250 clauses with 84 flops (out of 113) (cex = 0, ave = 10.26)
 Verification of invariant with 250 clauses was successful.  Time =     0.00 sec
 Block =   53  Oblig =   678  Clause =   365  Call =  4042 (sat=50.3%)  Cex =   0  Start =   5
-SAT solving =     0.04 sec ( 53.02 %)
-  unsat     =     0.00 sec (  6.30 %)
-  sat       =     0.04 sec ( 46.71 %)
-Generalize  =     0.04 sec ( 46.31 %)
-Push clause =     0.01 sec ( 13.12 %)
-Ternary sim =     0.00 sec (  5.27 %)
-Containment =     0.00 sec (  0.45 %)
+SAT solving =     0.04 sec ( 52.48 %)
+  unsat     =     0.01 sec (  6.29 %)
+  sat       =     0.04 sec ( 46.19 %)
+Generalize  =     0.04 sec ( 45.88 %)
+Push clause =     0.01 sec ( 12.93 %)
+Ternary sim =     0.00 sec (  5.25 %)
+Containment =     0.00 sec (  0.42 %)
 CNF compute =     0.00 sec (  4.69 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.08 sec (100.00 %)
 Property proved.  Time =     0.08 sec
+0.07user 0.02system 0:00.10elapsed 96%CPU (0avgtext+0avgdata 37276maxresident)k
+0inputs+8outputs (0major+7659minor)pagefaults 0swaps

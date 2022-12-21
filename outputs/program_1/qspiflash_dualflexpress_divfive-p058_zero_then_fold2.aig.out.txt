@@ -1,4 +1,93 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 344, 340, 0]
-IC3 is on k = 3, clauses lengths = [0, 817, 812, 796, 0]
-slurmstepd-thanos6: error: *** JOB 69514 ON thanos6 CANCELLED AT 2022-12-01T00:53:24 DUE TO TIME LIMIT ***
+Number of SAT calls = 2
+Time since start = 0.006924373
+Time in SAT calls = 0.001156327
+IC3 is on k = 2, clauses lengths = [0, 167, 172, 0]
+Number of SAT calls = 29221
+Time since start = 1.5161579
+Time in SAT calls = 1.4135362
+IC3 is on k = 3, clauses lengths = [0, 272, 284, 287, 0]
+Number of SAT calls = 50355
+Time since start = 2.482754
+Time in SAT calls = 2.3105333
+IC3 is on k = 4, clauses lengths = [0, 468, 488, 509, 513, 0]
+Number of SAT calls = 101379
+Time since start = 4.5822287
+Time in SAT calls = 4.2455916
+IC3 is on k = 5, clauses lengths = [0, 457, 468, 488, 509, 513, 0]
+Number of SAT calls = 103358
+Time since start = 4.6147075
+Time in SAT calls = 4.274423
+IC3 is on k = 6, clauses lengths = [0, 441, 457, 468, 488, 509, 513, 0]
+Number of SAT calls = 105794
+Time since start = 4.653224
+Time in SAT calls = 4.3089013
+IC3 is on k = 7, clauses lengths = [0, 402, 474, 490, 501, 521, 542, 546, 0]
+Number of SAT calls = 114446
+Time since start = 5.005569
+Time in SAT calls = 4.638121
+IC3 is on k = 8, clauses lengths = [0, 1183, 1248, 1326, 1355, 1371, 1390, 1411, 1415, 0]
+Number of SAT calls = 309497
+Time since start = 17.76181
+Time in SAT calls = 16.741068
+IC3 is on k = 9, clauses lengths = [0, 1265, 1320, 1368, 1444, 1473, 1489, 1508, 1529, 1533]
+Number of SAT calls = 342211
+Time since start = 19.053658
+Time in SAT calls = 17.944952
+IC3 is on k = 10, clauses lengths = [0, 1235, 1306, 1353, 1401, 1477, 1506, 1522, 1541, 1562]
+Number of SAT calls = 361507
+Time since start = 19.612602
+Time in SAT calls = 18.466433
+IC3 is on k = 11, clauses lengths = [0, 1383, 1395, 1406, 1434, 1478, 1551, 1580, 1596, 1615]
+Number of SAT calls = 390886
+Time since start = 20.68816
+Time in SAT calls = 19.474312
+IC3 is on k = 12, clauses lengths = [0, 1377, 1383, 1395, 1406, 1434, 1478, 1551, 1580, 1596]
+Number of SAT calls = 407601
+Time since start = 20.96909
+Time in SAT calls = 19.734694
+IC3 is on k = 13, clauses lengths = [0, 1368, 1377, 1383, 1395, 1406, 1434, 1478, 1551, 1580]
+Number of SAT calls = 425693
+Time since start = 21.260427
+Time in SAT calls = 20.003746
+IC3 is on k = 14, clauses lengths = [0, 1352, 1368, 1377, 1383, 1395, 1406, 1434, 1478, 1551]
+Number of SAT calls = 445153
+Time since start = 21.56696
+Time in SAT calls = 20.286274
+IC3 is on k = 15, clauses lengths = [0, 1666, 1691, 1718, 1744, 1772, 1795, 1821, 1852, 1895]
+Number of SAT calls = 571616
+Time since start = 27.292969
+Time in SAT calls = 25.62398
+IC3 is on k = 16, clauses lengths = [0, 1638, 1666, 1691, 1718, 1744, 1772, 1795, 1821, 1852]
+Number of SAT calls = 599646
+Time since start = 27.747957
+Time in SAT calls = 26.043623
+IC3 is on k = 17, clauses lengths = [0, 1688, 1749, 1776, 1801, 1828, 1854, 1882, 1905, 1931]
+Number of SAT calls = 650081
+Time since start = 29.190878
+Time in SAT calls = 27.38008
+IC3 is on k = 18, clauses lengths = [0, 1868, 1910, 1959, 1985, 2009, 2036, 2062, 2090, 2113]
+Number of SAT calls = 723997
+Time since start = 31.88066
+Time in SAT calls = 29.892294
+IC3 is on k = 19, clauses lengths = [0, 1850, 1868, 1910, 1959, 1985, 2009, 2036, 2062, 2090]
+Number of SAT calls = 762535
+Time since start = 32.48572
+Time in SAT calls = 30.448757
+IC3 is on k = 20, clauses lengths = [0, 1816, 1850, 1868, 1910, 1959, 1985, 2009, 2036, 2062]
+Number of SAT calls = 802923
+Time since start = 33.11922
+Time in SAT calls = 31.03082
+IC3 is on k = 21, clauses lengths = [0, 1991, 1996, 2016, 2027, 2068, 2117, 2143, 2167, 2194]
+Number of SAT calls = 875742
+Time since start = 35.35741
+Time in SAT calls = 33.114246
+IC3 is on k = 21, clauses lengths = [1991, 1991, 1996, 2016, 2027, 2068, 2117, 2143, 2167, 2194]
+Number of SAT calls = 923062
+Time since start = 36.057533
+Time in SAT calls = 33.755592
+Elapsed time = 36.05767
+Safe, checking invariant.
+Invariant check passed!
+44.89user 0.02system 0:44.93elapsed 99%CPU (0avgtext+0avgdata 118940maxresident)k
+16inputs+16outputs (0major+29043minor)pagefaults 0swaps

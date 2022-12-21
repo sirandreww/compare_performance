@@ -1,8 +1,37 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 88, 87, 0]
-IC3 is on k = 3, clauses lengths = [0, 219, 214, 202, 0]
-IC3 is on k = 4, clauses lengths = [0, 441, 436, 424, 398, 0]
-IC3 is on k = 5, clauses lengths = [0, 457, 452, 440, 414, 331, 0]
-IC3 is on k = 6, clauses lengths = [0, 1055, 1050, 1038, 1010, 916, 733, 0]
-IC3 is on k = 7, clauses lengths = [0, 1730, 1725, 1713, 1685, 1592, 1380, 911, 0]
-slurmstepd-thanos4: error: *** JOB 69562 ON thanos4 CANCELLED AT 2022-12-01T01:26:54 DUE TO TIME LIMIT ***
+Number of SAT calls = 2
+Time since start = 0.007710257
+Time in SAT calls = 0.001587424
+IC3 is on k = 2, clauses lengths = [0, 72, 74, 0]
+Number of SAT calls = 10722
+Time since start = 0.40113002
+Time in SAT calls = 0.36458927
+IC3 is on k = 3, clauses lengths = [0, 210, 215, 219, 0]
+Number of SAT calls = 32562
+Time since start = 1.2110122
+Time in SAT calls = 1.1129632
+IC3 is on k = 4, clauses lengths = [0, 238, 268, 279, 286, 0]
+Number of SAT calls = 44459
+Time since start = 1.6076345
+Time in SAT calls = 1.4771663
+IC3 is on k = 5, clauses lengths = [0, 347, 391, 422, 431, 438, 0]
+Number of SAT calls = 68395
+Time since start = 2.5918694
+Time in SAT calls = 2.3945005
+IC3 is on k = 6, clauses lengths = [0, 524, 658, 709, 740, 749, 756, 0]
+Number of SAT calls = 118081
+Time since start = 5.1694593
+Time in SAT calls = 4.829202
+IC3 is on k = 7, clauses lengths = [0, 759, 1125, 1254, 1308, 1334, 1343, 1350, 0]
+Number of SAT calls = 212317
+Time since start = 11.411332
+Time in SAT calls = 10.79372
+IC3 is on k = 8, clauses lengths = [0, 1679, 2314, 2617, 2725, 2779, 2805, 2814, 2821, 0]
+Number of SAT calls = 445181
+Time since start = 32.16809
+Time in SAT calls = 30.854458
+IC3 is on k = 9, clauses lengths = [0, 2768, 4114, 4534, 4796, 4897, 4951, 4977, 4986, 4993]
+Number of SAT calls = 801210
+Time since start = 75.43686
+Time in SAT calls = 73.03648
+slurmstepd-thanos12: error: *** JOB 72430 ON thanos12 CANCELLED AT 2022-12-21T12:00:44 DUE TO TIME LIMIT ***

@@ -1,10 +1,40 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 2, 1, 0]
-IC3 is on k = 3, clauses lengths = [0, 5, 4, 2, 0]
-IC3 is on k = 4, clauses lengths = [0, 10, 9, 7, 3, 0]
-IC3 is on k = 5, clauses lengths = [0, 28, 27, 25, 19, 13, 0]
-IC3 is on k = 6, clauses lengths = [0, 28, 27, 25, 19, 13, 4, 0]
-IC3 is on k = 7, clauses lengths = [0, 411, 410, 405, 380, 333, 252, 168, 0]
-IC3 is on k = 8, clauses lengths = [0, 411, 410, 405, 380, 333, 252, 168, 27, 0]
-IC3 is on k = 9, clauses lengths = [0, 411, 410, 405, 380, 333, 252, 168, 27, 4, 0]
-slurmstepd-thanos1: error: *** JOB 69387 ON thanos1 CANCELLED AT 2022-11-30T23:18:54 DUE TO TIME LIMIT ***
+Number of SAT calls = 2
+Time since start = 0.015229475
+Time in SAT calls = 0.002918983
+IC3 is on k = 2, clauses lengths = [0, 1, 2, 0]
+Number of SAT calls = 465
+Time since start = 0.04942883
+Time in SAT calls = 0.031286415
+IC3 is on k = 3, clauses lengths = [0, 3, 5, 6, 0]
+Number of SAT calls = 1629
+Time since start = 0.1930745
+Time in SAT calls = 0.16576074
+IC3 is on k = 4, clauses lengths = [0, 3, 8, 10, 11, 0]
+Number of SAT calls = 2810
+Time since start = 0.31061772
+Time in SAT calls = 0.27416727
+IC3 is on k = 5, clauses lengths = [0, 20, 34, 48, 51, 52, 0]
+Number of SAT calls = 12427
+Time since start = 1.638969
+Time in SAT calls = 1.5554204
+IC3 is on k = 6, clauses lengths = [0, 1, 21, 35, 49, 52, 53, 0]
+Number of SAT calls = 12869
+Time since start = 1.7171723
+Time in SAT calls = 1.6282465
+IC3 is on k = 7, clauses lengths = [0, 16, 24, 46, 60, 74, 77, 78, 0]
+Number of SAT calls = 18979
+Time since start = 2.739071
+Time in SAT calls = 2.6179638
+IC3 is on k = 8, clauses lengths = [0, 7, 22, 31, 53, 67, 81, 84, 85, 0]
+Number of SAT calls = 21015
+Time since start = 3.1071844
+Time in SAT calls = 2.9730594
+IC3 is on k = 9, clauses lengths = [0, 4, 11, 26, 35, 57, 71, 85, 88, 89]
+Number of SAT calls = 22629
+Time since start = 3.3113818
+Time in SAT calls = 3.1670299
+Elapsed time = 19.44732
+Unsafe, depth = 9
+19.44user 0.01system 0:19.47elapsed 99%CPU (0avgtext+0avgdata 59440maxresident)k
+0inputs+8outputs (0major+14375minor)pagefaults 0swaps

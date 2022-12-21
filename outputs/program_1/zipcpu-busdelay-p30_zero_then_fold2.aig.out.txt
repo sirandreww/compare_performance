@@ -1,8 +1,37 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 207, 204, 0]
-IC3 is on k = 3, clauses lengths = [0, 327, 324, 322, 0]
-IC3 is on k = 4, clauses lengths = [0, 373, 370, 368, 329, 0]
-IC3 is on k = 5, clauses lengths = [0, 576, 573, 570, 538, 473, 0]
-IC3 is on k = 6, clauses lengths = [0, 678, 675, 672, 640, 574, 437, 0]
-IC3 is on k = 7, clauses lengths = [0, 1595, 1592, 1589, 1558, 1497, 1327, 1009, 0]
-slurmstepd-thanos8: error: *** JOB 69466 ON thanos8 CANCELLED AT 2022-12-01T00:13:24 DUE TO TIME LIMIT ***
+Number of SAT calls = 2
+Time since start = 0.008374674
+Time in SAT calls = 0.001688313
+IC3 is on k = 2, clauses lengths = [0, 74, 75, 0]
+Number of SAT calls = 10851
+Time since start = 0.38304
+Time in SAT calls = 0.34373054
+IC3 is on k = 3, clauses lengths = [0, 76, 91, 93, 0]
+Number of SAT calls = 13624
+Time since start = 0.47462854
+Time in SAT calls = 0.42699456
+IC3 is on k = 4, clauses lengths = [0, 118, 128, 143, 145, 0]
+Number of SAT calls = 22222
+Time since start = 0.7579811
+Time in SAT calls = 0.6846119
+IC3 is on k = 5, clauses lengths = [0, 335, 363, 387, 403, 405, 0]
+Number of SAT calls = 63185
+Time since start = 2.4729493
+Time in SAT calls = 2.2829773
+IC3 is on k = 6, clauses lengths = [0, 468, 576, 623, 651, 666, 668, 0]
+Number of SAT calls = 104974
+Time since start = 4.597898
+Time in SAT calls = 4.287396
+IC3 is on k = 7, clauses lengths = [0, 725, 984, 1113, 1168, 1195, 1210, 1212, 0]
+Number of SAT calls = 190695
+Time since start = 10.039469
+Time in SAT calls = 9.477359
+IC3 is on k = 8, clauses lengths = [0, 1358, 1863, 2100, 2244, 2300, 2327, 2342, 2344, 0]
+Number of SAT calls = 373374
+Time since start = 24.883541
+Time in SAT calls = 23.774727
+IC3 is on k = 9, clauses lengths = [0, 2366, 3528, 3962, 4215, 4366, 4419, 4445, 4460, 4462]
+Number of SAT calls = 721878
+Time since start = 59.78943
+Time in SAT calls = 57.61069
+slurmstepd-thanos12: error: *** JOB 72565 ON thanos12 CANCELLED AT 2022-12-21T14:48:15 DUE TO TIME LIMIT ***

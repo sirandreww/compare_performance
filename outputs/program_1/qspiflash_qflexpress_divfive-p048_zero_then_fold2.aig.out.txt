@@ -1,11 +1,41 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 231, 211, 0]
-IC3 is on k = 3, clauses lengths = [0, 1206, 1164, 995, 0]
-IC3 is on k = 4, clauses lengths = [0, 1391, 1349, 1179, 951, 0]
-IC3 is on k = 5, clauses lengths = [0, 1414, 1372, 1202, 975, 922, 0]
-IC3 is on k = 6, clauses lengths = [0, 1699, 1657, 1492, 1283, 1230, 1212, 0]
-IC3 is on k = 7, clauses lengths = [0, 1699, 1657, 1492, 1283, 1230, 1212, 1209, 0]
-IC3 is on k = 7, clauses lengths = [0, 1699, 1657, 1492, 1283, 1230, 1212, 1209, 1209]
-Elapsed time = 568.22864
+Number of SAT calls = 2
+Time since start = 0.006867895
+Time in SAT calls = 0.00141172
+IC3 is on k = 2, clauses lengths = [0, 243, 255, 0]
+Number of SAT calls = 40554
+Time since start = 1.8784351
+Time in SAT calls = 1.7470934
+IC3 is on k = 3, clauses lengths = [0, 216, 243, 255, 0]
+Number of SAT calls = 41053
+Time since start = 1.8963622
+Time in SAT calls = 1.7628882
+IC3 is on k = 4, clauses lengths = [0, 212, 216, 243, 255, 0]
+Number of SAT calls = 41768
+Time since start = 1.9160037
+Time in SAT calls = 1.780206
+IC3 is on k = 5, clauses lengths = [0, 1052, 1142, 1227, 1281, 1298, 0]
+Number of SAT calls = 227544
+Time since start = 12.187407
+Time in SAT calls = 11.466499
+IC3 is on k = 6, clauses lengths = [0, 1057, 1138, 1216, 1299, 1351, 1368, 0]
+Number of SAT calls = 245856
+Time since start = 13.063868
+Time in SAT calls = 12.296429
+IC3 is on k = 7, clauses lengths = [0, 1161, 1186, 1235, 1302, 1379, 1431, 1448, 0]
+Number of SAT calls = 269479
+Time since start = 14.09892
+Time in SAT calls = 13.270717
+IC3 is on k = 8, clauses lengths = [0, 1111, 1161, 1186, 1235, 1302, 1379, 1431, 1448, 0]
+Number of SAT calls = 278622
+Time since start = 14.352184
+Time in SAT calls = 13.512101
+IC3 is on k = 8, clauses lengths = [1234, 1234, 1234, 1234, 1245, 1311, 1388, 1440, 1457, 0]
+Number of SAT calls = 291674
+Time since start = 14.690983
+Time in SAT calls = 13.831227
+Elapsed time = 14.691169
 Safe, checking invariant.
 Invariant check passed!
+19.93user 0.00system 0:19.95elapsed 99%CPU (0avgtext+0avgdata 48224maxresident)k
+16inputs+8outputs (0major+11373minor)pagefaults 0swaps

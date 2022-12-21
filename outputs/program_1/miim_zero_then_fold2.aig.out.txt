@@ -1,58 +1,213 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 13, 10, 0]
-IC3 is on k = 3, clauses lengths = [0, 13, 10, 6, 0]
-IC3 is on k = 4, clauses lengths = [0, 37, 34, 32, 29, 0]
-IC3 is on k = 5, clauses lengths = [0, 37, 34, 32, 29, 28, 0]
-IC3 is on k = 6, clauses lengths = [0, 37, 34, 32, 29, 28, 24, 0]
-IC3 is on k = 7, clauses lengths = [0, 60, 57, 55, 52, 51, 50, 47, 0]
-IC3 is on k = 8, clauses lengths = [0, 155, 152, 149, 148, 146, 144, 142, 140, 0]
-IC3 is on k = 9, clauses lengths = [0, 155, 152, 149, 148, 146, 144, 142, 140, 138, 0]
-IC3 is on k = 10, clauses lengths = [0, 155, 152, 149, 148, 146, 144, 142, 140, 138, 135, 0]
-IC3 is on k = 11, clauses lengths = [0, 155, 152, 149, 148, 146, 144, 142, 140, 138, 135, 132, 0]
-IC3 is on k = 12, clauses lengths = [0, 155, 152, 149, 148, 146, 144, 142, 140, 138, 135, 132, 128, 0]
-IC3 is on k = 13, clauses lengths = [0, 155, 152, 149, 148, 146, 144, 142, 140, 138, 135, 132, 128, 124, 0]
-IC3 is on k = 14, clauses lengths = [0, 155, 152, 149, 148, 146, 144, 142, 140, 138, 135, 132, 128, 124, 123, 0]
-IC3 is on k = 15, clauses lengths = [0, 155, 152, 149, 148, 146, 144, 142, 140, 138, 135, 132, 128, 124, 123, 121, 0]
-IC3 is on k = 16, clauses lengths = [0, 155, 152, 149, 148, 146, 144, 142, 140, 138, 135, 132, 128, 124, 123, 121, 120, 0]
-IC3 is on k = 17, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 0]
-IC3 is on k = 18, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 0]
-IC3 is on k = 19, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 0]
-IC3 is on k = 20, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 0]
-IC3 is on k = 21, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 0]
-IC3 is on k = 22, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 0]
-IC3 is on k = 23, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 0]
-IC3 is on k = 24, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 0]
-IC3 is on k = 25, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 0]
-IC3 is on k = 26, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 0]
-IC3 is on k = 27, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 0]
-IC3 is on k = 28, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 0]
-IC3 is on k = 29, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 152, 0]
-IC3 is on k = 30, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 152, 150, 0]
-IC3 is on k = 31, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 152, 150, 147, 0]
-IC3 is on k = 32, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 152, 150, 147, 145, 0]
-IC3 is on k = 33, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 152, 150, 147, 145, 144, 0]
-IC3 is on k = 34, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 152, 150, 147, 145, 144, 142, 0]
-IC3 is on k = 35, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 152, 150, 147, 145, 144, 142, 141, 0]
-IC3 is on k = 36, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 152, 150, 147, 145, 144, 142, 141, 140, 0]
-IC3 is on k = 37, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 152, 150, 147, 145, 144, 142, 141, 140, 138, 0]
-IC3 is on k = 38, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 152, 150, 147, 145, 144, 142, 141, 140, 138, 136, 0]
-IC3 is on k = 39, clauses lengths = [0, 228, 225, 222, 221, 219, 217, 215, 213, 211, 208, 205, 201, 197, 194, 189, 187, 181, 177, 172, 169, 167, 165, 164, 161, 159, 158, 156, 154, 152, 150, 147, 145, 144, 142, 141, 140, 138, 136, 134, 0]
-IC3 is on k = 40, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 0]
-IC3 is on k = 41, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 0]
-IC3 is on k = 42, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 0]
-IC3 is on k = 43, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 0]
-IC3 is on k = 44, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 0]
-IC3 is on k = 45, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 448, 0]
-IC3 is on k = 46, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 448, 447, 0]
-IC3 is on k = 47, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 448, 447, 444, 0]
-IC3 is on k = 48, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 448, 447, 444, 442, 0]
-IC3 is on k = 49, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 448, 447, 444, 442, 440, 0]
-IC3 is on k = 50, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 448, 447, 444, 442, 440, 438, 0]
-IC3 is on k = 51, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 448, 447, 444, 442, 440, 438, 436, 0]
-IC3 is on k = 52, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 448, 447, 444, 442, 440, 438, 436, 433, 0]
-IC3 is on k = 53, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 448, 447, 444, 442, 440, 438, 436, 433, 430, 0]
-IC3 is on k = 54, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 448, 447, 444, 442, 440, 438, 436, 433, 430, 429, 0]
-IC3 is on k = 54, clauses lengths = [0, 613, 611, 607, 602, 598, 594, 587, 583, 579, 574, 571, 568, 564, 560, 555, 545, 537, 533, 530, 527, 524, 520, 517, 509, 503, 497, 493, 490, 488, 484, 482, 478, 477, 475, 473, 470, 467, 465, 464, 462, 460, 457, 454, 451, 448, 447, 444, 442, 440, 438, 436, 433, 430, 429, 429]
-Elapsed time = 329.41486
+Number of SAT calls = 2
+Time since start = 0.004911131
+Time in SAT calls = 0.00091437
+IC3 is on k = 2, clauses lengths = [0, 2, 3, 0]
+Number of SAT calls = 119
+Time since start = 0.008928951
+Time in SAT calls = 0.003762857
+IC3 is on k = 3, clauses lengths = [0, 15, 17, 20, 0]
+Number of SAT calls = 811
+Time since start = 0.026248958
+Time in SAT calls = 0.019477522
+IC3 is on k = 4, clauses lengths = [0, 12, 15, 17, 20, 0]
+Number of SAT calls = 864
+Time since start = 0.027699208
+Time in SAT calls = 0.020396171
+IC3 is on k = 5, clauses lengths = [0, 10, 12, 15, 17, 20, 0]
+Number of SAT calls = 929
+Time since start = 0.029245915
+Time in SAT calls = 0.021412956
+IC3 is on k = 6, clauses lengths = [0, 59, 61, 62, 63, 65, 68, 0]
+Number of SAT calls = 4345
+Time since start = 0.09667957
+Time in SAT calls = 0.08421077
+IC3 is on k = 7, clauses lengths = [0, 57, 59, 61, 62, 63, 65, 68, 0]
+Number of SAT calls = 4724
+Time since start = 0.09991264
+Time in SAT calls = 0.08664848
+IC3 is on k = 8, clauses lengths = [0, 54, 57, 59, 61, 62, 63, 65, 68, 0]
+Number of SAT calls = 5160
+Time since start = 0.10360656
+Time in SAT calls = 0.08950809
+IC3 is on k = 9, clauses lengths = [0, 52, 55, 58, 60, 62, 63, 64, 66, 69]
+Number of SAT calls = 5697
+Time since start = 0.10875349
+Time in SAT calls = 0.09371239
+IC3 is on k = 10, clauses lengths = [0, 136, 137, 138, 141, 142, 143, 145, 146, 148]
+Number of SAT calls = 13699
+Time since start = 0.23911238
+Time in SAT calls = 0.2140521
+IC3 is on k = 11, clauses lengths = [0, 134, 136, 137, 138, 141, 142, 143, 145, 146]
+Number of SAT calls = 15127
+Time since start = 0.24618317
+Time in SAT calls = 0.21950507
+IC3 is on k = 12, clauses lengths = [0, 132, 134, 136, 137, 138, 141, 142, 143, 145]
+Number of SAT calls = 16689
+Time since start = 0.25384524
+Time in SAT calls = 0.22542764
+IC3 is on k = 13, clauses lengths = [0, 131, 132, 134, 136, 137, 138, 141, 142, 143]
+Number of SAT calls = 18383
+Time since start = 0.2621135
+Time in SAT calls = 0.23185077
+IC3 is on k = 14, clauses lengths = [0, 130, 131, 132, 134, 136, 137, 138, 141, 142]
+Number of SAT calls = 20208
+Time since start = 0.27096993
+Time in SAT calls = 0.23877235
+IC3 is on k = 15, clauses lengths = [0, 128, 130, 131, 132, 134, 136, 137, 138, 141]
+Number of SAT calls = 22163
+Time since start = 0.28042713
+Time in SAT calls = 0.24620213
+IC3 is on k = 16, clauses lengths = [0, 127, 128, 130, 131, 132, 134, 136, 137, 138]
+Number of SAT calls = 24246
+Time since start = 0.29041752
+Time in SAT calls = 0.25405335
+IC3 is on k = 17, clauses lengths = [0, 126, 127, 128, 130, 131, 132, 134, 136, 137]
+Number of SAT calls = 26456
+Time since start = 0.3009747
+Time in SAT calls = 0.26236296
+IC3 is on k = 18, clauses lengths = [0, 122, 126, 127, 128, 130, 131, 132, 134, 136]
+Number of SAT calls = 28792
+Time since start = 0.31237268
+Time in SAT calls = 0.27143654
+IC3 is on k = 19, clauses lengths = [0, 121, 122, 126, 127, 128, 130, 131, 132, 134]
+Number of SAT calls = 31250
+Time since start = 0.32442966
+Time in SAT calls = 0.28107107
+IC3 is on k = 20, clauses lengths = [0, 119, 121, 122, 126, 127, 128, 130, 131, 132]
+Number of SAT calls = 33829
+Time since start = 0.33722153
+Time in SAT calls = 0.29133976
+IC3 is on k = 21, clauses lengths = [0, 117, 119, 121, 122, 126, 127, 128, 130, 131]
+Number of SAT calls = 36527
+Time since start = 0.35065746
+Time in SAT calls = 0.30214435
+IC3 is on k = 22, clauses lengths = [0, 115, 117, 119, 121, 122, 126, 127, 128, 130]
+Number of SAT calls = 39342
+Time since start = 0.3647819
+Time in SAT calls = 0.31355867
+IC3 is on k = 23, clauses lengths = [0, 114, 115, 117, 119, 121, 122, 126, 127, 128]
+Number of SAT calls = 42272
+Time since start = 0.37954742
+Time in SAT calls = 0.32551724
+IC3 is on k = 24, clauses lengths = [0, 113, 114, 115, 117, 119, 121, 122, 126, 127]
+Number of SAT calls = 45316
+Time since start = 0.39480615
+Time in SAT calls = 0.33788803
+IC3 is on k = 25, clauses lengths = [0, 110, 113, 114, 115, 117, 119, 121, 122, 126]
+Number of SAT calls = 48473
+Time since start = 0.41094157
+Time in SAT calls = 0.35102963
+IC3 is on k = 26, clauses lengths = [0, 106, 110, 113, 114, 115, 117, 119, 121, 122]
+Number of SAT calls = 51740
+Time since start = 0.42796135
+Time in SAT calls = 0.36497295
+IC3 is on k = 27, clauses lengths = [0, 99, 106, 110, 113, 114, 115, 117, 119, 121]
+Number of SAT calls = 55113
+Time since start = 0.44619727
+Time in SAT calls = 0.38005775
+IC3 is on k = 28, clauses lengths = [0, 123, 126, 129, 131, 133, 134, 135, 137, 140]
+Number of SAT calls = 60698
+Time since start = 0.5041946
+Time in SAT calls = 0.43179575
+IC3 is on k = 29, clauses lengths = [0, 120, 123, 126, 129, 131, 133, 134, 135, 137]
+Number of SAT calls = 64864
+Time since start = 0.5255392
+Time in SAT calls = 0.44928747
+IC3 is on k = 30, clauses lengths = [0, 117, 120, 123, 126, 129, 131, 133, 134, 135]
+Number of SAT calls = 69150
+Time since start = 0.54766107
+Time in SAT calls = 0.4674563
+IC3 is on k = 31, clauses lengths = [0, 116, 117, 120, 123, 126, 129, 131, 133, 134]
+Number of SAT calls = 73553
+Time since start = 0.57061726
+Time in SAT calls = 0.48633426
+IC3 is on k = 32, clauses lengths = [0, 111, 116, 117, 120, 123, 126, 129, 131, 133]
+Number of SAT calls = 78072
+Time since start = 0.594708
+Time in SAT calls = 0.5062686
+IC3 is on k = 33, clauses lengths = [0, 109, 111, 116, 117, 120, 123, 126, 129, 131]
+Number of SAT calls = 82702
+Time since start = 0.6195326
+Time in SAT calls = 0.5268572
+IC3 is on k = 34, clauses lengths = [0, 408, 410, 411, 412, 413, 414, 415, 416, 417]
+Number of SAT calls = 124742
+Time since start = 1.3308983
+Time in SAT calls = 1.1834356
+IC3 is on k = 35, clauses lengths = [0, 405, 408, 410, 411, 412, 413, 414, 415, 416]
+Number of SAT calls = 139664
+Time since start = 1.4098649
+Time in SAT calls = 1.249014
+IC3 is on k = 36, clauses lengths = [0, 403, 405, 408, 410, 411, 412, 413, 414, 415]
+Number of SAT calls = 154991
+Time since start = 1.4920995
+Time in SAT calls = 1.3175275
+IC3 is on k = 37, clauses lengths = [0, 402, 403, 405, 408, 410, 411, 412, 413, 414]
+Number of SAT calls = 170721
+Time since start = 1.5781338
+Time in SAT calls = 1.3894868
+IC3 is on k = 38, clauses lengths = [0, 401, 402, 403, 405, 408, 410, 411, 412, 413]
+Number of SAT calls = 186853
+Time since start = 1.6676983
+Time in SAT calls = 1.464536
+IC3 is on k = 39, clauses lengths = [0, 399, 401, 402, 403, 405, 408, 410, 411, 412]
+Number of SAT calls = 203386
+Time since start = 1.7612088
+Time in SAT calls = 1.5431719
+IC3 is on k = 40, clauses lengths = [0, 397, 399, 401, 402, 403, 405, 408, 410, 411]
+Number of SAT calls = 220318
+Time since start = 1.8585413
+Time in SAT calls = 1.625238
+IC3 is on k = 41, clauses lengths = [0, 395, 397, 399, 401, 402, 403, 405, 408, 410]
+Number of SAT calls = 237647
+Time since start = 1.9598231
+Time in SAT calls = 1.7108204
+IC3 is on k = 42, clauses lengths = [0, 391, 395, 397, 399, 401, 402, 403, 405, 408]
+Number of SAT calls = 255371
+Time since start = 2.0654464
+Time in SAT calls = 1.8005509
+IC3 is on k = 43, clauses lengths = [0, 387, 391, 395, 397, 399, 401, 402, 403, 405]
+Number of SAT calls = 273486
+Time since start = 2.1754422
+Time in SAT calls = 1.894201
+IC3 is on k = 44, clauses lengths = [0, 384, 387, 391, 395, 397, 399, 401, 402, 403]
+Number of SAT calls = 291988
+Time since start = 2.2897122
+Time in SAT calls = 1.9917768
+IC3 is on k = 45, clauses lengths = [0, 381, 384, 387, 391, 395, 397, 399, 401, 402]
+Number of SAT calls = 310874
+Time since start = 2.408341
+Time in SAT calls = 2.0933146
+IC3 is on k = 46, clauses lengths = [0, 377, 381, 384, 387, 391, 395, 397, 399, 401]
+Number of SAT calls = 330141
+Time since start = 2.5314393
+Time in SAT calls = 2.1990068
+IC3 is on k = 47, clauses lengths = [0, 375, 377, 381, 384, 387, 391, 395, 397, 399]
+Number of SAT calls = 349785
+Time since start = 2.658836
+Time in SAT calls = 2.308664
+IC3 is on k = 48, clauses lengths = [0, 370, 375, 377, 381, 384, 387, 391, 395, 397]
+Number of SAT calls = 369804
+Time since start = 2.7910638
+Time in SAT calls = 2.4227474
+IC3 is on k = 49, clauses lengths = [0, 367, 370, 375, 377, 381, 384, 387, 391, 395]
+Number of SAT calls = 390193
+Time since start = 2.9280295
+Time in SAT calls = 2.5412705
+IC3 is on k = 50, clauses lengths = [0, 354, 367, 370, 375, 377, 381, 384, 387, 391]
+Number of SAT calls = 410949
+Time since start = 3.0712504
+Time in SAT calls = 2.6652074
+IC3 is on k = 51, clauses lengths = [0, 345, 354, 367, 370, 375, 377, 381, 384, 387]
+Number of SAT calls = 432059
+Time since start = 3.2192507
+Time in SAT calls = 2.7938673
+IC3 is on k = 51, clauses lengths = [345, 345, 354, 367, 370, 375, 377, 381, 384, 387]
+Number of SAT calls = 453514
+Time since start = 3.3709373
+Time in SAT calls = 2.9262557
+Elapsed time = 3.370955
 Safe, checking invariant.
 Invariant check passed!
+3.56user 0.01system 0:03.58elapsed 99%CPU (0avgtext+0avgdata 49408maxresident)k
+8inputs+24outputs (0major+11485minor)pagefaults 0swaps

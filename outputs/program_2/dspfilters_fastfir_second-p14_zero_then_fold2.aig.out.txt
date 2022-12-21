@@ -3,27 +3,9 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 20                                                                1    20      0.13 sec
-  2 : 0 105 126                                                           2   134      0.89 sec
-  3 : 0 119 138 179                                                       4   265      2.34 sec
-  4 : 0 143 143 563 781                                                  14   383     11.49 sec
-  5 : 0 160 179 865 655 2620                                             12   466     38.26 sec
-  6 : 0 160 166 1164 749 2078 3397                                       20   517     70.00 sec
-  7 : 0 160 166 1144 739 1934 1422 2494                                   7   546     79.08 sec
-  8 : 0 160 155 292 220 412 214 110 866                                   0   546     79.99 sec
-  9 : 0 160 155 292 220 412 203 110 16 850                                0   546     80.77 sec
- 10 : 0 160 155 292 220 412 203 110 16 3 847                              0   546     81.52 sec
- 11 : 0 160 155 292 220 412 203 110 16 3 0 847                            0   546     82.27 sec
-Invariant F[10] : 847 clauses with 455 flops (out of 1104) (cex = 0, ave = 241.38)
-Verification of invariant with 847 clauses was successful.  Time =     0.04 sec
-Block = 2637  Oblig = 12557  Clause =  8664  Call =146132 (sat=49.4%)  Cex =   0  Start = 471
-SAT solving =    47.74 sec ( 57.99 %)
-  unsat     =     7.81 sec (  9.49 %)
-  sat       =    39.93 sec ( 48.51 %)
-Generalize  =    50.96 sec ( 61.91 %)
-Push clause =     8.77 sec ( 10.65 %)
-Ternary sim =    23.73 sec ( 28.82 %)
-Containment =     2.41 sec (  2.92 %)
-CNF compute =     0.81 sec (  0.98 %)
-Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    82.32 sec (100.00 %)
-Property proved.  Time =    82.34 sec
+  2 : 0 105 126                                                           2   134      0.90 sec
+  3 : 0 119 138 179                                                       4   265      2.38 sec
+  4 : 0 143 143 563 781                                                  14   383     11.59 sec
+  5 : 0 160 179 865 655 2620                                             12   466     38.57 sec
+  6 : 0 160 166 1164 749 2078 3397                                       20   517     70.57 sec
+slurmstepd-thanos12: error: *** JOB 72878 ON thanos12 CANCELLED AT 2022-12-21T18:49:47 DUE TO TIME LIMIT ***

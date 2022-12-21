@@ -1,8 +1,37 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 309, 304, 0]
-IC3 is on k = 3, clauses lengths = [0, 395, 390, 365, 0]
-IC3 is on k = 4, clauses lengths = [0, 755, 750, 731, 682, 0]
-IC3 is on k = 5, clauses lengths = [0, 953, 948, 931, 883, 822, 0]
-IC3 is on k = 6, clauses lengths = [0, 1369, 1365, 1353, 1314, 1257, 1079, 0]
-IC3 is on k = 7, clauses lengths = [0, 1987, 1983, 1971, 1930, 1866, 1704, 1236, 0]
-slurmstepd-thanos5: error: *** JOB 69606 ON thanos5 CANCELLED AT 2022-12-01T00:06:24 DUE TO TIME LIMIT ***
+Number of SAT calls = 2
+Time since start = 0.00812827
+Time in SAT calls = 0.001700733
+IC3 is on k = 2, clauses lengths = [0, 144, 147, 0]
+Number of SAT calls = 21284
+Time since start = 0.8085614
+Time in SAT calls = 0.74199176
+IC3 is on k = 3, clauses lengths = [0, 228, 251, 254, 0]
+Number of SAT calls = 37176
+Time since start = 1.4518017
+Time in SAT calls = 1.3391155
+IC3 is on k = 4, clauses lengths = [0, 493, 518, 529, 536, 0]
+Number of SAT calls = 79721
+Time since start = 3.3071737
+Time in SAT calls = 3.0650501
+IC3 is on k = 5, clauses lengths = [0, 411, 493, 518, 529, 536, 0]
+Number of SAT calls = 81798
+Time since start = 3.3576465
+Time in SAT calls = 3.1124914
+IC3 is on k = 6, clauses lengths = [0, 508, 694, 774, 801, 812, 819, 0]
+Number of SAT calls = 126897
+Time since start = 5.730963
+Time in SAT calls = 5.3494835
+IC3 is on k = 7, clauses lengths = [0, 1085, 1388, 1545, 1631, 1658, 1669, 1676, 0]
+Number of SAT calls = 260850
+Time since start = 14.764068
+Time in SAT calls = 13.981228
+IC3 is on k = 8, clauses lengths = [0, 1664, 2518, 2746, 2884, 2968, 2994, 3005, 3012, 0]
+Number of SAT calls = 474928
+Time since start = 34.781506
+Time in SAT calls = 33.35157
+IC3 is on k = 9, clauses lengths = [0, 2983, 4197, 4603, 4807, 4946, 5030, 5056, 5067, 5074]
+Number of SAT calls = 815025
+Time since start = 75.97349
+Time in SAT calls = 73.459335
+slurmstepd-thanos12: error: *** JOB 72627 ON thanos12 CANCELLED AT 2022-12-21T16:09:46 DUE TO TIME LIMIT ***

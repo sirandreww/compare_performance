@@ -1,3 +1,8 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-Elapsed time = 10.931966
+Number of SAT calls = 2
+Time since start = 0.008097364
+Time in SAT calls = 0.001778403
+Elapsed time = 0.09619505
 Unsafe, depth = 1
+0.09user 0.00system 0:00.10elapsed 96%CPU (0avgtext+0avgdata 7552maxresident)k
+0inputs+8outputs (0major+1080minor)pagefaults 0swaps

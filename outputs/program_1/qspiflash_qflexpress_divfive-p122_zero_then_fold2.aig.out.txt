@@ -1,10 +1,41 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
-IC3 is on k = 2, clauses lengths = [0, 523, 521, 0]
-IC3 is on k = 3, clauses lengths = [0, 1090, 1085, 1048, 0]
-IC3 is on k = 4, clauses lengths = [0, 1346, 1341, 1299, 1283, 0]
-IC3 is on k = 5, clauses lengths = [0, 1386, 1381, 1340, 1326, 1312, 0]
-IC3 is on k = 6, clauses lengths = [0, 1386, 1381, 1340, 1326, 1312, 1302, 0]
-IC3 is on k = 6, clauses lengths = [0, 1386, 1381, 1340, 1326, 1312, 1302, 1302]
-Elapsed time = 437.35608
+Number of SAT calls = 2
+Time since start = 0.007071372
+Time in SAT calls = 0.001382327
+IC3 is on k = 2, clauses lengths = [0, 182, 190, 0]
+Number of SAT calls = 29812
+Time since start = 1.3885859
+Time in SAT calls = 1.2909949
+IC3 is on k = 3, clauses lengths = [0, 176, 182, 190, 0]
+Number of SAT calls = 30185
+Time since start = 1.3987792
+Time in SAT calls = 1.2992082
+IC3 is on k = 4, clauses lengths = [0, 175, 176, 182, 190, 0]
+Number of SAT calls = 30734
+Time since start = 1.4093618
+Time in SAT calls = 1.3076556
+IC3 is on k = 5, clauses lengths = [0, 302, 304, 307, 316, 331, 0]
+Number of SAT calls = 57328
+Time since start = 2.607684
+Time in SAT calls = 2.4246118
+IC3 is on k = 6, clauses lengths = [0, 251, 302, 304, 307, 316, 331, 0]
+Number of SAT calls = 58889
+Time since start = 2.6414032
+Time in SAT calls = 2.4552402
+IC3 is on k = 7, clauses lengths = [0, 358, 366, 417, 419, 422, 431, 446, 0]
+Number of SAT calls = 79315
+Time since start = 3.603394
+Time in SAT calls = 3.356444
+IC3 is on k = 8, clauses lengths = [0, 488, 491, 500, 551, 553, 556, 565, 580, 0]
+Number of SAT calls = 104166
+Time since start = 4.765132
+Time in SAT calls = 4.4459114
+IC3 is on k = 8, clauses lengths = [488, 488, 491, 500, 551, 553, 556, 565, 580, 0]
+Number of SAT calls = 108451
+Time since start = 4.820211
+Time in SAT calls = 4.496844
+Elapsed time = 4.8203163
 Safe, checking invariant.
 Invariant check passed!
+7.72user 0.00system 0:07.73elapsed 99%CPU (0avgtext+0avgdata 29600maxresident)k
+16inputs+8outputs (0major+6712minor)pagefaults 0swaps

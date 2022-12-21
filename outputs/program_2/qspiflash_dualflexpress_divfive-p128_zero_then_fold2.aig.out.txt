@@ -5,16 +5,16 @@ Frame Clauses                                                     Max Queue Flop
   1 : 0 2                                                                 1     2      0.00 sec
   2 : 0 6 12                                                              3    18      0.00 sec
   3 : 0 3 4 7                                                             0    18      0.00 sec
-  4 : 0 3 4 2 5                                                           0    18      0.00 sec
+  4 : 0 3 4 2 5                                                           0    18      0.01 sec
   5 : 0 3 4 2 1 4                                                         0    18      0.01 sec
   6 : 0 3 6 12 31 49 79                                                  17    54      0.07 sec
   7 : 0 4 11 37 64 105 144 194                                           25    59      0.24 sec
-  8 : 0 3 7 20 33 48 77 26 117                                            0    59      0.26 sec
+  8 : 0 3 7 20 33 48 77 26 117                                            0    59      0.25 sec
   9 : 0 3 7 20 28 48 76 25 13 114                                         3    59      0.27 sec
  10 : 0 3 7 20 28 48 76 25 12 12 111                                      3    59      0.28 sec
  11 : 0 3 7 20 28 48 76 25 11 11 14 120                                   5    59      0.30 sec
  12 : 0 3 7 20 28 48 76 25 11 7 2 3 113                                   0    59      0.31 sec
- 13 : 0 3 7 20 28 48 76 25 11 7 2 3 2 111                                 0    59      0.32 sec
+ 13 : 0 3 7 20 28 48 76 25 11 7 2 3 2 111                                 0    59      0.31 sec
  14 : 0 3 7 20 28 48 76 25 18 12 14 19 12 16 131                         14   101      0.38 sec
  15 : 0 3 7 20 28 48 76 25 18 10 9 10 6 4 3 127                           0   101      0.39 sec
  16 : 0 3 7 20 28 48 76 25 18 10 9 10 6 4 4 11 132                        5   101      0.41 sec
@@ -31,19 +31,21 @@ Frame Clauses                                                     Max Queue Flop
  27 : ... 36 28 29 40 47 34 48 38 47 68 54 50 33 42 51 45 16 22 299      56   101      1.45 sec
  28 : ... 26 21 22 30 25 19 18 22 20 27 38 30 27 26 29 38 16 5 3 310      0   101      1.50 sec
  29 : ... 37 43 37 36 41 50 39 49 79 63 66 57 55 81 53 30 13 36 482      76   101      2.05 sec
- 30 : ... 40 27 21 28 47 16 21 44 43 68 121 62 71 84 44 24 6 11 634      42   101      2.38 sec
+ 30 : ... 40 27 21 28 47 16 21 44 43 68 121 62 71 84 44 24 6 11 634      42   101      2.39 sec
  31 : ... 40 27 21 28 47 16 21 32 20 28 28 36 87 91 39 19 3 0 0 615       0   101      2.46 sec
 Invariant F[29] : 615 clauses with 96 flops (out of 165) (cex = 0, ave = 53.85)
 Verification of invariant with 615 clauses was successful.  Time =     0.01 sec
 Block =   65  Oblig =  5345  Clause =  3017  Call = 63256 (sat=62.2%)  Cex =   0  Start = 196
-SAT solving =     1.88 sec ( 76.23 %)
-  unsat     =     0.33 sec ( 13.18 %)
-  sat       =     1.56 sec ( 63.05 %)
-Generalize  =     1.49 sec ( 60.40 %)
-Push clause =     0.53 sec ( 21.44 %)
-Ternary sim =     0.16 sec (  6.33 %)
-Containment =     0.02 sec (  0.66 %)
+SAT solving =     1.89 sec ( 76.29 %)
+  unsat     =     0.33 sec ( 13.20 %)
+  sat       =     1.56 sec ( 63.09 %)
+Generalize  =     1.50 sec ( 60.45 %)
+Push clause =     0.53 sec ( 21.42 %)
+Ternary sim =     0.16 sec (  6.30 %)
+Containment =     0.02 sec (  0.64 %)
 CNF compute =     0.09 sec (  3.62 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     2.47 sec (100.00 %)
 Property proved.  Time =     2.48 sec
+2.36user 0.14system 0:02.51elapsed 99%CPU (0avgtext+0avgdata 74440maxresident)k
+0inputs+8outputs (0major+16917minor)pagefaults 0swaps

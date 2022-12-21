@@ -3,23 +3,25 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 21                                                                1    21      0.11 sec
-  2 : 0 25 35                                                             2    29      0.41 sec
-  3 : 0 25 42 33                                                          2    89      0.70 sec
-  4 : 0 25 42 14 481                                                      3   282      4.77 sec
-  5 : 0 25 42 14 150 520                                                  2   283      6.55 sec
-  6 : 0 25 42 14 149 19 501                                               0   283      6.73 sec
-  7 : 0 25 42 14 149 19 0 501                                             0   283      6.88 sec
+  2 : 0 25 35                                                             2    29      0.42 sec
+  3 : 0 25 42 33                                                          2    89      0.71 sec
+  4 : 0 25 42 14 481                                                      3   282      4.79 sec
+  5 : 0 25 42 14 150 520                                                  2   283      6.57 sec
+  6 : 0 25 42 14 149 19 501                                               0   283      6.76 sec
+  7 : 0 25 42 14 149 19 0 501                                             0   283      6.90 sec
 Invariant F[6] : 501 clauses with 261 flops (out of 1104) (cex = 0, ave = 224.92)
 Verification of invariant with 501 clauses was successful.  Time =     0.04 sec
 Block =  418  Oblig =  1079  Clause =   761  Call = 11166 (sat=55.5%)  Cex =   0  Start =  33
-SAT solving =     3.92 sec ( 56.57 %)
-  unsat     =     0.47 sec (  6.78 %)
-  sat       =     3.45 sec ( 49.79 %)
-Generalize  =     4.15 sec ( 60.00 %)
-Push clause =     0.55 sec (  7.89 %)
-Ternary sim =     2.31 sec ( 33.39 %)
-Containment =     0.03 sec (  0.41 %)
-CNF compute =     0.04 sec (  0.54 %)
+SAT solving =     3.93 sec ( 56.58 %)
+  unsat     =     0.47 sec (  6.79 %)
+  sat       =     3.46 sec ( 49.79 %)
+Generalize  =     4.16 sec ( 59.92 %)
+Push clause =     0.55 sec (  7.90 %)
+Ternary sim =     2.32 sec ( 33.45 %)
+Containment =     0.03 sec (  0.40 %)
+CNF compute =     0.04 sec (  0.53 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     6.92 sec (100.00 %)
-Property proved.  Time =     6.93 sec
+TOTAL       =     6.95 sec (100.00 %)
+Property proved.  Time =     6.96 sec
+6.97user 0.01system 0:06.99elapsed 99%CPU (0avgtext+0avgdata 58084maxresident)k
+0inputs+8outputs (0major+12900minor)pagefaults 0swaps
