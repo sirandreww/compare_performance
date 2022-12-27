@@ -1,21 +1,33 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.020819068
-Time in SAT calls = 0.003390038
-IC3 is on k = 2, clauses lengths = [0, 124, 146, 0]
-Number of SAT calls = 117863
-Time since start = 25.140833
-Time in SAT calls = 23.57378
-IC3 is on k = 3, clauses lengths = [0, 106, 195, 229, 0]
-Number of SAT calls = 195229
-Time since start = 38.467617
-Time in SAT calls = 35.903145
-IC3 is on k = 4, clauses lengths = [0, 98, 106, 195, 229, 0]
-Number of SAT calls = 195760
-Time since start = 38.642242
-Time in SAT calls = 36.07193
-IC3 is on k = 5, clauses lengths = [0, 96, 98, 106, 195, 229, 0]
-Number of SAT calls = 196389
-Time since start = 38.81868
-Time in SAT calls = 36.24244
-slurmstepd-thanos12: error: *** JOB 72346 ON thanos12 CANCELLED AT 2022-12-21T10:13:13 DUE TO TIME LIMIT ***
+Time since start = 0.020888226
+Time in SAT calls = 0.003335595
+IC3 is on k = 2, clauses lengths = [0, 24, 31, 0]
+Number of SAT calls = 25684
+Time since start = 4.9825253
+Time in SAT calls = 4.6263905
+IC3 is on k = 3, clauses lengths = [0, 21, 24, 31, 0]
+Number of SAT calls = 25740
+Time since start = 5.0002933
+Time in SAT calls = 4.6389136
+IC3 is on k = 4, clauses lengths = [0, 1381, 1745, 1781, 1799, 0]
+Number of SAT calls = 1642783
+Time since start = 410.99408
+Time in SAT calls = 389.03638
+IC3 is on k = 5, clauses lengths = [0, 1334, 1384, 1748, 1784, 1802, 0]
+Number of SAT calls = 1651767
+Time since start = 412.62863
+Time in SAT calls = 390.62582
+IC3 is on k = 6, clauses lengths = [0, 1332, 1334, 1384, 1748, 1784, 1802, 0]
+Number of SAT calls = 1659820
+Time since start = 413.67566
+Time in SAT calls = 391.65598
+IC3 is on k = 6, clauses lengths = [1332, 1332, 1334, 1384, 1748, 1784, 1802, 0]
+Number of SAT calls = 1669205
+Time since start = 414.73254
+Time in SAT calls = 392.69876
+Elapsed time = 414.7326
+Safe, checking invariant.
+Invariant check passed!
+423.45user 0.05system 7:03.61elapsed 99%CPU (0avgtext+0avgdata 178024maxresident)k
+48inputs+24outputs (0major+44296minor)pagefaults 0swaps

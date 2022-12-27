@@ -1,61 +1,69 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.003587877
-Time in SAT calls = 0.000997242
-IC3 is on k = 2, clauses lengths = [0, 17, 20, 0]
-Number of SAT calls = 809
-Time since start = 0.013228033
-Time in SAT calls = 0.009099436
-IC3 is on k = 3, clauses lengths = [0, 18, 23, 26, 0]
-Number of SAT calls = 1000
-Time since start = 0.016593713
-Time in SAT calls = 0.011972262
-IC3 is on k = 4, clauses lengths = [0, 28, 36, 43, 46, 0]
-Number of SAT calls = 1675
-Time since start = 0.025760382
-Time in SAT calls = 0.020204328
-IC3 is on k = 5, clauses lengths = [0, 18, 32, 40, 47, 50, 0]
-Number of SAT calls = 1939
-Time since start = 0.02969823
-Time in SAT calls = 0.02361695
-IC3 is on k = 6, clauses lengths = [0, 78, 87, 92, 102, 110, 113, 0]
-Number of SAT calls = 4747
-Time since start = 0.076038815
-Time in SAT calls = 0.066769555
-IC3 is on k = 7, clauses lengths = [0, 54, 84, 93, 98, 108, 116, 119, 0]
-Number of SAT calls = 5505
-Time since start = 0.08346197
-Time in SAT calls = 0.07320017
-IC3 is on k = 8, clauses lengths = [0, 124, 133, 140, 149, 154, 164, 172, 175, 0]
-Number of SAT calls = 8377
-Time since start = 0.12819588
-Time in SAT calls = 0.11458023
-IC3 is on k = 9, clauses lengths = [0, 48, 132, 141, 148, 157, 162, 172, 180, 183]
-Number of SAT calls = 9843
-Time since start = 0.14438155
-Time in SAT calls = 0.12911078
-IC3 is on k = 10, clauses lengths = [0, 331, 390, 447, 455, 462, 471, 476, 486, 494]
-Number of SAT calls = 22415
-Time since start = 0.4450912
-Time in SAT calls = 0.41391194
-IC3 is on k = 11, clauses lengths = [0, 184, 407, 471, 486, 496, 503, 512, 517, 527]
-Number of SAT calls = 28925
-Time since start = 0.54303724
-Time in SAT calls = 0.5045855
-IC3 is on k = 12, clauses lengths = [0, 1184, 1374, 1430, 1478, 1507, 1527, 1538, 1550, 1555]
-Number of SAT calls = 78155
-Time since start = 1.977886
-Time in SAT calls = 1.8766611
-IC3 is on k = 13, clauses lengths = [0, 450, 1188, 1378, 1434, 1482, 1511, 1531, 1542, 1554]
-Number of SAT calls = 96155
-Time since start = 2.4049194
-Time in SAT calls = 2.2834194
-IC3 is on k = 14, clauses lengths = [0, 7809, 8375, 8647, 8842, 8946, 9017, 9050, 9077, 9089]
-Number of SAT calls = 434857
-Time since start = 29.938902
-Time in SAT calls = 29.300081
-IC3 is on k = 15, clauses lengths = [0, 4741, 7813, 8379, 8651, 8846, 8950, 9021, 9054, 9081]
-Number of SAT calls = 559461
-Time since start = 40.089798
-Time in SAT calls = 39.282257
-slurmstepd-thanos12: error: *** JOB 72312 ON thanos12 CANCELLED AT 2022-12-21T09:37:13 DUE TO TIME LIMIT ***
+Time since start = 0.001615564
+Time in SAT calls = 0.000406293
+IC3 is on k = 2, clauses lengths = [0, 23, 26, 0]
+Number of SAT calls = 867
+Time since start = 0.01114215
+Time in SAT calls = 0.00854328
+IC3 is on k = 3, clauses lengths = [0, 17, 23, 26, 0]
+Number of SAT calls = 917
+Time since start = 0.012128487
+Time in SAT calls = 0.009190271
+IC3 is on k = 4, clauses lengths = [0, 33, 41, 46, 50, 0]
+Number of SAT calls = 1776
+Time since start = 0.024883987
+Time in SAT calls = 0.020804351
+IC3 is on k = 5, clauses lengths = [0, 17, 33, 41, 46, 50, 0]
+Number of SAT calls = 1947
+Time since start = 0.027385186
+Time in SAT calls = 0.022881994
+IC3 is on k = 6, clauses lengths = [0, 95, 111, 128, 142, 148, 153, 0]
+Number of SAT calls = 5816
+Time since start = 0.08947158
+Time in SAT calls = 0.080753624
+IC3 is on k = 7, clauses lengths = [0, 61, 102, 118, 135, 149, 155, 160, 0]
+Number of SAT calls = 6826
+Time since start = 0.100222975
+Time in SAT calls = 0.0902929
+IC3 is on k = 8, clauses lengths = [0, 120, 155, 173, 189, 206, 220, 226, 231, 0]
+Number of SAT calls = 10254
+Time since start = 0.15747833
+Time in SAT calls = 0.14360951
+IC3 is on k = 9, clauses lengths = [0, 100, 170, 205, 223, 239, 256, 270, 276, 281]
+Number of SAT calls = 13405
+Time since start = 0.21138984
+Time in SAT calls = 0.19392337
+IC3 is on k = 10, clauses lengths = [0, 668, 796, 840, 860, 876, 903, 921, 934, 940]
+Number of SAT calls = 41663
+Time since start = 0.90706503
+Time in SAT calls = 0.8555773
+IC3 is on k = 11, clauses lengths = [0, 606, 672, 800, 844, 864, 880, 907, 925, 938]
+Number of SAT calls = 50481
+Time since start = 0.9832894
+Time in SAT calls = 0.92262936
+IC3 is on k = 12, clauses lengths = [0, 1061, 1201, 1285, 1342, 1377, 1397, 1413, 1440, 1458]
+Number of SAT calls = 84935
+Time since start = 1.8666997
+Time in SAT calls = 1.7625277
+IC3 is on k = 13, clauses lengths = [0, 465, 1063, 1203, 1287, 1344, 1379, 1399, 1415, 1442]
+Number of SAT calls = 101410
+Time since start = 2.1654315
+Time in SAT calls = 2.0429647
+IC3 is on k = 14, clauses lengths = [0, 1683, 2658, 2836, 2976, 3060, 3117, 3152, 3172, 3188]
+Number of SAT calls = 192455
+Time since start = 6.100705
+Time in SAT calls = 5.8492436
+IC3 is on k = 15, clauses lengths = [0, 533, 1926, 2901, 3079, 3219, 3303, 3360, 3395, 3415]
+Number of SAT calls = 243939
+Time since start = 8.36911
+Time in SAT calls = 8.049922
+IC3 is on k = 16, clauses lengths = [0, 13600, 15548, 16223, 16657, 16914, 17048, 17134, 17206, 17253]
+Number of SAT calls = 922068
+Time since start = 102.327835
+Time in SAT calls = 100.843285
+IC3 is on k = 17, clauses lengths = [0, 6932, 13613, 15561, 16236, 16670, 16927, 17061, 17147, 17219]
+Number of SAT calls = 1191580
+Time since start = 146.84303
+Time in SAT calls = 144.92316
+slurmstepd-thanos6_4: error: *** JOB 74963 ON thanos6_4 CANCELLED AT 2022-12-27T14:33:55 DUE TO TIME LIMIT ***

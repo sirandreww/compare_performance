@@ -2,21 +2,21 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 8                                                                 1     9      0.00 sec
-  2 : 0 0 8                                                               0     9      0.00 sec
+  1 : 0 8                                                                 1     9      0.01 sec
+  2 : 0 0 8                                                               0     9      0.01 sec
 Invariant F[1] : 8 clauses with 9 flops (out of 525) (cex = 0, ave = 2.00)
 Verification of invariant with 8 clauses was successful.  Time =     0.00 sec
 Block =    8  Oblig =     8  Clause =     8  Call =    42 (sat=57.1%)  Cex =   0  Start =   0
-SAT solving =     0.00 sec (  3.83 %)
-  unsat     =     0.00 sec (  0.73 %)
-  sat       =     0.00 sec (  3.10 %)
-Generalize  =     0.00 sec (  1.99 %)
-Push clause =     0.00 sec (  0.68 %)
-Ternary sim =     0.00 sec (  0.68 %)
+SAT solving =     0.00 sec (  4.88 %)
+  unsat     =     0.00 sec (  0.91 %)
+  sat       =     0.00 sec (  3.97 %)
+Generalize  =     0.00 sec (  2.55 %)
+Push clause =     0.00 sec (  0.85 %)
+Ternary sim =     0.00 sec (  0.88 %)
 Containment =     0.00 sec (  0.01 %)
-CNF compute =     0.00 sec (  0.33 %)
+CNF compute =     0.00 sec (  0.46 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.01 sec (100.00 %)
-Property proved.  Time =     0.01 sec
-0.03user 0.00system 0:00.04elapsed 92%CPU (0avgtext+0avgdata 21228maxresident)k
-0inputs+8outputs (0major+3637minor)pagefaults 0swaps
+Property proved.  Time =     0.02 sec
+0.03user 0.00system 0:00.04elapsed 87%CPU (0avgtext+0avgdata 21224maxresident)k
+40inputs+8outputs (0major+3636minor)pagefaults 0swaps

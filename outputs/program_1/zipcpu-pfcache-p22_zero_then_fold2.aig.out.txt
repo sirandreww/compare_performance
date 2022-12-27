@@ -1,21 +1,33 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.017582014
-Time in SAT calls = 0.002927158
-IC3 is on k = 2, clauses lengths = [0, 46, 48, 0]
-Number of SAT calls = 28340
-Time since start = 4.9292164
-Time in SAT calls = 4.5941353
-IC3 is on k = 3, clauses lengths = [0, 355, 373, 384, 0]
-Number of SAT calls = 231948
-Time since start = 42.5275
-Time in SAT calls = 39.948277
-IC3 is on k = 4, clauses lengths = [0, 502, 530, 565, 575, 0]
-Number of SAT calls = 346877
-Time since start = 62.430523
-Time in SAT calls = 58.577866
-IC3 is on k = 5, clauses lengths = [0, 485, 526, 554, 589, 599, 0]
-Number of SAT calls = 363303
-Time since start = 65.12689
-Time in SAT calls = 61.1163
-slurmstepd-thanos12: error: *** JOB 72394 ON thanos12 CANCELLED AT 2022-12-21T11:13:13 DUE TO TIME LIMIT ***
+Time since start = 0.018221503
+Time in SAT calls = 0.00296354
+IC3 is on k = 2, clauses lengths = [0, 29, 30, 0]
+Number of SAT calls = 17714
+Time since start = 2.9929109
+Time in SAT calls = 2.77273
+IC3 is on k = 3, clauses lengths = [0, 368, 377, 386, 0]
+Number of SAT calls = 229599
+Time since start = 42.500984
+Time in SAT calls = 39.938282
+IC3 is on k = 4, clauses lengths = [0, 404, 416, 423, 432, 0]
+Number of SAT calls = 259183
+Time since start = 47.431763
+Time in SAT calls = 44.557472
+IC3 is on k = 5, clauses lengths = [0, 379, 404, 416, 423, 432, 0]
+Number of SAT calls = 260859
+Time since start = 47.519463
+Time in SAT calls = 44.63913
+IC3 is on k = 6, clauses lengths = [0, 592, 619, 646, 652, 659, 668, 0]
+Number of SAT calls = 403297
+Time since start = 72.09123
+Time in SAT calls = 67.68818
+IC3 is on k = 7, clauses lengths = [0, 728, 773, 809, 834, 840, 847, 856, 0]
+Number of SAT calls = 521552
+Time since start = 92.32643
+Time in SAT calls = 86.67553
+IC3 is on k = 8, clauses lengths = [0, 3291, 3486, 3722, 3948, 4019, 4027, 4034, 4043, 0]
+Number of SAT calls = 2471190
+Time since start = 524.41174
+Time in SAT calls = 497.80676
+slurmstepd-thanos12_1: error: *** JOB 75149 ON thanos12_1 CANCELLED AT 2022-12-27T13:05:26 DUE TO TIME LIMIT ***

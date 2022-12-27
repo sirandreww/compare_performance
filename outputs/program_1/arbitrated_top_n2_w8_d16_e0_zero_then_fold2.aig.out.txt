@@ -1,25 +1,29 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.011728157
-Time in SAT calls = 0.002256294
-IC3 is on k = 2, clauses lengths = [0, 82, 88, 0]
-Number of SAT calls = 33474
-Time since start = 2.6545274
-Time in SAT calls = 2.4577684
-IC3 is on k = 3, clauses lengths = [0, 98, 152, 158, 0]
-Number of SAT calls = 59399
-Time since start = 5.032358
-Time in SAT calls = 4.6859937
-IC3 is on k = 4, clauses lengths = [0, 232, 336, 397, 403, 0]
-Number of SAT calls = 141361
-Time since start = 12.214315
-Time in SAT calls = 11.397305
-IC3 is on k = 5, clauses lengths = [0, 515, 860, 994, 1051, 1057, 0]
-Number of SAT calls = 357227
-Time since start = 33.072426
-Time in SAT calls = 31.01127
-IC3 is on k = 6, clauses lengths = [0, 535, 1137, 1508, 1635, 1691, 1697, 0]
-Number of SAT calls = 574571
-Time since start = 49.870655
-Time in SAT calls = 46.605167
-slurmstepd-thanos12: error: *** JOB 72526 ON thanos12 CANCELLED AT 2022-12-21T13:58:44 DUE TO TIME LIMIT ***
+Time since start = 0.012992489
+Time in SAT calls = 0.002944631
+IC3 is on k = 2, clauses lengths = [0, 82, 91, 0]
+Number of SAT calls = 35640
+Time since start = 2.8154657
+Time in SAT calls = 2.6029422
+IC3 is on k = 3, clauses lengths = [0, 165, 240, 247, 0]
+Number of SAT calls = 89820
+Time since start = 7.6619835
+Time in SAT calls = 7.13807
+IC3 is on k = 4, clauses lengths = [0, 197, 353, 428, 435, 0]
+Number of SAT calls = 150979
+Time since start = 12.81569
+Time in SAT calls = 11.94297
+IC3 is on k = 5, clauses lengths = [0, 371, 660, 816, 889, 896, 0]
+Number of SAT calls = 301532
+Time since start = 24.185234
+Time in SAT calls = 22.4683
+IC3 is on k = 6, clauses lengths = [0, 3268, 4783, 5374, 5570, 5637, 5644, 0]
+Number of SAT calls = 1850200
+Time since start = 247.4828
+Time in SAT calls = 236.46782
+IC3 is on k = 7, clauses lengths = [0, 2389, 5080, 6505, 7077, 7273, 7340, 7347, 0]
+Number of SAT calls = 2431487
+Time since start = 337.07156
+Time in SAT calls = 322.6657
+slurmstepd-thanos2_2: error: *** JOB 74950 ON thanos2_2 CANCELLED AT 2022-12-27T14:30:25 DUE TO TIME LIMIT ***

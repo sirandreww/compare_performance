@@ -3,7 +3,7 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 4                                                                 1     5      0.00 sec
-  2 : 0 8 9                                                               2    14      0.00 sec
+  2 : 0 8 9                                                               2    14      0.01 sec
   3 : 0 7 10 12                                                           3    23      0.01 sec
   4 : 0 8 19 41 46                                                       10    48      0.03 sec
   5 : 0 5 10 22 15 25                                                     0    48      0.03 sec
@@ -12,8 +12,8 @@ Frame Clauses                                                     Max Queue Flop
   8 : 0 3 11 21 22 21 74 52 91                                            0    55      0.14 sec
   9 : 0 3 11 21 22 20 73 50 17 74                                         0    55      0.15 sec
  10 : 0 3 11 21 22 20 73 50 17 6 68                                       0    55      0.16 sec
- 11 : 0 3 11 21 22 20 73 50 17 6 1 67                                     0    55      0.16 sec
- 12 : 0 3 11 21 23 24 82 84 54 49 36 24 113                              41    56      0.26 sec
+ 11 : 0 3 11 21 22 20 73 50 17 6 1 67                                     0    55      0.17 sec
+ 12 : 0 3 11 21 23 24 82 84 54 49 36 24 113                              41    56      0.27 sec
  13 : 0 3 11 19 21 22 66 57 46 22 12 11 7 113                             0    56      0.28 sec
  14 : 0 3 11 19 23 34 108 177 219 262 313 336 256 121 285               191   105      1.32 sec
  15 : 0 3 11 17 18 22 76 102 103 62 90 100 62 36 77 329                   0   105      1.39 sec
@@ -22,25 +22,25 @@ Frame Clauses                                                     Max Queue Flop
  18 : 0 3 11 17 18 22 76 99 91 56 84 96 55 33 77 111 39 3 176             0   105      1.51 sec
  19 : ... 18 22 77 108 126 107 147 155 96 60 117 173 154 115 102 359     76   108      2.07 sec
  20 : ... 17 22 59 83 110 87 128 130 130 72 113 146 121 77 55 52 357     38   108      2.37 sec
- 21 : ... 17 22 55 84 110 82 119 126 109 62 91 129 96 55 40 32 14 318     0   108      2.44 sec
- 22 : ... 22 55 84 110 82 119 126 109 58 91 129 95 55 40 30 14 3 314      0   108      2.50 sec
- 23 : ... 55 84 110 82 119 126 109 58 91 129 95 55 40 30 14 3 3 311       0   108      2.56 sec
+ 21 : ... 17 22 55 84 110 82 119 126 109 62 91 129 96 55 40 32 14 318     0   108      2.43 sec
+ 22 : ... 22 55 84 110 82 119 126 109 58 91 129 95 55 40 30 14 3 314      0   108      2.49 sec
+ 23 : ... 55 84 110 82 119 126 109 58 91 129 95 55 40 30 14 3 3 311       0   108      2.55 sec
  24 : ... 55 84 110 82 119 126 109 58 91 129 95 55 40 30 14 3 3 6 303     0   108      2.61 sec
  25 : ... 84 110 82 119 126 109 58 91 129 95 55 40 30 14 3 3 9 6 308      6   108      2.67 sec
- 26 : ... 110 82 119 126 109 58 91 126 96 55 40 30 14 3 3 0 0 0 311       0   108      2.73 sec
+ 26 : ... 110 82 119 126 109 58 91 126 96 55 40 30 14 3 3 0 0 0 311       0   108      2.72 sec
 Invariant F[23] : 311 clauses with 103 flops (out of 169) (cex = 0, ave = 35.55)
 Verification of invariant with 311 clauses was successful.  Time =     0.00 sec
 Block =   30  Oblig =  7635  Clause =  3718  Call = 71091 (sat=61.3%)  Cex =   0  Start = 224
-SAT solving =     2.06 sec ( 75.04 %)
-  unsat     =     0.30 sec ( 10.87 %)
-  sat       =     1.76 sec ( 64.18 %)
-Generalize  =     1.53 sec ( 55.69 %)
-Push clause =     0.73 sec ( 26.49 %)
-Ternary sim =     0.19 sec (  6.77 %)
-Containment =     0.03 sec (  1.04 %)
-CNF compute =     0.10 sec (  3.59 %)
+SAT solving =     2.05 sec ( 74.82 %)
+  unsat     =     0.30 sec ( 10.90 %)
+  sat       =     1.75 sec ( 63.93 %)
+Generalize  =     1.52 sec ( 55.70 %)
+Push clause =     0.72 sec ( 26.37 %)
+Ternary sim =     0.19 sec (  6.80 %)
+Containment =     0.03 sec (  1.08 %)
+CNF compute =     0.10 sec (  3.61 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     2.74 sec (100.00 %)
-Property proved.  Time =     2.75 sec
-2.65user 0.11system 0:02.77elapsed 99%CPU (0avgtext+0avgdata 64264maxresident)k
-0inputs+8outputs (0major+14348minor)pagefaults 0swaps
+TOTAL       =     2.73 sec (100.00 %)
+Property proved.  Time =     2.74 sec
+2.64user 0.12system 0:02.76elapsed 99%CPU (0avgtext+0avgdata 64204maxresident)k
+16inputs+8outputs (0major+14348minor)pagefaults 0swaps

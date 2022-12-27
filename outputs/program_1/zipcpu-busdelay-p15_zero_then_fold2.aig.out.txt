@@ -1,17 +1,37 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.01443809
-Time in SAT calls = 0.003144642
-IC3 is on k = 2, clauses lengths = [0, 492, 498, 0]
-Number of SAT calls = 213021
-Time since start = 28.204233
-Time in SAT calls = 26.570623
-IC3 is on k = 3, clauses lengths = [0, 702, 733, 739, 0]
-Number of SAT calls = 317130
-Time since start = 41.29138
-Time in SAT calls = 38.862324
-IC3 is on k = 4, clauses lengths = [0, 1438, 1468, 1499, 1505, 0]
-Number of SAT calls = 651599
-Time since start = 82.83914
-Time in SAT calls = 77.82592
-slurmstepd-thanos12: error: *** JOB 72318 ON thanos12 CANCELLED AT 2022-12-21T09:41:43 DUE TO TIME LIMIT ***
+Time since start = 0.014565568
+Time in SAT calls = 0.003255484
+IC3 is on k = 2, clauses lengths = [0, 478, 488, 0]
+Number of SAT calls = 208765
+Time since start = 27.450068
+Time in SAT calls = 25.834152
+IC3 is on k = 3, clauses lengths = [0, 495, 521, 531, 0]
+Number of SAT calls = 228133
+Time since start = 29.68384
+Time in SAT calls = 27.925463
+IC3 is on k = 4, clauses lengths = [0, 4591, 4941, 5008, 5018, 0]
+Number of SAT calls = 2201162
+Time since start = 343.07486
+Time in SAT calls = 326.0222
+IC3 is on k = 5, clauses lengths = [0, 5280, 5485, 5837, 5904, 5914, 0]
+Number of SAT calls = 2609622
+Time since start = 401.92136
+Time in SAT calls = 381.82623
+IC3 is on k = 6, clauses lengths = [0, 5287, 5383, 5576, 5927, 5994, 6004, 0]
+Number of SAT calls = 2676829
+Time since start = 409.35684
+Time in SAT calls = 388.9172
+IC3 is on k = 7, clauses lengths = [0, 5406, 5411, 5479, 5667, 6018, 6085, 6095, 0]
+Number of SAT calls = 2750353
+Time since start = 416.98184
+Time in SAT calls = 396.1837
+IC3 is on k = 7, clauses lengths = [5406, 5406, 5411, 5479, 5667, 6018, 6085, 6095, 0]
+Number of SAT calls = 2790515
+Time since start = 419.39508
+Time in SAT calls = 398.53717
+Elapsed time = 419.3953
+Safe, checking invariant.
+Invariant check passed!
+451.31user 0.08system 7:31.50elapsed 99%CPU (0avgtext+0avgdata 270956maxresident)k
+24inputs+40outputs (0major+68274minor)pagefaults 0swaps

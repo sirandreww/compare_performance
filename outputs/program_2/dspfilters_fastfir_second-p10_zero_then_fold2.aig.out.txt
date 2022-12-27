@@ -4,8 +4,36 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 19                                                                1    19      0.11 sec
   2 : 0 28 48                                                             2   113      0.43 sec
-  3 : 0 44 78 528                                                         4   283      4.85 sec
-  4 : 0 61 98 825 930                                                    16   356     15.01 sec
-  5 : 0 71 84 1159 743 2158                                              11   432     36.50 sec
-  6 : 0 83 97 1403 965 1755 3020                                         13   550     68.72 sec
-slurmstepd-thanos12: error: *** JOB 72843 ON thanos12 CANCELLED AT 2022-12-21T18:31:17 DUE TO TIME LIMIT ***
+  3 : 0 44 78 528                                                         4   283      4.80 sec
+  4 : 0 61 98 825 930                                                    16   356     14.90 sec
+  5 : 0 71 84 1159 743 2158                                              11   432     36.22 sec
+  6 : 0 83 97 1403 965 1755 3020                                         13   550     68.20 sec
+  7 : 0 83 98 1133 920 1656 1306 3434                                     8   567     88.52 sec
+  8 : 0 83 98 1110 893 1510 1012 1235 3597                                8   590    106.97 sec
+  9 : 0 83 98 1108 880 1668 1045 1305 1018 5025                          14   598    143.95 sec
+ 10 : 0 83 98 1108 880 1614 981 1193 749 591 4933                         7   598    155.26 sec
+ 11 : 0 83 98 1108 880 1614 983 1202 687 525 211 4934                    13   599    163.78 sec
+ 12 : 0 83 98 1108 880 1614 983 1202 685 523 145 72 4906                  0   599    168.41 sec
+ 13 : 0 83 98 1108 880 1614 983 1202 687 526 159 79 85 5112               8   602    177.35 sec
+ 14 : 0 83 98 1108 880 1614 983 1202 687 526 101 13 7 6 5156              0   602    182.08 sec
+ 15 : 0 83 98 1108 880 1614 983 1202 687 526 101 14 9 7 8 5201            8   604    187.54 sec
+ 16 : 0 83 98 1108 880 1614 983 1202 687 526 98 10 4 3 3 5 5191           0   604    192.14 sec
+ 17 : 0 83 98 1108 880 1614 983 1202 687 526 98 10 4 3 3 5 6 5185         0   604    196.80 sec
+ 18 : ... 83 98 1108 880 1614 983 1202 687 526 98 10 4 3 3 5 6 1 5184     0   604    201.46 sec
+ 19 : ... 98 1108 880 1614 983 1202 687 526 98 10 4 3 3 5 6 1 0 5184      0   604    206.04 sec
+Invariant F[18] : 5184 clauses with 588 flops (out of 1104) (cex = 0, ave = 265.50)
+Verification of invariant with 5184 clauses was successful.  Time =     0.73 sec
+Block = 4289  Oblig = 22739  Clause = 15152  Call =391344 (sat=52.3%)  Cex =   0  Start =1281
+SAT solving =   134.66 sec ( 65.12 %)
+  unsat     =    22.78 sec ( 11.01 %)
+  sat       =   111.88 sec ( 54.11 %)
+Generalize  =   102.19 sec ( 49.42 %)
+Push clause =    59.24 sec ( 28.65 %)
+Ternary sim =    43.23 sec ( 20.90 %)
+Containment =     8.11 sec (  3.92 %)
+CNF compute =     2.67 sec (  1.29 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =   206.78 sec (100.00 %)
+Property proved.  Time =   206.81 sec
+204.74user 2.10system 3:26.89elapsed 99%CPU (0avgtext+0avgdata 147040maxresident)k
+216inputs+56outputs (0major+35153minor)pagefaults 0swaps

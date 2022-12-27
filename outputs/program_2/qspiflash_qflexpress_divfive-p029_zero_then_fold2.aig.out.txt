@@ -7,7 +7,7 @@ Frame Clauses                                                     Max Queue Flop
   3 : 0 14 49 63                                                          6    41      0.03 sec
   4 : 0 7 20 20 19                                                        0    41      0.03 sec
   5 : 0 7 20 17 2 17                                                      0    41      0.03 sec
-  6 : 0 7 20 17 2 7 10                                                    0    41      0.03 sec
+  6 : 0 7 20 17 2 7 10                                                    0    41      0.04 sec
   7 : 0 8 22 19 3 11 10 18                                               17    45      0.04 sec
   8 : 0 8 22 17 2 2 8 1 19                                                0    45      0.04 sec
   9 : 0 8 22 17 2 2 8 1 1 18                                              0    45      0.05 sec
@@ -23,16 +23,16 @@ Frame Clauses                                                     Max Queue Flop
 Invariant F[17] : 273 clauses with 103 flops (out of 167) (cex = 0, ave = 41.28)
 Verification of invariant with 273 clauses was successful.  Time =     0.00 sec
 Block =   30  Oblig =  3168  Clause =  1436  Call = 23615 (sat=57.6%)  Cex =   0  Start =  69
-SAT solving =     0.65 sec ( 69.22 %)
-  unsat     =     0.10 sec ( 10.73 %)
-  sat       =     0.55 sec ( 58.49 %)
-Generalize  =     0.64 sec ( 68.56 %)
-Push clause =     0.09 sec (  9.83 %)
-Ternary sim =     0.10 sec ( 10.33 %)
-Containment =     0.01 sec (  0.75 %)
-CNF compute =     0.03 sec (  3.37 %)
+SAT solving =     0.65 sec ( 69.21 %)
+  unsat     =     0.10 sec ( 10.74 %)
+  sat       =     0.55 sec ( 58.47 %)
+Generalize  =     0.64 sec ( 68.63 %)
+Push clause =     0.09 sec (  9.76 %)
+Ternary sim =     0.10 sec ( 10.39 %)
+Containment =     0.01 sec (  0.71 %)
+CNF compute =     0.03 sec (  3.35 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.94 sec (100.00 %)
 Property proved.  Time =     0.94 sec
-0.92user 0.04system 0:00.96elapsed 99%CPU (0avgtext+0avgdata 48668maxresident)k
-0inputs+8outputs (0major+10515minor)pagefaults 0swaps
+0.91user 0.04system 0:00.96elapsed 99%CPU (0avgtext+0avgdata 48696maxresident)k
+16inputs+8outputs (0major+10515minor)pagefaults 0swaps

@@ -1,25 +1,29 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.07712492
-Time in SAT calls = 0.013982706
-IC3 is on k = 2, clauses lengths = [0, 1, 2, 0]
-Number of SAT calls = 2072
-Time since start = 0.45485997
-Time in SAT calls = 0.33544526
-IC3 is on k = 3, clauses lengths = [0, 21, 25, 28, 0]
-Number of SAT calls = 35201
-Time since start = 7.102993
-Time in SAT calls = 6.352155
-IC3 is on k = 4, clauses lengths = [0, 12, 21, 25, 28, 0]
-Number of SAT calls = 35276
-Time since start = 7.1618996
-Time in SAT calls = 6.3917775
-IC3 is on k = 5, clauses lengths = [0, 72, 95, 117, 124, 127, 0]
-Number of SAT calls = 155674
-Time since start = 38.861996
-Time in SAT calls = 35.828835
-IC3 is on k = 6, clauses lengths = [0, 37, 72, 95, 117, 124, 127, 0]
-Number of SAT calls = 156210
-Time since start = 39.096607
-Time in SAT calls = 36.043713
-slurmstepd-thanos12: error: *** JOB 72420 ON thanos12 CANCELLED AT 2022-12-21T11:47:14 DUE TO TIME LIMIT ***
+Time since start = 0.0813629
+Time in SAT calls = 0.014646716
+IC3 is on k = 2, clauses lengths = [0, 2, 3, 0]
+Number of SAT calls = 4141
+Time since start = 0.72549874
+Time in SAT calls = 0.5642432
+IC3 is on k = 3, clauses lengths = [0, 12, 15, 19, 0]
+Number of SAT calls = 26913
+Time since start = 4.9904304
+Time in SAT calls = 4.4063005
+IC3 is on k = 4, clauses lengths = [0, 5, 12, 15, 19, 0]
+Number of SAT calls = 26960
+Time since start = 5.0446134
+Time in SAT calls = 4.440496
+IC3 is on k = 5, clauses lengths = [0, 23, 25, 31, 34, 38, 0]
+Number of SAT calls = 52936
+Time since start = 10.739547
+Time in SAT calls = 9.639066
+IC3 is on k = 6, clauses lengths = [0, 18, 23, 25, 31, 34, 38, 0]
+Number of SAT calls = 53088
+Time since start = 10.811401
+Time in SAT calls = 9.690358
+IC3 is on k = 7, clauses lengths = [0, 734, 900, 1154, 1317, 1362, 1365, 1369, 0]
+Number of SAT calls = 2141952
+Time since start = 560.294
+Time in SAT calls = 519.9485
+slurmstepd-thanos9_2: error: *** JOB 74983 ON thanos9_2 CANCELLED AT 2022-12-27T14:33:55 DUE TO TIME LIMIT ***

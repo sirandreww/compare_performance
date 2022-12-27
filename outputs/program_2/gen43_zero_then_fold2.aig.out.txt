@@ -4,21 +4,21 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 512                                                               1   513      0.09 sec
   2 : 0 512 512                                                           1   514      0.29 sec
-  3 : 0 512 256 512                                                       1   514      0.53 sec
-  4 : 0 512 256 0 512                                                     0   514      0.59 sec
+  3 : 0 512 256 512                                                       1   514      0.54 sec
+  4 : 0 512 256 0 512                                                     0   514      0.60 sec
 Invariant F[3] : 512 clauses with 514 flops (out of 518) (cex = 0, ave = 5.00)
 Verification of invariant with 512 clauses was successful.  Time =     0.00 sec
 Block = 1280  Oblig =  1280  Clause =  1280  Call =  9258 (sat=71.9%)  Cex =   0  Start =  24
-SAT solving =     0.40 sec ( 66.98 %)
-  unsat     =     0.02 sec (  4.03 %)
-  sat       =     0.37 sec ( 62.96 %)
-Generalize  =     0.21 sec ( 35.49 %)
-Push clause =     0.14 sec ( 23.05 %)
-Ternary sim =     0.11 sec ( 17.94 %)
-Containment =     0.00 sec (  0.21 %)
-CNF compute =     0.01 sec (  1.92 %)
+SAT solving =     0.40 sec ( 66.22 %)
+  unsat     =     0.02 sec (  3.91 %)
+  sat       =     0.38 sec ( 62.30 %)
+Generalize  =     0.21 sec ( 35.04 %)
+Push clause =     0.14 sec ( 22.84 %)
+Ternary sim =     0.11 sec ( 18.33 %)
+Containment =     0.00 sec (  0.22 %)
+CNF compute =     0.01 sec (  1.84 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     0.59 sec (100.00 %)
-Property proved.  Time =     0.60 sec
-0.60user 0.01system 0:00.62elapsed 99%CPU (0avgtext+0avgdata 26396maxresident)k
-0inputs+8outputs (0major+4891minor)pagefaults 0swaps
+TOTAL       =     0.61 sec (100.00 %)
+Property proved.  Time =     0.61 sec
+0.61user 0.02system 0:00.64elapsed 99%CPU (0avgtext+0avgdata 26308maxresident)k
+40inputs+8outputs (0major+4888minor)pagefaults 0swaps

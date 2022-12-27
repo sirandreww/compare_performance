@@ -4,23 +4,23 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 19                                                                1    19      0.12 sec
   2 : 0 59 74                                                             2    86      0.57 sec
-  3 : 0 92 126 324                                                        5   308      3.95 sec
-  4 : 0 72 94 163 74                                                      0   308      4.13 sec
-  5 : 0 72 94 163 11 63                                                   0   308      4.29 sec
-  6 : 0 72 94 163 11 0 63                                                 0   308      4.44 sec
+  3 : 0 92 126 324                                                        5   308      4.00 sec
+  4 : 0 72 94 163 74                                                      0   308      4.19 sec
+  5 : 0 72 94 163 11 63                                                   0   308      4.34 sec
+  6 : 0 72 94 163 11 0 63                                                 0   308      4.50 sec
 Invariant F[5] : 63 clauses with 138 flops (out of 1104) (cex = 0, ave = 249.40)
 Verification of invariant with 63 clauses was successful.  Time =     0.01 sec
 Block =  178  Oblig =   897  Clause =   542  Call =  5279 (sat=57.6%)  Cex =   0  Start =  14
-SAT solving =     1.87 sec ( 42.07 %)
-  unsat     =     0.25 sec (  5.65 %)
-  sat       =     1.62 sec ( 36.42 %)
-Generalize  =     2.60 sec ( 58.27 %)
-Push clause =     0.54 sec ( 12.03 %)
-Ternary sim =     2.05 sec ( 46.10 %)
-Containment =     0.02 sec (  0.54 %)
-CNF compute =     0.02 sec (  0.55 %)
+SAT solving =     1.88 sec ( 41.63 %)
+  unsat     =     0.25 sec (  5.60 %)
+  sat       =     1.63 sec ( 36.03 %)
+Generalize  =     2.65 sec ( 58.79 %)
+Push clause =     0.54 sec ( 11.91 %)
+Ternary sim =     2.11 sec ( 46.68 %)
+Containment =     0.02 sec (  0.53 %)
+CNF compute =     0.02 sec (  0.54 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     4.46 sec (100.00 %)
-Property proved.  Time =     4.46 sec
-4.48user 0.00system 0:04.50elapsed 99%CPU (0avgtext+0avgdata 52888maxresident)k
-0inputs+8outputs (0major+11567minor)pagefaults 0swaps
+TOTAL       =     4.51 sec (100.00 %)
+Property proved.  Time =     4.52 sec
+4.53user 0.02system 0:04.62elapsed 98%CPU (0avgtext+0avgdata 52776maxresident)k
+4168inputs+16outputs (35major+11564minor)pagefaults 0swaps

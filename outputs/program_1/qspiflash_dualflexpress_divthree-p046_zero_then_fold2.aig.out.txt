@@ -1,87 +1,57 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.009738259
-Time in SAT calls = 0.002936603
-IC3 is on k = 2, clauses lengths = [0, 141, 143, 0]
-Number of SAT calls = 24193
-Time since start = 1.2242835
-Time in SAT calls = 1.1393627
-IC3 is on k = 3, clauses lengths = [0, 340, 352, 354, 0]
-Number of SAT calls = 59893
-Time since start = 3.1377072
-Time in SAT calls = 2.9361212
-IC3 is on k = 4, clauses lengths = [0, 441, 463, 488, 491, 0]
-Number of SAT calls = 85176
-Time since start = 4.2513328
-Time in SAT calls = 3.9702587
-IC3 is on k = 5, clauses lengths = [0, 411, 481, 503, 528, 531, 0]
-Number of SAT calls = 93870
-Time since start = 4.662047
-Time in SAT calls = 4.355882
-IC3 is on k = 6, clauses lengths = [0, 876, 948, 1030, 1053, 1078, 1081, 0]
-Number of SAT calls = 193685
-Time since start = 10.114121
-Time in SAT calls = 9.486995
-IC3 is on k = 7, clauses lengths = [0, 1120, 1219, 1307, 1393, 1417, 1442, 1445, 0]
-Number of SAT calls = 264690
-Time since start = 14.070917
-Time in SAT calls = 13.224518
-IC3 is on k = 8, clauses lengths = [0, 978, 1142, 1234, 1322, 1408, 1432, 1457, 1460, 0]
-Number of SAT calls = 276634
-Time since start = 14.509346
-Time in SAT calls = 13.643484
-IC3 is on k = 9, clauses lengths = [0, 870, 1044, 1187, 1274, 1362, 1448, 1472, 1497, 1500]
-Number of SAT calls = 294389
-Time since start = 15.268293
-Time in SAT calls = 14.366341
-IC3 is on k = 10, clauses lengths = [0, 1466, 1648, 1813, 2000, 2121, 2225, 2290, 2312, 2337]
-Number of SAT calls = 471852
-Time since start = 25.506886
-Time in SAT calls = 24.0383
-IC3 is on k = 11, clauses lengths = [0, 2399, 2497, 2601, 2748, 2906, 3026, 3128, 3188, 3208]
-Number of SAT calls = 671852
-Time since start = 37.09184
-Time in SAT calls = 35.002563
-IC3 is on k = 12, clauses lengths = [0, 2274, 2399, 2497, 2601, 2748, 2906, 3026, 3128, 3188]
-Number of SAT calls = 704023
-Time since start = 38.049225
-Time in SAT calls = 35.919086
-IC3 is on k = 13, clauses lengths = [0, 2167, 2274, 2399, 2497, 2601, 2748, 2906, 3026, 3128]
-Number of SAT calls = 738468
-Time since start = 39.07141
-Time in SAT calls = 36.898273
-IC3 is on k = 14, clauses lengths = [0, 3673, 3720, 3808, 3957, 4067, 4182, 4346, 4502, 4622]
-Number of SAT calls = 1117584
-Time since start = 71.07853
-Time in SAT calls = 67.667145
-IC3 is on k = 15, clauses lengths = [0, 3599, 3673, 3720, 3808, 3957, 4067, 4182, 4346, 4502]
-Number of SAT calls = 1178424
-Time since start = 72.94872
-Time in SAT calls = 69.44511
-IC3 is on k = 16, clauses lengths = [0, 3687, 3703, 3735, 3780, 3868, 4017, 4127, 4242, 4406]
-Number of SAT calls = 1254573
-Time since start = 75.51133
-Time in SAT calls = 71.870804
-IC3 is on k = 17, clauses lengths = [0, 3685, 3687, 3703, 3735, 3780, 3868, 4017, 4127, 4242]
-Number of SAT calls = 1323645
-Time since start = 77.51548
-Time in SAT calls = 73.76955
-IC3 is on k = 18, clauses lengths = [0, 3683, 3685, 3687, 3703, 3735, 3780, 3868, 4017, 4127]
-Number of SAT calls = 1396402
-Time since start = 79.58076
-Time in SAT calls = 75.723915
-IC3 is on k = 19, clauses lengths = [0, 3682, 3683, 3685, 3687, 3703, 3735, 3780, 3868, 4017]
-Number of SAT calls = 1472842
-Time since start = 81.72438
-Time in SAT calls = 77.74874
-IC3 is on k = 20, clauses lengths = [0, 3680, 3682, 3683, 3685, 3687, 3703, 3735, 3780, 3868]
-Number of SAT calls = 1552964
-Time since start = 83.92849
-Time in SAT calls = 79.83107
-IC3 is on k = 20, clauses lengths = [3680, 3680, 3682, 3683, 3685, 3687, 3703, 3735, 3780, 3868]
-Number of SAT calls = 1636766
-Time since start = 86.2015
-Time in SAT calls = 81.97763
-Elapsed time = 86.20169
+Time since start = 0.008156468
+Time in SAT calls = 0.001536481
+IC3 is on k = 2, clauses lengths = [0, 164, 166, 0]
+Number of SAT calls = 27694
+Time since start = 1.3793935
+Time in SAT calls = 1.2824845
+IC3 is on k = 3, clauses lengths = [0, 146, 164, 166, 0]
+Number of SAT calls = 28025
+Time since start = 1.390186
+Time in SAT calls = 1.2912532
+IC3 is on k = 4, clauses lengths = [0, 623, 666, 701, 704, 0]
+Number of SAT calls = 128781
+Time since start = 6.5132475
+Time in SAT calls = 6.08623
+IC3 is on k = 5, clauses lengths = [0, 741, 851, 924, 959, 962, 0]
+Number of SAT calls = 177893
+Time since start = 9.239951
+Time in SAT calls = 8.654815
+IC3 is on k = 6, clauses lengths = [0, 703, 785, 894, 967, 1002, 1005, 0]
+Number of SAT calls = 189686
+Time since start = 9.8122425
+Time in SAT calls = 9.196757
+IC3 is on k = 7, clauses lengths = [0, 771, 843, 906, 1011, 1084, 1119, 1122, 0]
+Number of SAT calls = 216151
+Time since start = 11.080848
+Time in SAT calls = 10.389767
+IC3 is on k = 8, clauses lengths = [0, 803, 833, 882, 945, 1050, 1123, 1158, 1161, 0]
+Number of SAT calls = 229943
+Time since start = 11.647532
+Time in SAT calls = 10.925371
+IC3 is on k = 9, clauses lengths = [0, 1063, 1082, 1107, 1156, 1219, 1324, 1397, 1432, 1435]
+Number of SAT calls = 289689
+Time since start = 14.662129
+Time in SAT calls = 13.761333
+IC3 is on k = 10, clauses lengths = [0, 1036, 1063, 1082, 1107, 1156, 1219, 1324, 1397, 1432]
+Number of SAT calls = 300905
+Time since start = 14.934364
+Time in SAT calls = 14.01957
+IC3 is on k = 11, clauses lengths = [0, 1084, 1094, 1102, 1116, 1141, 1190, 1253, 1358, 1431]
+Number of SAT calls = 319323
+Time since start = 15.5049515
+Time in SAT calls = 14.555898
+IC3 is on k = 12, clauses lengths = [0, 1064, 1084, 1094, 1102, 1116, 1141, 1190, 1253, 1358]
+Number of SAT calls = 333028
+Time since start = 15.796909
+Time in SAT calls = 14.831295
+IC3 is on k = 12, clauses lengths = [1308, 1308, 1310, 1319, 1328, 1341, 1369, 1416, 1484, 1589]
+Number of SAT calls = 397293
+Time since start = 18.526583
+Time in SAT calls = 17.384708
+Elapsed time = 18.526747
 Safe, checking invariant.
-slurmstepd-thanos12: error: *** JOB 72473 ON thanos12 CANCELLED AT 2022-12-21T12:57:44 DUE TO TIME LIMIT ***
+Invariant check passed!
+24.42user 0.00system 0:24.44elapsed 99%CPU (0avgtext+0avgdata 63444maxresident)k
+16inputs+8outputs (0major+15211minor)pagefaults 0swaps

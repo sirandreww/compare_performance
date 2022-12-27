@@ -1,5 +1,5 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 3.3655808
-Time in SAT calls = 0.6324089
-slurmstepd-thanos12: error: *** JOB 72463 ON thanos12 CANCELLED AT 2022-12-21T12:44:14 DUE TO TIME LIMIT ***
+Time since start = 3.5122194
+Time in SAT calls = 0.6649336
+slurmstepd-thanos10_4: error: *** JOB 74926 ON thanos10_4 CANCELLED AT 2022-12-27T14:23:25 DUE TO TIME LIMIT ***

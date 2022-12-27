@@ -1,29 +1,29 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.001850723
-Time in SAT calls = 0.00034077
-IC3 is on k = 2, clauses lengths = [0, 9, 11, 0]
-Number of SAT calls = 301
-Time since start = 0.007357846
-Time in SAT calls = 0.004872259
-IC3 is on k = 3, clauses lengths = [0, 17, 18, 20, 0]
-Number of SAT calls = 604
-Time since start = 0.0115451
-Time in SAT calls = 0.008276509
-IC3 is on k = 4, clauses lengths = [0, 28, 31, 32, 33, 0]
-Number of SAT calls = 1348
-Time since start = 0.019360088
-Time in SAT calls = 0.014925203
-IC3 is on k = 5, clauses lengths = [0, 25, 28, 31, 32, 33, 0]
-Number of SAT calls = 1473
-Time since start = 0.019922622
-Time in SAT calls = 0.015227288
-IC3 is on k = 5, clauses lengths = [37, 37, 37, 37, 37, 37, 0]
-Number of SAT calls = 1940
-Time since start = 0.021735212
-Time in SAT calls = 0.016657412
-Elapsed time = 0.021738308
+Time since start = 0.001537311
+Time in SAT calls = 0.000290884
+IC3 is on k = 2, clauses lengths = [0, 10, 11, 0]
+Number of SAT calls = 326
+Time since start = 0.007076783
+Time in SAT calls = 0.004792035
+IC3 is on k = 3, clauses lengths = [0, 21, 23, 24, 0]
+Number of SAT calls = 731
+Time since start = 0.011212808
+Time in SAT calls = 0.008202169
+IC3 is on k = 4, clauses lengths = [0, 17, 21, 23, 24, 0]
+Number of SAT calls = 800
+Time since start = 0.011671643
+Time in SAT calls = 0.008418282
+IC3 is on k = 5, clauses lengths = [0, 15, 17, 21, 23, 24, 0]
+Number of SAT calls = 886
+Time since start = 0.01216318
+Time in SAT calls = 0.008668909
+IC3 is on k = 5, clauses lengths = [39, 39, 39, 39, 39, 39, 0]
+Number of SAT calls = 1804
+Time since start = 0.017181428
+Time in SAT calls = 0.012848901
+Elapsed time = 0.017184904
 Safe, checking invariant.
 Invariant check passed!
-0.02user 0.00system 0:00.03elapsed 82%CPU (0avgtext+0avgdata 5784maxresident)k
-8inputs+8outputs (0major+586minor)pagefaults 0swaps
+0.02user 0.00system 0:00.02elapsed 89%CPU (0avgtext+0avgdata 5616maxresident)k
+8inputs+8outputs (0major+579minor)pagefaults 0swaps

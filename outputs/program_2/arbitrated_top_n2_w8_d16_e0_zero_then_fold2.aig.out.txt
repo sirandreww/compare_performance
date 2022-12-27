@@ -9,28 +9,28 @@ Frame Clauses                                                     Max Queue Flop
   5 : 0 4 12 24 74 90                                                     6    60      0.08 sec
   6 : 0 4 12 24 62 129 121                                                7    68      0.16 sec
   7 : 0 4 12 23 45 64 135 153                                             6    76      0.26 sec
-  8 : 0 4 12 23 45 55 107 203 207                                         7    84      0.42 sec
+  8 : 0 4 12 23 45 55 107 203 207                                         7    84      0.43 sec
   9 : 0 4 13 25 47 56 110 168 275 276                                    19    93      0.69 sec
- 10 : 0 4 11 24 48 53 92 113 174 434 290                                 12   106      1.03 sec
+ 10 : 0 4 11 24 48 53 92 113 174 434 290                                 12   106      1.04 sec
  11 : 0 4 11 24 47 51 88 107 164 294 447 349                             16   114      1.44 sec
  12 : 0 4 11 24 47 51 87 103 157 255 437 680 504                         23   122      2.31 sec
  13 : 0 4 11 24 47 51 87 103 159 234 379 529 690 470                     19   130      3.04 sec
- 14 : 0 4 11 24 47 51 87 101 159 216 311 545 737 1039 775                51   138      4.79 sec
- 15 : 0 6 13 27 51 54 90 102 160 225 303 438 718 1052 1379 1036          49   147      7.63 sec
- 16 : ... 5 13 27 53 54 91 104 163 206 294 377 619 839 981 1495 1008     73   155     10.31 sec
- 17 : ... 61 65 112 128 206 258 352 462 744 989 1189 1799 1947 1403     166   169     16.92 sec
- 18 : ... 88 138 138 237 274 370 435 734 823 974 1042 1722 1628 531      82   169     20.03 sec
+ 14 : 0 4 11 24 47 51 87 101 159 216 311 545 737 1039 775                51   138      4.78 sec
+ 15 : 0 6 13 27 51 54 90 102 160 225 303 438 718 1052 1379 1036          49   147      7.62 sec
+ 16 : ... 5 13 27 53 54 91 104 163 206 294 377 619 839 981 1495 1008     73   155     10.30 sec
+ 17 : ... 61 65 112 128 206 258 352 462 744 989 1189 1799 1947 1403     166   169     16.90 sec
+ 18 : ... 88 138 138 237 274 370 435 734 823 974 1042 1722 1628 531      82   169     20.01 sec
 Block = 1151  Oblig = 21833  Clause = 14623  Call =264845 (sat=67.1%)  Cex =   0  Start = 870
-SAT solving =    16.59 sec ( 82.79 %)
-  unsat     =     3.88 sec ( 19.39 %)
-  sat       =    12.70 sec ( 63.40 %)
-Generalize  =    13.81 sec ( 68.92 %)
-Push clause =     3.65 sec ( 18.21 %)
-Ternary sim =     0.30 sec (  1.48 %)
+SAT solving =    16.54 sec ( 82.63 %)
+  unsat     =     3.87 sec ( 19.36 %)
+  sat       =    12.67 sec ( 63.28 %)
+Generalize  =    13.79 sec ( 68.91 %)
+Push clause =     3.65 sec ( 18.22 %)
+Ternary sim =     0.30 sec (  1.49 %)
 Containment =     0.16 sec (  0.80 %)
-CNF compute =     0.83 sec (  4.13 %)
+CNF compute =     0.84 sec (  4.21 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    20.03 sec (100.00 %)
-Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/arbitrated_top_n2_w8_d16_e0_zero_then_fold2" was asserted in frame 22.  Time =    20.04 sec
-19.08user 0.98system 0:20.07elapsed 99%CPU (0avgtext+0avgdata 57784maxresident)k
-0inputs+8outputs (0major+12786minor)pagefaults 0swaps
+TOTAL       =    20.02 sec (100.00 %)
+Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/arbitrated_top_n2_w8_d16_e0_zero_then_fold2" was asserted in frame 22.  Time =    20.02 sec
+19.13user 0.90system 0:20.05elapsed 99%CPU (0avgtext+0avgdata 57888maxresident)k
+0inputs+8outputs (0major+12787minor)pagefaults 0swaps

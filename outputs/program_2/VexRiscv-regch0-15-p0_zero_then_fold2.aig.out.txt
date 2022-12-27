@@ -11,8 +11,26 @@ Frame Clauses                                                     Max Queue Flop
   7 : 0 5 2 3 2 5 5 19                                                    8   106      0.06 sec
   8 : 0 5 2 3 1 1 1 1 13                                                  0   106      0.06 sec
   9 : 0 5 2 3 1 1 1 1 1 12                                                0   106      0.06 sec
- 10 : 0 5 2 3 1 1 1 1 1 2 15                                              2   106      0.06 sec
+ 10 : 0 5 2 3 1 1 1 1 1 2 15                                              2   106      0.07 sec
  11 : 0 5 2 3 1 1 1 1 1 1 1 12                                            0   106      0.07 sec
- 12 : 0 6 2 3 8 17 17 30 26 34 17 21 155                                 35   254      1.25 sec
- 13 : 0 6 2 3 8 23 25 35 29 49 37 51 61 179                              40   264      2.96 sec
-slurmstepd-thanos12: error: *** JOB 72751 ON thanos12 CANCELLED AT 2022-12-21T17:33:17 DUE TO TIME LIMIT ***
+ 12 : 0 6 2 3 8 17 17 30 26 34 17 21 155                                 35   254      1.24 sec
+ 13 : 0 6 2 3 8 23 25 35 29 49 37 51 61 179                              40   264      2.95 sec
+ 14 : ... 21 13 7 75 614 1952 2709 2506 3324 2464 2524 2369 2389 6172    75   450    466.55 sec
+ 15 : 0 19 9 5 10 42 36 45 29 32 16 9 5 3 1 348                           0   450    466.73 sec
+ 16 : 0 19 9 5 10 42 36 45 29 31 16 9 5 3 1 0 348                         0   450    466.77 sec
+Invariant F[15] : 348 clauses with 245 flops (out of 1918) (cex = 0, ave = 177.68)
+Verification of invariant with 348 clauses was successful.  Time =     0.00 sec
+Block =   25  Oblig = 41359  Clause = 27309  Call =2296270 (sat=93.4%)  Cex =   0  Start =7646
+SAT solving =   312.28 sec ( 66.90 %)
+  unsat     =    10.83 sec (  2.32 %)
+  sat       =   301.45 sec ( 64.58 %)
+Generalize  =   447.74 sec ( 95.92 %)
+Push clause =     0.28 sec (  0.06 %)
+Ternary sim =     2.53 sec (  0.54 %)
+Containment =     4.06 sec (  0.87 %)
+CNF compute =    59.21 sec ( 12.69 %)
+Refinement  =     0.00 sec (  0.00 %)
+TOTAL       =   466.78 sec (100.00 %)
+Property proved.  Time =   466.79 sec
+447.47user 19.35system 7:46.92elapsed 99%CPU (0avgtext+0avgdata 193664maxresident)k
+168inputs+16outputs (0major+46684minor)pagefaults 0swaps

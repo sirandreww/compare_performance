@@ -1,49 +1,49 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.00806644
-Time in SAT calls = 0.001419805
-IC3 is on k = 2, clauses lengths = [0, 179, 180, 0]
-Number of SAT calls = 35808
-Time since start = 2.170612
-Time in SAT calls = 2.028865
-IC3 is on k = 3, clauses lengths = [0, 205, 233, 234, 0]
-Number of SAT calls = 52987
-Time since start = 2.631347
-Time in SAT calls = 2.4287014
-IC3 is on k = 4, clauses lengths = [0, 186, 205, 233, 234, 0]
-Number of SAT calls = 53660
-Time since start = 2.653424
-Time in SAT calls = 2.4481387
-IC3 is on k = 5, clauses lengths = [0, 432, 495, 519, 548, 549, 0]
-Number of SAT calls = 121896
-Time since start = 6.6801605
-Time in SAT calls = 6.2177305
-IC3 is on k = 6, clauses lengths = [0, 386, 432, 495, 519, 548, 549, 0]
-Number of SAT calls = 124440
-Time since start = 6.7605066
-Time in SAT calls = 6.2936516
-IC3 is on k = 7, clauses lengths = [0, 363, 386, 432, 495, 519, 548, 549, 0]
-Number of SAT calls = 127370
-Time since start = 6.8480577
-Time in SAT calls = 6.3764095
-IC3 is on k = 8, clauses lengths = [0, 358, 363, 386, 432, 495, 519, 548, 549, 0]
-Number of SAT calls = 130663
-Time since start = 6.9383044
-Time in SAT calls = 6.461479
-IC3 is on k = 9, clauses lengths = [0, 353, 358, 363, 386, 432, 495, 519, 548, 549]
-Number of SAT calls = 134314
-Time since start = 7.0310707
-Time in SAT calls = 6.548782
-IC3 is on k = 10, clauses lengths = [0, 359, 362, 367, 372, 395, 441, 504, 528, 557]
-Number of SAT calls = 140765
-Time since start = 7.2306743
-Time in SAT calls = 6.7338552
-IC3 is on k = 11, clauses lengths = [0, 357, 359, 362, 367, 372, 395, 441, 504, 528]
-Number of SAT calls = 145209
-Time since start = 7.3282676
-Time in SAT calls = 6.8252954
-IC3 is on k = 12, clauses lengths = [0, 354, 357, 359, 362, 367, 372, 395, 441, 504]
-Number of SAT calls = 150010
-Time since start = 7.4280148
-Time in SAT calls = 6.918537
-slurmstepd-thanos12: error: *** JOB 72443 ON thanos12 CANCELLED AT 2022-12-21T12:18:44 DUE TO TIME LIMIT ***
+Time since start = 0.008274454
+Time in SAT calls = 0.001566942
+IC3 is on k = 2, clauses lengths = [0, 64, 73, 0]
+Number of SAT calls = 14693
+Time since start = 0.70628387
+Time in SAT calls = 0.6443172
+IC3 is on k = 3, clauses lengths = [0, 65, 78, 88, 0]
+Number of SAT calls = 18607
+Time since start = 0.859736
+Time in SAT calls = 0.78208876
+IC3 is on k = 4, clauses lengths = [0, 418, 445, 465, 467, 0]
+Number of SAT calls = 96380
+Time since start = 5.710069
+Time in SAT calls = 5.335728
+IC3 is on k = 5, clauses lengths = [0, 783, 904, 957, 982, 984, 0]
+Number of SAT calls = 209694
+Time since start = 12.513172
+Time in SAT calls = 11.714496
+IC3 is on k = 6, clauses lengths = [0, 581, 783, 904, 957, 982, 984, 0]
+Number of SAT calls = 214305
+Time since start = 12.709443
+Time in SAT calls = 11.9041395
+IC3 is on k = 7, clauses lengths = [0, 548, 623, 811, 932, 985, 1010, 1012, 0]
+Number of SAT calls = 225399
+Time since start = 13.226173
+Time in SAT calls = 12.392301
+IC3 is on k = 8, clauses lengths = [0, 500, 548, 623, 811, 932, 985, 1010, 1012, 0]
+Number of SAT calls = 231321
+Time since start = 13.46511
+Time in SAT calls = 12.623285
+IC3 is on k = 9, clauses lengths = [0, 3885, 4449, 4849, 5187, 5400, 5487, 5543, 5566, 5568]
+Number of SAT calls = 1246951
+Time since start = 103.23576
+Time in SAT calls = 98.356926
+IC3 is on k = 10, clauses lengths = [0, 3238, 3885, 4449, 4849, 5187, 5400, 5487, 5543, 5566]
+Number of SAT calls = 1292886
+Time since start = 106.39751
+Time in SAT calls = 101.4459
+IC3 is on k = 11, clauses lengths = [0, 2887, 3238, 3885, 4449, 4849, 5187, 5400, 5487, 5543]
+Number of SAT calls = 1342059
+Time since start = 109.89469
+Time in SAT calls = 104.865204
+IC3 is on k = 12, clauses lengths = [0, 2694, 2887, 3238, 3885, 4449, 4849, 5187, 5400, 5487]
+Number of SAT calls = 1394119
+Time since start = 113.58023
+Time in SAT calls = 108.46711
+slurmstepd-thanos3_4: error: *** JOB 75091 ON thanos3_4 CANCELLED AT 2022-12-27T14:54:55 DUE TO TIME LIMIT ***

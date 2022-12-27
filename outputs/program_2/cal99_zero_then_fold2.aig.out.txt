@@ -4,25 +4,25 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.06 sec
   2 : 0 1 48                                                              1    49      0.24 sec
-  3 : 0 1 185 286                                                         7   403      2.77 sec
-  4 : 0 1 172 192 420                                                     8   448      6.06 sec
-  5 : 0 1 135 237 232 804                                                 8   455     14.16 sec
-  6 : 0 1 56 47 38 84 703                                                 8   462     16.72 sec
-  7 : 0 1 28 8 6 4 6 768                                                  8   464     18.21 sec
-  8 : 0 1 19 0 0 0 0 0 770                                                0   464     18.82 sec
+  3 : 0 1 185 286                                                         7   403      2.76 sec
+  4 : 0 1 172 192 420                                                     8   448      6.02 sec
+  5 : 0 1 135 237 232 804                                                 8   455     14.12 sec
+  6 : 0 1 56 47 38 84 703                                                 8   462     16.68 sec
+  7 : 0 1 28 8 6 4 6 768                                                  8   464     18.17 sec
+  8 : 0 1 19 0 0 0 0 0 770                                                0   464     18.78 sec
 Invariant F[3] : 770 clauses with 463 flops (out of 718) (cex = 0, ave = 55.42)
 Verification of invariant with 770 clauses was successful.  Time =     0.61 sec
 Block =  187  Oblig =  2871  Clause =  1813  Call = 44988 (sat=27.9%)  Cex =   0  Start = 147
-SAT solving =    16.96 sec ( 87.25 %)
-  unsat     =    10.73 sec ( 55.20 %)
-  sat       =     6.23 sec ( 32.04 %)
-Generalize  =    11.73 sec ( 60.35 %)
-Push clause =     3.52 sec ( 18.11 %)
-Ternary sim =     0.40 sec (  2.06 %)
+SAT solving =    16.92 sec ( 87.27 %)
+  unsat     =    10.71 sec ( 55.21 %)
+  sat       =     6.22 sec ( 32.06 %)
+Generalize  =    11.67 sec ( 60.17 %)
+Push clause =     3.53 sec ( 18.22 %)
+Ternary sim =     0.39 sec (  2.03 %)
 Containment =     0.02 sec (  0.09 %)
 CNF compute =     0.28 sec (  1.45 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    19.43 sec (100.00 %)
-Property proved.  Time =    19.45 sec
-19.40user 0.07system 0:19.48elapsed 99%CPU (0avgtext+0avgdata 69028maxresident)k
-0inputs+8outputs (0major+15554minor)pagefaults 0swaps
+TOTAL       =    19.39 sec (100.00 %)
+Property proved.  Time =    19.40 sec
+19.34user 0.09system 0:19.44elapsed 99%CPU (0avgtext+0avgdata 69340maxresident)k
+0inputs+8outputs (0major+15559minor)pagefaults 0swaps

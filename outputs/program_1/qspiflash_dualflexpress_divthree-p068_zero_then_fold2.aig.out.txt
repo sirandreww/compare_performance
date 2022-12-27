@@ -1,33 +1,65 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.013009381
-Time in SAT calls = 0.00237798
-IC3 is on k = 2, clauses lengths = [0, 201, 213, 0]
-Number of SAT calls = 42938
-Time since start = 2.4105968
-Time in SAT calls = 2.23768
-IC3 is on k = 3, clauses lengths = [0, 184, 201, 213, 0]
-Number of SAT calls = 43353
-Time since start = 2.428218
-Time in SAT calls = 2.2528126
-IC3 is on k = 4, clauses lengths = [0, 415, 454, 472, 474, 0]
-Number of SAT calls = 101248
-Time since start = 5.5662756
-Time in SAT calls = 5.17183
-IC3 is on k = 5, clauses lengths = [0, 531, 598, 639, 659, 661, 0]
-Number of SAT calls = 142383
-Time since start = 8.094095
-Time in SAT calls = 7.547009
-IC3 is on k = 6, clauses lengths = [0, 404, 531, 598, 639, 659, 661, 0]
-Number of SAT calls = 145472
-Time since start = 8.224713
-Time in SAT calls = 7.6725607
-IC3 is on k = 7, clauses lengths = [0, 318, 404, 531, 598, 639, 659, 661, 0]
-Number of SAT calls = 148965
-Time since start = 8.385039
-Time in SAT calls = 7.8273687
-IC3 is on k = 8, clauses lengths = [0, 388, 450, 547, 684, 751, 792, 812, 814, 0]
-Number of SAT calls = 187553
-Time since start = 10.809589
-Time in SAT calls = 10.11154
-slurmstepd-thanos12: error: *** JOB 72428 ON thanos12 CANCELLED AT 2022-12-21T11:57:44 DUE TO TIME LIMIT ***
+Time since start = 0.012173097
+Time in SAT calls = 0.002467712
+IC3 is on k = 2, clauses lengths = [0, 88, 90, 0]
+Number of SAT calls = 17899
+Time since start = 1.0013249
+Time in SAT calls = 0.9237592
+IC3 is on k = 3, clauses lengths = [0, 138, 184, 189, 0]
+Number of SAT calls = 46406
+Time since start = 1.8834362
+Time in SAT calls = 1.7028885
+IC3 is on k = 4, clauses lengths = [0, 307, 351, 393, 398, 0]
+Number of SAT calls = 90810
+Time since start = 4.3890023
+Time in SAT calls = 4.0428944
+IC3 is on k = 5, clauses lengths = [0, 509, 586, 637, 685, 689, 0]
+Number of SAT calls = 154011
+Time since start = 8.197015
+Time in SAT calls = 7.6169233
+IC3 is on k = 6, clauses lengths = [0, 433, 509, 586, 637, 685, 689, 0]
+Number of SAT calls = 157118
+Time since start = 8.316448
+Time in SAT calls = 7.7313504
+IC3 is on k = 7, clauses lengths = [0, 394, 433, 509, 586, 637, 685, 689, 0]
+Number of SAT calls = 160658
+Time since start = 8.447773
+Time in SAT calls = 7.857332
+IC3 is on k = 8, clauses lengths = [0, 388, 394, 433, 509, 586, 637, 685, 689, 0]
+Number of SAT calls = 164592
+Time since start = 8.583045
+Time in SAT calls = 7.986669
+IC3 is on k = 9, clauses lengths = [0, 875, 892, 911, 967, 1046, 1121, 1170, 1218, 1222]
+Number of SAT calls = 297724
+Time since start = 16.487589
+Time in SAT calls = 15.392248
+IC3 is on k = 10, clauses lengths = [0, 858, 875, 892, 911, 967, 1046, 1121, 1170, 1218]
+Number of SAT calls = 307147
+Time since start = 16.690012
+Time in SAT calls = 15.58289
+IC3 is on k = 11, clauses lengths = [0, 644, 858, 875, 892, 911, 967, 1046, 1121, 1170]
+Number of SAT calls = 317428
+Time since start = 16.962488
+Time in SAT calls = 15.842578
+IC3 is on k = 12, clauses lengths = [0, 601, 644, 858, 875, 892, 911, 967, 1046, 1121]
+Number of SAT calls = 328353
+Time since start = 17.254509
+Time in SAT calls = 16.120935
+IC3 is on k = 13, clauses lengths = [0, 548, 601, 644, 858, 875, 892, 911, 967, 1046]
+Number of SAT calls = 339879
+Time since start = 17.567045
+Time in SAT calls = 16.41934
+IC3 is on k = 14, clauses lengths = [0, 500, 548, 601, 644, 858, 875, 892, 911, 967]
+Number of SAT calls = 351953
+Time since start = 17.897818
+Time in SAT calls = 16.735376
+IC3 is on k = 15, clauses lengths = [0, 13716, 14935, 15987, 16995, 17529, 17893, 18161, 18389, 18564]
+Number of SAT calls = 4508161
+Time since start = 491.8921
+Time in SAT calls = 473.5572
+IC3 is on k = 16, clauses lengths = [0, 12004, 13716, 14935, 15987, 16995, 17529, 17893, 18161, 18389]
+Number of SAT calls = 4773039
+Time since start = 528.47003
+Time in SAT calls = 509.55762
+slurmstepd-thanos12_3: error: *** JOB 75096 ON thanos12_3 CANCELLED AT 2022-12-27T12:54:55 DUE TO TIME LIMIT ***
