@@ -3,32 +3,32 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 21                                                                1    21      0.14 sec
-  2 : 0 22 35                                                             2    27      0.48 sec
+  2 : 0 22 35                                                             2    27      0.47 sec
   3 : 0 22 43 51                                                          2    63      0.82 sec
-  4 : 0 22 35 43 24                                                       1    63      0.94 sec
-  5 : 0 22 41 94 113 1369                                                 5   527     16.27 sec
-  6 : 0 22 37 80 117 540 2332                                             6   701     32.94 sec
-  7 : 0 22 33 68 109 553 803 3019                                        10   725     50.36 sec
-  8 : 0 22 33 68 109 500 119 296 3370                                     1   725     52.93 sec
-  9 : 0 22 33 68 109 498 116 281 833 2876                                 3   725     57.72 sec
- 10 : 0 22 33 68 109 498 116 281 586 380 2916                             2   725     61.43 sec
- 11 : 0 22 33 68 109 498 98 290 595 189 95 3121                           3   725     64.32 sec
- 12 : 0 22 33 68 109 498 98 290 595 188 35 11 3139                        0   725     65.78 sec
- 13 : 0 22 33 68 109 498 98 290 595 188 35 11 1 3138                      0   725     67.28 sec
- 14 : 0 22 33 68 109 498 98 290 595 188 35 11 1 0 3138                    0   725     68.76 sec
+  4 : 0 22 35 43 24                                                       1    63      0.93 sec
+  5 : 0 22 41 94 113 1369                                                 5   527     16.32 sec
+  6 : 0 22 37 80 117 540 2332                                             6   701     33.05 sec
+  7 : 0 22 33 68 109 553 803 3019                                        10   725     50.50 sec
+  8 : 0 22 33 68 109 500 119 296 3370                                     1   725     53.08 sec
+  9 : 0 22 33 68 109 498 116 281 833 2876                                 3   725     57.84 sec
+ 10 : 0 22 33 68 109 498 116 281 586 380 2916                             2   725     61.54 sec
+ 11 : 0 22 33 68 109 498 98 290 595 189 95 3121                           3   725     64.43 sec
+ 12 : 0 22 33 68 109 498 98 290 595 188 35 11 3139                        0   725     65.89 sec
+ 13 : 0 22 33 68 109 498 98 290 595 188 35 11 1 3138                      0   725     67.38 sec
+ 14 : 0 22 33 68 109 498 98 290 595 188 35 11 1 0 3138                    0   725     68.87 sec
 Invariant F[13] : 3138 clauses with 683 flops (out of 1104) (cex = 0, ave = 294.75)
 Verification of invariant with 3138 clauses was successful.  Time =     0.44 sec
 Block = 1717  Oblig =  8863  Clause =  5621  Call =122409 (sat=45.1%)  Cex =   0  Start = 395
-SAT solving =    41.85 sec ( 60.47 %)
-  unsat     =     9.40 sec ( 13.59 %)
-  sat       =    32.45 sec ( 46.89 %)
-Generalize  =    42.23 sec ( 61.02 %)
-Push clause =    11.81 sec ( 17.07 %)
-Ternary sim =    18.23 sec ( 26.34 %)
-Containment =     2.15 sec (  3.11 %)
-CNF compute =     0.63 sec (  0.91 %)
+SAT solving =    41.94 sec ( 60.50 %)
+  unsat     =     9.41 sec ( 13.57 %)
+  sat       =    32.53 sec ( 46.93 %)
+Generalize  =    42.36 sec ( 61.11 %)
+Push clause =    11.80 sec ( 17.02 %)
+Ternary sim =    18.22 sec ( 26.29 %)
+Containment =     2.16 sec (  3.11 %)
+CNF compute =     0.64 sec (  0.92 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    69.21 sec (100.00 %)
-Property proved.  Time =    69.23 sec
-68.85user 0.40system 1:09.27elapsed 99%CPU (0avgtext+0avgdata 101456maxresident)k
-216inputs+24outputs (0major+23732minor)pagefaults 0swaps
+TOTAL       =    69.32 sec (100.00 %)
+Property proved.  Time =    69.34 sec
+68.99user 0.37system 1:09.39elapsed 99%CPU (0avgtext+0avgdata 101476maxresident)k
+0inputs+24outputs (0major+23733minor)pagefaults 0swaps

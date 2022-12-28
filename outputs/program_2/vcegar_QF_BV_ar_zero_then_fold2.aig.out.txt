@@ -2,24 +2,24 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 2494                                                              1  2494      0.81 sec
-  2 : 0 2495 4989                                                         2  4993    286.65 sec
-  3 : 0 2 2 4994                                                          2  4998    287.26 sec
-  4 : 0 2 2 5 4996                                                        2  4998    287.60 sec
-  5 : 0 2 2 1 0 4996                                                      0  4998    287.73 sec
+  1 : 0 2494                                                              1  2494      0.80 sec
+  2 : 0 2495 4989                                                         2  4993    286.55 sec
+  3 : 0 2 2 4994                                                          2  4998    287.15 sec
+  4 : 0 2 2 5 4996                                                        2  4998    287.50 sec
+  5 : 0 2 2 1 0 4996                                                      0  4998    287.63 sec
 Invariant F[4] : 4996 clauses with 4998 flops (out of 5002) (cex = 0, ave = 844.54)
 Verification of invariant with 4996 clauses was successful.  Time =     0.01 sec
 Block = 4995  Oblig =  9999  Clause =  7498  Call = 37527 (sat=26.8%)  Cex =   0  Start = 105
 SAT solving =     0.54 sec (  0.19 %)
   unsat     =     0.01 sec (  0.00 %)
-  sat       =     0.53 sec (  0.18 %)
-Generalize  =   270.60 sec ( 94.04 %)
+  sat       =     0.53 sec (  0.19 %)
+Generalize  =   270.51 sec ( 94.04 %)
 Push clause =     0.69 sec (  0.24 %)
-Ternary sim =   271.28 sec ( 94.28 %)
+Ternary sim =   271.18 sec ( 94.27 %)
 Containment =    14.51 sec (  5.04 %)
 CNF compute =     0.38 sec (  0.13 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =   287.75 sec (100.00 %)
-Property proved.  Time =   287.76 sec
-287.66user 0.12system 4:47.84elapsed 99%CPU (0avgtext+0avgdata 54716maxresident)k
-272inputs+16outputs (0major+12028minor)pagefaults 0swaps
+TOTAL       =   287.65 sec (100.00 %)
+Property proved.  Time =   287.66 sec
+287.51user 0.18system 4:47.76elapsed 99%CPU (0avgtext+0avgdata 54544maxresident)k
+272inputs+16outputs (0major+12026minor)pagefaults 0swaps

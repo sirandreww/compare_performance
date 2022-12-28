@@ -1,97 +1,49 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.002410751
-Time in SAT calls = 0.000487199
-IC3 is on k = 2, clauses lengths = [0, 24, 25, 0]
-Number of SAT calls = 843
-Time since start = 0.011254728
-Time in SAT calls = 0.007948549
-IC3 is on k = 3, clauses lengths = [0, 23, 24, 25, 0]
-Number of SAT calls = 893
-Time since start = 0.011610166
-Time in SAT calls = 0.008021814
-IC3 is on k = 4, clauses lengths = [0, 22, 23, 24, 25, 0]
-Number of SAT calls = 966
-Time since start = 0.01199438
-Time in SAT calls = 0.008116098
-IC3 is on k = 5, clauses lengths = [0, 21, 22, 23, 24, 25, 0]
-Number of SAT calls = 1061
-Time since start = 0.012411195
-Time in SAT calls = 0.008238763
-IC3 is on k = 6, clauses lengths = [0, 20, 21, 22, 23, 24, 25, 0]
-Number of SAT calls = 1177
-Time since start = 0.012861534
-Time in SAT calls = 0.008379361
-IC3 is on k = 7, clauses lengths = [0, 19, 20, 21, 22, 23, 24, 25, 0]
-Number of SAT calls = 1313
-Time since start = 0.013345428
-Time in SAT calls = 0.008544675
-IC3 is on k = 8, clauses lengths = [0, 18, 19, 20, 21, 22, 23, 24, 25, 0]
-Number of SAT calls = 1468
-Time since start = 0.013852135
-Time in SAT calls = 0.00873191
-IC3 is on k = 9, clauses lengths = [0, 17, 18, 19, 20, 21, 22, 23, 24, 25]
-Number of SAT calls = 1641
-Time since start = 0.014394941
-Time in SAT calls = 0.008938249
-IC3 is on k = 10, clauses lengths = [0, 16, 17, 18, 19, 20, 21, 22, 23, 24]
-Number of SAT calls = 1831
-Time since start = 0.014971501
-Time in SAT calls = 0.009171948
-IC3 is on k = 11, clauses lengths = [0, 15, 16, 17, 18, 19, 20, 21, 22, 23]
-Number of SAT calls = 2037
-Time since start = 0.015572017
-Time in SAT calls = 0.009424087
-IC3 is on k = 12, clauses lengths = [0, 14, 15, 16, 17, 18, 19, 20, 21, 22]
-Number of SAT calls = 2258
-Time since start = 0.01620789
-Time in SAT calls = 0.009707734
-IC3 is on k = 13, clauses lengths = [0, 13, 14, 15, 16, 17, 18, 19, 20, 21]
-Number of SAT calls = 2493
-Time since start = 0.01698294
-Time in SAT calls = 0.010005079
-IC3 is on k = 14, clauses lengths = [0, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-Number of SAT calls = 2741
-Time since start = 0.017692272
-Time in SAT calls = 0.0103354
-IC3 is on k = 15, clauses lengths = [0, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-Number of SAT calls = 3001
-Time since start = 0.018412288
-Time in SAT calls = 0.010678899
-IC3 is on k = 16, clauses lengths = [0, 10, 11, 12, 13, 14, 15, 16, 17, 18]
-Number of SAT calls = 3272
-Time since start = 0.019165376
-Time in SAT calls = 0.011042955
-IC3 is on k = 17, clauses lengths = [0, 9, 10, 11, 12, 13, 14, 15, 16, 17]
-Number of SAT calls = 3553
-Time since start = 0.01994308
-Time in SAT calls = 0.011417359
-IC3 is on k = 18, clauses lengths = [0, 8, 9, 10, 11, 12, 13, 14, 15, 16]
-Number of SAT calls = 3843
-Time since start = 0.020741463
-Time in SAT calls = 0.011823742
-IC3 is on k = 19, clauses lengths = [0, 7, 8, 9, 10, 11, 12, 13, 14, 15]
-Number of SAT calls = 4141
-Time since start = 0.021542812
-Time in SAT calls = 0.012223388
-IC3 is on k = 20, clauses lengths = [0, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-Number of SAT calls = 4446
-Time since start = 0.022369407
-Time in SAT calls = 0.012644858
-IC3 is on k = 21, clauses lengths = [0, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-Number of SAT calls = 4757
-Time since start = 0.023207096
-Time in SAT calls = 0.013086706
-IC3 is on k = 22, clauses lengths = [0, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-Number of SAT calls = 5073
-Time since start = 0.024085345
-Time in SAT calls = 0.0135575
-IC3 is on k = 22, clauses lengths = [4, 4, 5, 6, 7, 8, 9, 10, 11, 12]
-Number of SAT calls = 5393
-Time since start = 0.024703473
-Time in SAT calls = 0.014014809
-Elapsed time = 0.024739621
+Time since start = 0.002742343
+Time in SAT calls = 0.000555316
+IC3 is on k = 2, clauses lengths = [0, 12, 13, 0]
+Number of SAT calls = 424
+Time since start = 0.008236359
+Time in SAT calls = 0.00467982
+IC3 is on k = 3, clauses lengths = [0, 11, 12, 13, 0]
+Number of SAT calls = 450
+Time since start = 0.008991885
+Time in SAT calls = 0.004820649
+IC3 is on k = 4, clauses lengths = [0, 10, 11, 12, 13, 0]
+Number of SAT calls = 487
+Time since start = 0.009787027
+Time in SAT calls = 0.004998787
+IC3 is on k = 5, clauses lengths = [0, 9, 10, 11, 12, 13, 0]
+Number of SAT calls = 534
+Time since start = 0.010625772
+Time in SAT calls = 0.005214255
+IC3 is on k = 6, clauses lengths = [0, 8, 9, 10, 11, 12, 13, 0]
+Number of SAT calls = 590
+Time since start = 0.01148729
+Time in SAT calls = 0.005457953
+IC3 is on k = 7, clauses lengths = [0, 7, 8, 9, 10, 11, 12, 13, 0]
+Number of SAT calls = 654
+Time since start = 0.012422929
+Time in SAT calls = 0.005747187
+IC3 is on k = 8, clauses lengths = [0, 6, 7, 8, 9, 10, 11, 12, 13, 0]
+Number of SAT calls = 725
+Time since start = 0.013399806
+Time in SAT calls = 0.006083296
+IC3 is on k = 9, clauses lengths = [0, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+Number of SAT calls = 802
+Time since start = 0.014412441
+Time in SAT calls = 0.006450151
+IC3 is on k = 10, clauses lengths = [0, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Number of SAT calls = 884
+Time since start = 0.015460143
+Time in SAT calls = 0.006839977
+IC3 is on k = 10, clauses lengths = [4, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Number of SAT calls = 970
+Time since start = 0.01590479
+Time in SAT calls = 0.007189846
+Elapsed time = 0.015966697
 Safe, checking invariant.
 Invariant check passed!
-0.15user 0.01system 0:00.16elapsed 95%CPU (0avgtext+0avgdata 9108maxresident)k
-8inputs+8outputs (0major+1429minor)pagefaults 0swaps
+0.14user 0.00system 0:00.15elapsed 96%CPU (0avgtext+0avgdata 9496maxresident)k
+8inputs+8outputs (0major+1819minor)pagefaults 0swaps

@@ -10,16 +10,16 @@ Frame Clauses                                                     Max Queue Flop
 Invariant F[4] : 73 clauses with 73 flops (out of 1491) (cex = 0, ave = 7.88)
 Verification of invariant with 73 clauses was successful.  Time =     0.00 sec
 Block =    7  Oblig =   163  Clause =    89  Call =   581 (sat=56.3%)  Cex =   0  Start =   0
-SAT solving =     0.01 sec ( 22.78 %)
-  unsat     =     0.00 sec (  2.30 %)
-  sat       =     0.01 sec ( 20.48 %)
-Generalize  =     0.01 sec ( 28.86 %)
-Push clause =     0.00 sec (  3.18 %)
-Ternary sim =     0.00 sec (  8.42 %)
-Containment =     0.00 sec (  0.10 %)
-CNF compute =     0.00 sec (  2.46 %)
+SAT solving =     0.01 sec ( 23.02 %)
+  unsat     =     0.00 sec (  2.34 %)
+  sat       =     0.01 sec ( 20.69 %)
+Generalize  =     0.01 sec ( 29.15 %)
+Push clause =     0.00 sec (  3.23 %)
+Ternary sim =     0.00 sec (  8.46 %)
+Containment =     0.00 sec (  0.11 %)
+CNF compute =     0.00 sec (  2.59 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.04 sec (100.00 %)
-Property proved.  Time =     0.05 sec
-0.06user 0.01system 0:00.08elapsed 94%CPU (0avgtext+0avgdata 34388maxresident)k
-160inputs+8outputs (0major+6889minor)pagefaults 0swaps
+Property proved.  Time =     0.04 sec
+0.05user 0.02system 0:00.08elapsed 92%CPU (0avgtext+0avgdata 34472maxresident)k
+160inputs+8outputs (0major+6888minor)pagefaults 0swaps

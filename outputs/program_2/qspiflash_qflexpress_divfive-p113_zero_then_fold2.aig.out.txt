@@ -15,7 +15,7 @@ Frame Clauses                                                     Max Queue Flop
  11 : 0 3 8 15 18 15 14 13 10 8 10 69                                    13    54      0.12 sec
  12 : 0 3 8 15 18 14 14 13 10 8 5 5 68                                    1    55      0.13 sec
  13 : 0 3 8 15 18 14 14 13 10 8 5 5 5 66                                  1    55      0.14 sec
- 14 : 0 3 8 15 18 14 14 13 10 8 5 5 5 5 67                                3    55      0.15 sec
+ 14 : 0 3 8 15 18 14 14 13 10 8 5 5 5 5 67                                3    55      0.14 sec
  15 : 0 3 8 15 18 14 14 13 10 8 5 5 5 4 10 68                             3    55      0.16 sec
  16 : 0 3 8 15 18 19 19 21 17 17 12 12 7 12 13 14 81                     46    55      0.22 sec
  17 : 0 3 8 15 18 16 10 6 7 5 8 6 4 2 2 2 2 74                            0    55      0.22 sec
@@ -30,16 +30,16 @@ Frame Clauses                                                     Max Queue Flop
 Invariant F[22] : 78 clauses with 50 flops (out of 169) (cex = 0, ave = 40.52)
 Verification of invariant with 78 clauses was successful.  Time =     0.00 sec
 Block =  126  Oblig =   785  Clause =   412  Call =  8953 (sat=62.9%)  Cex =   0  Start =  16
-SAT solving =     0.23 sec ( 74.10 %)
-  unsat     =     0.03 sec (  8.53 %)
-  sat       =     0.20 sec ( 65.57 %)
-Generalize  =     0.16 sec ( 51.16 %)
-Push clause =     0.09 sec ( 30.44 %)
-Ternary sim =     0.02 sec (  7.86 %)
+SAT solving =     0.23 sec ( 73.86 %)
+  unsat     =     0.03 sec (  8.51 %)
+  sat       =     0.20 sec ( 65.35 %)
+Generalize  =     0.16 sec ( 51.14 %)
+Push clause =     0.09 sec ( 30.27 %)
+Ternary sim =     0.02 sec (  8.00 %)
 Containment =     0.00 sec (  0.23 %)
-CNF compute =     0.01 sec (  3.04 %)
+CNF compute =     0.01 sec (  2.99 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.31 sec (100.00 %)
 Property proved.  Time =     0.31 sec
-0.29user 0.03system 0:00.33elapsed 98%CPU (0avgtext+0avgdata 59740maxresident)k
-16inputs+8outputs (0major+13279minor)pagefaults 0swaps
+0.31user 0.02system 0:00.33elapsed 98%CPU (0avgtext+0avgdata 59680maxresident)k
+0inputs+8outputs (0major+13277minor)pagefaults 0swaps

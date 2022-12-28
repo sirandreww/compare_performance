@@ -3,8 +3,8 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     2      0.00 sec
-  2 : 0 2 2                                                               2     6      0.01 sec
-  3 : 0 10 23 4                                                          21    31      0.02 sec
+  2 : 0 2 2                                                               2     6      0.00 sec
+  3 : 0 10 23 4                                                          21    31      0.01 sec
   4 : 0 5 12 11 2                                                         5    31      0.02 sec
   5 : 0 5 12 10 3 2                                                       2    31      0.02 sec
   6 : 0 5 12 10 2 4 3                                                     5    31      0.02 sec
@@ -13,16 +13,16 @@ Frame Clauses                                                     Max Queue Flop
 Invariant F[4] : 9 clauses with 9 flops (out of 259) (cex = 0, ave = 37.26)
 Verification of invariant with 9 clauses was successful.  Time =     0.00 sec
 Block =    7  Oblig =   125  Clause =    55  Call =   522 (sat=67.8%)  Cex =   0  Start =   0
-SAT solving =     0.01 sec ( 40.14 %)
-  unsat     =     0.00 sec (  4.05 %)
-  sat       =     0.01 sec ( 36.10 %)
-Generalize  =     0.01 sec ( 29.46 %)
-Push clause =     0.01 sec ( 19.35 %)
-Ternary sim =     0.00 sec (  8.02 %)
-Containment =     0.00 sec (  0.14 %)
-CNF compute =     0.00 sec (  5.68 %)
+SAT solving =     0.01 sec ( 43.23 %)
+  unsat     =     0.00 sec (  4.41 %)
+  sat       =     0.01 sec ( 38.82 %)
+Generalize  =     0.01 sec ( 31.12 %)
+Push clause =     0.01 sec ( 20.70 %)
+Ternary sim =     0.00 sec (  8.48 %)
+Containment =     0.00 sec (  0.13 %)
+CNF compute =     0.00 sec (  5.55 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     0.04 sec (100.00 %)
-Property proved.  Time =     0.04 sec
-0.05user 0.00system 0:00.06elapsed 93%CPU (0avgtext+0avgdata 30084maxresident)k
-24inputs+8outputs (0major+5771minor)pagefaults 0swaps
+TOTAL       =     0.03 sec (100.00 %)
+Property proved.  Time =     0.03 sec
+0.04user 0.01system 0:00.06elapsed 95%CPU (0avgtext+0avgdata 30032maxresident)k
+0inputs+8outputs (0major+5771minor)pagefaults 0swaps

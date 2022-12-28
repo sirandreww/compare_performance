@@ -5,16 +5,16 @@ Frame Clauses                                                     Max Queue Flop
   1 : 0 1                                                                 1     2      0.00 sec
   2 : 0 18 0                                                             20    20      0.01 sec
 Block =    2  Oblig =    57  Clause =    18  Call =    96 (sat=79.2%)  Cex =   0  Start =   0
-SAT solving =     0.00 sec ( 18.35 %)
-  unsat     =     0.00 sec (  0.84 %)
-  sat       =     0.00 sec ( 17.51 %)
-Generalize  =     0.00 sec ( 22.22 %)
-Push clause =     0.00 sec (  1.02 %)
-Ternary sim =     0.00 sec (  6.99 %)
-Containment =     0.00 sec (  0.10 %)
-CNF compute =     0.00 sec (  2.57 %)
-Refinement  =     0.00 sec (  0.69 %)
+SAT solving =     0.00 sec ( 13.39 %)
+  unsat     =     0.00 sec (  0.53 %)
+  sat       =     0.00 sec ( 12.86 %)
+Generalize  =     0.00 sec ( 16.11 %)
+Push clause =     0.00 sec (  0.80 %)
+Ternary sim =     0.00 sec (  5.02 %)
+Containment =     0.00 sec (  0.05 %)
+CNF compute =     0.00 sec (  2.01 %)
+Refinement  =     0.00 sec (  0.59 %)
 TOTAL       =     0.01 sec (100.00 %)
-Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/opensource/vis_arrays_am2901/vis_arrays_am2901_zero_then_fold2" was asserted in frame 19.  Time =     0.02 sec
-0.03user 0.00system 0:00.04elapsed 90%CPU (0avgtext+0avgdata 16852maxresident)k
-160inputs+8outputs (1major+2489minor)pagefaults 0swaps
+Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/goel/opensource/vis_arrays_am2901/vis_arrays_am2901_zero_then_fold2" was asserted in frame 19.  Time =     0.01 sec
+0.03user 0.00system 0:00.03elapsed 89%CPU (0avgtext+0avgdata 16416maxresident)k
+8inputs+8outputs (0major+2484minor)pagefaults 0swaps

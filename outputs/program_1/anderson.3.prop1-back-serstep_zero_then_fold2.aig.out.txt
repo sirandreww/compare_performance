@@ -1,12 +1,12 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.013167916
-Time in SAT calls = 0.00347
+Time since start = 0.021628331
+Time in SAT calls = 0.005299913
 IC3 is on k = 2, clauses lengths = [0, 3, 6, 0]
 Number of SAT calls = 459
-Time since start = 0.058348376
-Time in SAT calls = 0.044963192
-Elapsed time = 0.12275205
+Time since start = 0.06897733
+Time in SAT calls = 0.047278807
+Elapsed time = 0.14639227
 Unsafe, depth = 2
-0.12user 0.00system 0:00.13elapsed 97%CPU (0avgtext+0avgdata 14696maxresident)k
-16inputs+8outputs (0major+3161minor)pagefaults 0swaps
+0.14user 0.00system 0:00.16elapsed 97%CPU (0avgtext+0avgdata 25696maxresident)k
+16inputs+8outputs (0major+6058minor)pagefaults 0swaps

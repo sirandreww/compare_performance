@@ -1,33 +1,29 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.02114794
-Time in SAT calls = 0.003503525
-IC3 is on k = 2, clauses lengths = [0, 451, 454, 0]
-Number of SAT calls = 258297
-Time since start = 50.126564
-Time in SAT calls = 47.500168
-IC3 is on k = 3, clauses lengths = [0, 1503, 1523, 1531, 0]
-Number of SAT calls = 873032
-Time since start = 175.76915
-Time in SAT calls = 166.82791
-IC3 is on k = 4, clauses lengths = [0, 1921, 1972, 1995, 2003, 0]
-Number of SAT calls = 1147039
-Time since start = 228.55307
-Time in SAT calls = 216.81854
-IC3 is on k = 5, clauses lengths = [0, 1971, 2009, 2060, 2083, 2091, 0]
-Number of SAT calls = 1205259
-Time since start = 238.09192
-Time in SAT calls = 225.82481
-IC3 is on k = 6, clauses lengths = [0, 1970, 1971, 2009, 2060, 2083, 2091, 0]
-Number of SAT calls = 1215474
-Time since start = 238.56825
-Time in SAT calls = 226.28305
-IC3 is on k = 6, clauses lengths = [1970, 1970, 1971, 2009, 2060, 2083, 2091, 0]
-Number of SAT calls = 1227659
-Time since start = 239.0397
-Time in SAT calls = 226.739
-Elapsed time = 239.03987
+Time since start = 0.028177464
+Time in SAT calls = 0.004820038
+IC3 is on k = 2, clauses lengths = [0, 567, 573, 0]
+Number of SAT calls = 325987
+Time since start = 46.237812
+Time in SAT calls = 42.838554
+IC3 is on k = 3, clauses lengths = [0, 821, 837, 849, 0]
+Number of SAT calls = 484425
+Time since start = 68.195076
+Time in SAT calls = 63.14512
+IC3 is on k = 4, clauses lengths = [0, 984, 1009, 1025, 1037, 0]
+Number of SAT calls = 594254
+Time since start = 84.33298
+Time in SAT calls = 78.14066
+IC3 is on k = 5, clauses lengths = [0, 980, 984, 1009, 1025, 1037, 0]
+Number of SAT calls = 598310
+Time since start = 84.63105
+Time in SAT calls = 78.426414
+IC3 is on k = 5, clauses lengths = [980, 980, 984, 1009, 1025, 1037, 0]
+Number of SAT calls = 603346
+Time since start = 84.958534
+Time in SAT calls = 78.746185
+Elapsed time = 84.95879
 Safe, checking invariant.
 Invariant check passed!
-260.35user 0.01system 4:20.42elapsed 99%CPU (0avgtext+0avgdata 144684maxresident)k
-40inputs+40outputs (0major+35969minor)pagefaults 0swaps
+99.77user 0.03system 1:39.83elapsed 99%CPU (0avgtext+0avgdata 132220maxresident)k
+40inputs+32outputs (0major+41355minor)pagefaults 0swaps

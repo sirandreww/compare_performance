@@ -6,23 +6,23 @@ Frame Clauses                                                     Max Queue Flop
   2 : 0 1 32                                                              1    33      0.39 sec
   3 : 0 1 143 238                                                         7   299      2.25 sec
   4 : 0 1 97 102 316                                                      6   340      3.91 sec
-  5 : 0 1 64 61 66 329                                                    6   347      4.93 sec
+  5 : 0 1 64 61 66 329                                                    6   347      4.94 sec
   6 : 0 1 68 59 63 66 462                                                 7   365      7.40 sec
-  7 : 0 1 41 26 28 47 43 574                                              7   367      9.45 sec
-  8 : 0 1 36 7 0 0 0 0 498                                                0   367      9.97 sec
+  7 : 0 1 41 26 28 47 43 574                                              7   367      9.44 sec
+  8 : 0 1 36 7 0 0 0 0 498                                                0   367      9.95 sec
 Invariant F[4] : 498 clauses with 366 flops (out of 718) (cex = 0, ave = 37.77)
 Verification of invariant with 498 clauses was successful.  Time =     0.31 sec
 Block =  147  Oblig =  1784  Clause =  1109  Call = 23855 (sat=31.3%)  Cex =   0  Start =  76
-SAT solving =     8.98 sec ( 87.41 %)
-  unsat     =     5.74 sec ( 55.84 %)
-  sat       =     3.24 sec ( 31.57 %)
-Generalize  =     5.19 sec ( 50.53 %)
-Push clause =     2.16 sec ( 20.98 %)
+SAT solving =     8.97 sec ( 87.35 %)
+  unsat     =     5.71 sec ( 55.66 %)
+  sat       =     3.25 sec ( 31.70 %)
+Generalize  =     5.20 sec ( 50.65 %)
+Push clause =     2.14 sec ( 20.86 %)
 Ternary sim =     0.24 sec (  2.32 %)
 Containment =     0.00 sec (  0.04 %)
-CNF compute =     0.13 sec (  1.24 %)
+CNF compute =     0.13 sec (  1.26 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    10.28 sec (100.00 %)
-Property proved.  Time =    10.29 sec
-10.28user 0.04system 0:10.35elapsed 99%CPU (0avgtext+0avgdata 63872maxresident)k
-176inputs+8outputs (0major+14224minor)pagefaults 0swaps
+TOTAL       =    10.27 sec (100.00 %)
+Property proved.  Time =    10.28 sec
+10.27user 0.03system 0:10.32elapsed 99%CPU (0avgtext+0avgdata 63928maxresident)k
+176inputs+8outputs (0major+14222minor)pagefaults 0swaps

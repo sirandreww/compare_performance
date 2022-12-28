@@ -5,31 +5,31 @@ Frame Clauses                                                     Max Queue Flop
   1 : 0 18                                                                1    18      0.12 sec
   2 : 0 25 38                                                             2    42      0.46 sec
   3 : 0 25 31 7                                                           0    42      0.50 sec
-  4 : 0 25 36 64 294                                                      5   368      3.70 sec
-  5 : 0 25 32 37 27 720                                                   4   426      8.66 sec
-  6 : 0 25 29 53 57 495 1692                                              5   582     23.57 sec
-  7 : 0 25 29 68 69 603 627 2328                                         13   645     39.35 sec
-  8 : 0 25 29 77 76 752 560 973 3602                                      7   680     65.91 sec
-  9 : 0 25 33 93 95 832 615 1100 1452 4174                               12   734     99.09 sec
- 10 : 0 25 30 40 89 837 651 1165 1211 1098 5554                          17   742    133.37 sec
- 11 : 0 25 30 40 89 824 646 1125 1104 999 403 5469                        4   742    141.23 sec
- 12 : 0 25 30 40 89 822 645 1114 1096 994 331 232 5647                    5   742    150.06 sec
- 13 : 0 25 30 40 89 821 645 1113 1096 992 267 153 111 5889                6   742    158.03 sec
- 14 : 0 25 30 40 89 821 645 1113 1096 991 205 84 22 22 5979               8   742    162.78 sec
- 15 : 0 25 30 40 89 821 645 1113 1096 984 194 72 0 0 0 5997               0   742    166.34 sec
+  4 : 0 25 36 64 294                                                      5   368      3.67 sec
+  5 : 0 25 32 37 27 720                                                   4   426      8.58 sec
+  6 : 0 25 29 53 57 495 1692                                              5   582     23.47 sec
+  7 : 0 25 29 68 69 603 627 2328                                         13   645     39.20 sec
+  8 : 0 25 29 77 76 752 560 973 3602                                      7   680     65.56 sec
+  9 : 0 25 33 93 95 832 615 1100 1452 4174                               12   734     98.42 sec
+ 10 : 0 25 30 40 89 837 651 1165 1211 1098 5554                          17   742    132.58 sec
+ 11 : 0 25 30 40 89 824 646 1125 1104 999 403 5469                        4   742    140.42 sec
+ 12 : 0 25 30 40 89 822 645 1114 1096 994 331 232 5647                    5   742    149.22 sec
+ 13 : 0 25 30 40 89 821 645 1113 1096 992 267 153 111 5889                6   742    157.18 sec
+ 14 : 0 25 30 40 89 821 645 1113 1096 991 205 84 22 22 5979               8   742    161.92 sec
+ 15 : 0 25 30 40 89 821 645 1113 1096 984 194 72 0 0 0 5997               0   742    165.47 sec
 Invariant F[12] : 5997 clauses with 719 flops (out of 1104) (cex = 0, ave = 339.85)
 Verification of invariant with 5997 clauses was successful.  Time =     0.90 sec
 Block = 2936  Oblig = 20032  Clause = 12869  Call =279255 (sat=48.5%)  Cex =   0  Start = 914
-SAT solving =    99.44 sec ( 59.46 %)
-  unsat     =    20.51 sec ( 12.27 %)
-  sat       =    78.93 sec ( 47.19 %)
-Generalize  =   101.10 sec ( 60.45 %)
-Push clause =    25.52 sec ( 15.26 %)
-Ternary sim =    39.11 sec ( 23.39 %)
-Containment =    10.78 sec (  6.44 %)
-CNF compute =     2.02 sec (  1.20 %)
+SAT solving =    99.03 sec ( 59.52 %)
+  unsat     =    20.38 sec ( 12.25 %)
+  sat       =    78.65 sec ( 47.27 %)
+Generalize  =   100.56 sec ( 60.45 %)
+Push clause =    25.45 sec ( 15.30 %)
+Ternary sim =    38.74 sec ( 23.28 %)
+Containment =    10.76 sec (  6.47 %)
+CNF compute =     2.02 sec (  1.21 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =   167.24 sec (100.00 %)
-Property proved.  Time =   167.27 sec
-165.91user 1.38system 2:47.33elapsed 99%CPU (0avgtext+0avgdata 128932maxresident)k
-216inputs+104outputs (0major+30599minor)pagefaults 0swaps
+TOTAL       =   166.37 sec (100.00 %)
+Property proved.  Time =   166.39 sec
+164.96user 1.46system 2:46.47elapsed 99%CPU (0avgtext+0avgdata 129052maxresident)k
+216inputs+48outputs (0major+30598minor)pagefaults 0swaps

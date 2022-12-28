@@ -2,24 +2,24 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 33                                                                1    33      0.00 sec
+  1 : 0 33                                                                1    33      0.01 sec
   2 : 0 33 34                                                             1    35      0.01 sec
-  3 : 0 33 49 78                                                          4    39      0.02 sec
+  3 : 0 33 49 78                                                          4    39      0.03 sec
   4 : 0 33 4 1 81                                                         4    39      0.03 sec
   5 : 0 33 2 0 0 81                                                       0    39      0.03 sec
 Invariant F[3] : 81 clauses with 37 flops (out of 166) (cex = 0, ave = 14.44)
 Verification of invariant with 81 clauses was successful.  Time =     0.00 sec
 Block =   92  Oblig =   214  Clause =   165  Call =  1238 (sat=43.1%)  Cex =   0  Start =   2
-SAT solving =     0.01 sec ( 39.21 %)
-  unsat     =     0.00 sec (  7.35 %)
-  sat       =     0.01 sec ( 31.86 %)
-Generalize  =     0.01 sec ( 33.00 %)
-Push clause =     0.00 sec ( 12.66 %)
-Ternary sim =     0.00 sec ( 12.70 %)
-Containment =     0.00 sec (  0.35 %)
-CNF compute =     0.00 sec (  3.72 %)
+SAT solving =     0.01 sec ( 34.35 %)
+  unsat     =     0.00 sec (  6.31 %)
+  sat       =     0.01 sec ( 28.04 %)
+Generalize  =     0.01 sec ( 27.88 %)
+Push clause =     0.00 sec ( 11.43 %)
+Ternary sim =     0.00 sec ( 11.90 %)
+Containment =     0.00 sec (  0.31 %)
+CNF compute =     0.00 sec (  3.50 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     0.03 sec (100.00 %)
+TOTAL       =     0.04 sec (100.00 %)
 Property proved.  Time =     0.04 sec
-0.05user 0.00system 0:00.06elapsed 93%CPU (0avgtext+0avgdata 24344maxresident)k
-0inputs+8outputs (0major+4426minor)pagefaults 0swaps
+0.06user 0.00system 0:00.07elapsed 94%CPU (0avgtext+0avgdata 24360maxresident)k
+16inputs+8outputs (0major+4426minor)pagefaults 0swaps

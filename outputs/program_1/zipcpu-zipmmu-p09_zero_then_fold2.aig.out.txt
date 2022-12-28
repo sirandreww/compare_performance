@@ -1,13 +1,13 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.013395238
-Time in SAT calls = 0.002166427
-IC3 is on k = 1, clauses lengths = [1073, 1073, 0]
-Number of SAT calls = 399149
-Time since start = 51.402756
-Time in SAT calls = 48.669064
-Elapsed time = 51.402935
+Time since start = 0.021769986
+Time in SAT calls = 0.005121535
+IC3 is on k = 1, clauses lengths = [958, 958, 0]
+Number of SAT calls = 356375
+Time since start = 32.84924
+Time in SAT calls = 30.36165
+Elapsed time = 32.849426
 Safe, checking invariant.
 Invariant check passed!
-58.81user 0.00system 0:58.83elapsed 99%CPU (0avgtext+0avgdata 50276maxresident)k
-32inputs+16outputs (0major+12030minor)pagefaults 0swaps
+40.19user 0.01system 0:40.22elapsed 99%CPU (0avgtext+0avgdata 81908maxresident)k
+0inputs+16outputs (0major+45418minor)pagefaults 0swaps

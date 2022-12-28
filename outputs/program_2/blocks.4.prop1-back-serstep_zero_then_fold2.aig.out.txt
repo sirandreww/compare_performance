@@ -6,19 +6,19 @@ Frame Clauses                                                     Max Queue Flop
   2 : 0 1 1                                                               1     3      0.01 sec
   3 : 0 1 2 2                                                             2     6      0.01 sec
   4 : 0 1 2 2 1                                                           1    14      0.01 sec
-  5 : 0 1 26 104 3262 2638                                             1494    71     30.07 sec
-  6 : 0 1 26 102 3027 10648 2306                                       6025    71    106.69 sec
+  5 : 0 1 26 104 3262 2638                                             1494    71     30.37 sec
+  6 : 0 1 26 102 3027 10648 2306                                       6025    71    107.75 sec
 Block =    6  Oblig = 35223  Clause = 16862  Call =653678 (sat=45.9%)  Cex =   0  Start =2177
-SAT solving =    85.92 sec ( 80.46 %)
-  unsat     =    21.28 sec ( 19.93 %)
-  sat       =    64.64 sec ( 60.53 %)
-Generalize  =    96.14 sec ( 90.03 %)
-Push clause =     1.03 sec (  0.97 %)
-Ternary sim =     2.39 sec (  2.24 %)
-Containment =     3.66 sec (  3.43 %)
-CNF compute =     5.69 sec (  5.33 %)
+SAT solving =    86.43 sec ( 80.15 %)
+  unsat     =    21.36 sec ( 19.81 %)
+  sat       =    65.07 sec ( 60.35 %)
+Generalize  =    97.10 sec ( 90.04 %)
+Push clause =     1.04 sec (  0.97 %)
+Ternary sim =     2.41 sec (  2.24 %)
+Containment =     3.71 sec (  3.44 %)
+CNF compute =     5.99 sec (  5.55 %)
 Refinement  =     0.08 sec (  0.08 %)
-TOTAL       =   106.78 sec (100.00 %)
-Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/beem/blocks.4.prop1-back-serstep_zero_then_fold2" was asserted in frame 5853.  Time =   106.87 sec
-102.96user 3.92system 1:46.92elapsed 99%CPU (0avgtext+0avgdata 63336maxresident)k
-184inputs+24outputs (1major+14166minor)pagefaults 0swaps
+TOTAL       =   107.84 sec (100.00 %)
+Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/beem/blocks.4.prop1-back-serstep_zero_then_fold2" was asserted in frame 5853.  Time =   107.92 sec
+103.33user 4.61system 1:47.97elapsed 99%CPU (0avgtext+0avgdata 63520maxresident)k
+32inputs+16outputs (0major+14166minor)pagefaults 0swaps

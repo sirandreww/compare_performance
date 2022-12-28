@@ -4,22 +4,22 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 12                                                                1    12      0.00 sec
   2 : 0 13 13                                                             2    14      0.00 sec
-  3 : 0 1 1 12                                                            0    14      0.00 sec
-  4 : 0 1 1 12 13                                                         3    15      0.00 sec
-  5 : 0 1 1 0 0 13                                                        0    15      0.00 sec
+  3 : 0 1 1 12                                                            0    14      0.01 sec
+  4 : 0 1 1 12 13                                                         3    15      0.01 sec
+  5 : 0 1 1 0 0 13                                                        0    15      0.01 sec
 Invariant F[3] : 13 clauses with 14 flops (out of 99) (cex = 0, ave = 1.21)
 Verification of invariant with 13 clauses was successful.  Time =     0.00 sec
 Block =   36  Oblig =    43  Clause =    39  Call =   170 (sat=43.5%)  Cex =   0  Start =   0
-SAT solving =     0.00 sec (  8.76 %)
-  unsat     =     0.00 sec (  0.84 %)
-  sat       =     0.00 sec (  7.92 %)
-Generalize  =     0.00 sec (  2.70 %)
-Push clause =     0.00 sec (  5.06 %)
-Ternary sim =     0.00 sec (  0.85 %)
-Containment =     0.00 sec (  0.04 %)
-CNF compute =     0.00 sec (  2.39 %)
+SAT solving =     0.00 sec ( 10.50 %)
+  unsat     =     0.00 sec (  1.01 %)
+  sat       =     0.00 sec (  9.49 %)
+Generalize  =     0.00 sec (  3.85 %)
+Push clause =     0.00 sec (  6.04 %)
+Ternary sim =     0.00 sec (  0.99 %)
+Containment =     0.00 sec (  0.07 %)
+CNF compute =     0.00 sec (  3.52 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.01 sec (100.00 %)
-Property proved.  Time =     0.01 sec
-0.02user 0.00system 0:00.03elapsed 88%CPU (0avgtext+0avgdata 23400maxresident)k
-8inputs+8outputs (0major+4158minor)pagefaults 0swaps
+Property proved.  Time =     0.02 sec
+0.03user 0.00system 0:00.04elapsed 86%CPU (0avgtext+0avgdata 23200maxresident)k
+8inputs+8outputs (0major+4152minor)pagefaults 0swaps

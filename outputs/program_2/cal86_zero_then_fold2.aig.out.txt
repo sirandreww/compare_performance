@@ -4,23 +4,23 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      0.11 sec
   2 : 0 1 49                                                              1    52      0.29 sec
-  3 : 0 1 276 476                                                         6   403      3.79 sec
-  4 : 0 1 84 69 468                                                       4   403      5.17 sec
-  5 : 0 1 79 54 50 556                                                    5   403      6.92 sec
-  6 : 0 1 60 6 0 0 557                                                    0   403      7.68 sec
+  3 : 0 1 276 476                                                         6   403      3.80 sec
+  4 : 0 1 84 69 468                                                       4   403      5.18 sec
+  5 : 0 1 79 54 50 556                                                    5   403      6.94 sec
+  6 : 0 1 60 6 0 0 557                                                    0   403      7.72 sec
 Invariant F[4] : 557 clauses with 402 flops (out of 660) (cex = 0, ave = 31.15)
-Verification of invariant with 557 clauses was successful.  Time =     0.48 sec
+Verification of invariant with 557 clauses was successful.  Time =     0.47 sec
 Block =  140  Oblig =  1424  Clause =   899  Call = 14621 (sat=38.0%)  Cex =   0  Start =  45
-SAT solving =     7.13 sec ( 87.29 %)
-  unsat     =     5.16 sec ( 63.14 %)
-  sat       =     1.97 sec ( 24.16 %)
-Generalize  =     3.59 sec ( 43.92 %)
-Push clause =     2.72 sec ( 33.35 %)
-Ternary sim =     0.15 sec (  1.83 %)
-Containment =     0.00 sec (  0.04 %)
-CNF compute =     0.07 sec (  0.87 %)
+SAT solving =     7.17 sec ( 87.40 %)
+  unsat     =     5.20 sec ( 63.42 %)
+  sat       =     1.97 sec ( 23.98 %)
+Generalize  =     3.59 sec ( 43.77 %)
+Push clause =     2.76 sec ( 33.59 %)
+Ternary sim =     0.15 sec (  1.81 %)
+Containment =     0.00 sec (  0.05 %)
+CNF compute =     0.07 sec (  0.86 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =     8.17 sec (100.00 %)
-Property proved.  Time =     8.18 sec
-8.18user 0.02system 0:08.21elapsed 99%CPU (0avgtext+0avgdata 53316maxresident)k
-0inputs+8outputs (0major+11560minor)pagefaults 0swaps
+TOTAL       =     8.21 sec (100.00 %)
+Property proved.  Time =     8.21 sec
+8.22user 0.01system 0:08.25elapsed 99%CPU (0avgtext+0avgdata 53196maxresident)k
+0inputs+8outputs (0major+11557minor)pagefaults 0swaps

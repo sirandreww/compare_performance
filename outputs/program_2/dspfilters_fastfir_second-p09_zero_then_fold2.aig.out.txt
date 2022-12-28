@@ -3,27 +3,27 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 20                                                                1    20      0.13 sec
-  2 : 0 103 108                                                           2   142      0.80 sec
-  3 : 0 103 133 449                                                       3   276      4.39 sec
-  4 : 0 129 148 579 522                                                  11   391     10.02 sec
-  5 : 0 121 131 474 364 830                                               8   439     17.61 sec
-  6 : 0 119 125 242 175 175 302                                           0   439     18.06 sec
-  7 : 0 119 125 239 173 169 19 283                                        0   439     18.47 sec
-  8 : 0 119 125 239 173 169 19 5 278                                      0   439     18.87 sec
-  9 : 0 119 125 239 173 169 19 5 0 278                                    0   439     19.29 sec
+  2 : 0 103 108                                                           2   142      0.79 sec
+  3 : 0 103 133 449                                                       3   276      4.35 sec
+  4 : 0 129 148 579 522                                                  11   391      9.92 sec
+  5 : 0 121 131 474 364 830                                               8   439     17.41 sec
+  6 : 0 119 125 242 175 175 302                                           0   439     17.86 sec
+  7 : 0 119 125 239 173 169 19 283                                        0   439     18.27 sec
+  8 : 0 119 125 239 173 169 19 5 278                                      0   439     18.66 sec
+  9 : 0 119 125 239 173 169 19 5 0 278                                    0   439     19.07 sec
 Invariant F[8] : 278 clauses with 287 flops (out of 1104) (cex = 0, ave = 213.70)
 Verification of invariant with 278 clauses was successful.  Time =     0.02 sec
 Block =  809  Oblig =  3354  Clause =  2156  Call = 30851 (sat=50.6%)  Cex =   0  Start =  96
-SAT solving =    10.14 sec ( 52.53 %)
-  unsat     =     1.45 sec (  7.52 %)
-  sat       =     8.69 sec ( 45.01 %)
-Generalize  =    10.94 sec ( 56.67 %)
-Push clause =     2.69 sec ( 13.91 %)
-Ternary sim =     7.05 sec ( 36.52 %)
-Containment =     0.18 sec (  0.94 %)
-CNF compute =     0.12 sec (  0.63 %)
+SAT solving =    10.04 sec ( 52.57 %)
+  unsat     =     1.44 sec (  7.52 %)
+  sat       =     8.60 sec ( 45.05 %)
+Generalize  =    10.84 sec ( 56.78 %)
+Push clause =     2.66 sec ( 13.92 %)
+Ternary sim =     6.97 sec ( 36.50 %)
+Containment =     0.18 sec (  0.95 %)
+CNF compute =     0.12 sec (  0.62 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    19.31 sec (100.00 %)
-Property proved.  Time =    19.32 sec
-19.25user 0.09system 0:19.36elapsed 99%CPU (0avgtext+0avgdata 67016maxresident)k
-216inputs+8outputs (0major+15136minor)pagefaults 0swaps
+TOTAL       =    19.09 sec (100.00 %)
+Property proved.  Time =    19.10 sec
+19.08user 0.05system 0:19.15elapsed 99%CPU (0avgtext+0avgdata 67056maxresident)k
+0inputs+32outputs (0major+15139minor)pagefaults 0swaps

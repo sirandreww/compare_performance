@@ -1,4 +1,4 @@
-Elapsed time = 0.06477281
+Elapsed time = 0.06683669
 Unsafe, depth = 1
-0.11user 0.01system 0:00.13elapsed 95%CPU (0avgtext+0avgdata 67356maxresident)k
-296inputs+8outputs (0major+19678minor)pagefaults 0swaps
+0.12user 0.00system 0:00.12elapsed 97%CPU (0avgtext+0avgdata 89708maxresident)k
+296inputs+8outputs (0major+28712minor)pagefaults 0swaps

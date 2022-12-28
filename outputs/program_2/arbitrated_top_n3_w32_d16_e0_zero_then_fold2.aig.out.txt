@@ -4,33 +4,33 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 5                                                                 1     5      0.01 sec
   2 : 0 15 24                                                             4    20      0.03 sec
-  3 : 0 15 28 198                                                         6   202      0.29 sec
-  4 : 0 12 25 58 208                                                      8   208      0.38 sec
-  5 : 0 12 23 37 51 198                                                   6   208      0.45 sec
-  6 : 0 12 22 37 49 83 234                                                8   208      0.66 sec
-  7 : 0 12 21 41 73 136 359 538                                          23   239      1.74 sec
+  3 : 0 15 28 198                                                         6   202      0.28 sec
+  4 : 0 12 25 58 208                                                      8   208      0.37 sec
+  5 : 0 12 23 37 51 198                                                   6   208      0.44 sec
+  6 : 0 12 22 37 49 83 234                                                8   208      0.64 sec
+  7 : 0 12 21 41 73 136 359 538                                          23   239      1.72 sec
   8 : 0 12 21 37 64 105 234 587 664                                      11   270      3.04 sec
-  9 : 0 12 21 37 64 103 214 579 1072 983                                 11   302      5.73 sec
- 10 : 0 12 21 37 64 104 212 583 1136 1596 1127                           18   334     10.24 sec
- 11 : 0 12 23 41 78 135 230 600 1025 1447 1750 1292                      44   371     15.71 sec
- 12 : 0 12 23 40 72 101 158 415 817 1334 1619 1970 1528                  17   403     22.96 sec
- 13 : 0 12 23 40 71 100 152 396 750 1151 1392 1565 2096 1577             20   435     29.97 sec
- 14 : 0 12 23 40 71 100 152 397 749 1135 1321 1519 2258 2437 1868        63   467     40.50 sec
- 15 : ... 23 40 71 100 152 392 746 1055 1154 1359 2143 2572 3041 2365    29   500     55.37 sec
- 16 : ... 70 102 165 410 767 1070 1135 1347 2090 2648 3273 3943 2650    163   532     76.32 sec
- 17 : ... 68 93 153 365 667 885 939 820 1582 2310 2842 3459 4322 4287    37   558    106.75 sec
- 18 : ... 1398 2153 3051 3596 3849 3814 2854 2596 3193 3858 3396 1136  1830   559    166.89 sec
+  9 : 0 12 21 37 64 103 214 579 1072 983                                 11   302      5.78 sec
+ 10 : 0 12 21 37 64 104 212 583 1136 1596 1127                           18   334     10.31 sec
+ 11 : 0 12 23 41 78 135 230 600 1025 1447 1750 1292                      44   371     15.79 sec
+ 12 : 0 12 23 40 72 101 158 415 817 1334 1619 1970 1528                  17   403     23.03 sec
+ 13 : 0 12 23 40 71 100 152 396 750 1151 1392 1565 2096 1577             20   435     30.01 sec
+ 14 : 0 12 23 40 71 100 152 397 749 1135 1321 1519 2258 2437 1868        63   467     40.46 sec
+ 15 : ... 23 40 71 100 152 392 746 1055 1154 1359 2143 2572 3041 2365    29   500     55.18 sec
+ 16 : ... 70 102 165 410 767 1070 1135 1347 2090 2648 3273 3943 2650    163   532     75.87 sec
+ 17 : ... 68 93 153 365 667 885 939 820 1582 2310 2842 3459 4322 4287    37   558    105.75 sec
+ 18 : ... 1398 2153 3051 3596 3849 3814 2854 2596 3193 3858 3396 1136  1830   559    164.86 sec
 Block = 2925  Oblig = 73963  Clause = 49203  Call =895042 (sat=67.1%)  Cex =   0  Start =2961
-SAT solving =   131.80 sec ( 78.97 %)
-  unsat     =    20.16 sec ( 12.08 %)
-  sat       =   111.64 sec ( 66.89 %)
-Generalize  =   119.98 sec ( 71.89 %)
-Push clause =    21.94 sec ( 13.15 %)
-Ternary sim =     2.48 sec (  1.48 %)
-Containment =     2.33 sec (  1.40 %)
-CNF compute =     8.53 sec (  5.11 %)
+SAT solving =   130.21 sec ( 78.98 %)
+  unsat     =    19.90 sec ( 12.07 %)
+  sat       =   110.31 sec ( 66.91 %)
+Generalize  =   118.03 sec ( 71.59 %)
+Push clause =    21.99 sec ( 13.34 %)
+Ternary sim =     2.43 sec (  1.47 %)
+Containment =     2.31 sec (  1.40 %)
+CNF compute =     8.34 sec (  5.06 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =   166.90 sec (100.00 %)
-Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/arbitrated_top_n3_w32_d16_e0_zero_then_fold2" was asserted in frame 18.  Time =   166.91 sec
-158.45user 8.49system 2:47.06elapsed 99%CPU (0avgtext+0avgdata 93204maxresident)k
-14432inputs+40outputs (53major+21608minor)pagefaults 0swaps
+TOTAL       =   164.87 sec (100.00 %)
+Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/arbitrated_top_n3_w32_d16_e0_zero_then_fold2" was asserted in frame 18.  Time =   164.88 sec
+156.60user 8.30system 2:44.95elapsed 99%CPU (0avgtext+0avgdata 93244maxresident)k
+112inputs+40outputs (0major+21641minor)pagefaults 0swaps

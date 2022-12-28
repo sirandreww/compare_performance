@@ -2,35 +2,35 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
-  1 : 0 1                                                                 1     1      0.01 sec
+  1 : 0 1                                                                 1     1      0.00 sec
   2 : 0 12 36                                                             4    54      0.02 sec
   3 : 0 10 34 59                                                          4    73      0.05 sec
   4 : 0 7 19 27 59                                                        3    80      0.07 sec
   5 : 0 7 17 29 62 125                                                    7    87      0.15 sec
   6 : 0 7 17 26 47 146 135                                                6    94      0.28 sec
   7 : 0 6 17 34 65 134 206 181                                           29   101      0.51 sec
-  8 : 0 6 16 28 46 121 179 272 266                                       13   108      0.89 sec
-  9 : 0 6 16 28 44 110 153 229 361 294                                   14   115      1.36 sec
- 10 : 0 6 16 32 51 115 157 225 336 567 428                               27   123      2.29 sec
- 11 : 0 6 15 28 42 106 149 224 349 522 819 536                           20   123      3.76 sec
- 12 : 0 6 15 28 42 103 153 215 337 458 710 999 651                       23   131      5.61 sec
- 13 : 0 6 15 28 42 101 153 200 312 393 618 792 959 553                   73   138      7.25 sec
- 14 : 0 6 15 28 40 101 140 177 283 374 579 693 787 925 627               61   145      9.01 sec
- 15 : 0 6 15 28 40 101 139 176 282 334 490 559 543 799 1213 753          30   152     11.40 sec
- 16 : ... 6 15 28 40 101 139 176 280 335 479 530 476 637 926 1278 683    42   159     13.68 sec
- 17 : ... 40 101 139 178 283 339 494 562 547 693 1073 1523 1688 1055    198   166     19.43 sec
- 18 : ... 134 174 218 329 372 532 499 632 628 1015 1053 1453 1542 653   127   176     23.99 sec
+  8 : 0 6 16 28 46 121 179 272 266                                       13   108      0.90 sec
+  9 : 0 6 16 28 44 110 153 229 361 294                                   14   115      1.37 sec
+ 10 : 0 6 16 32 51 115 157 225 336 567 428                               27   123      2.32 sec
+ 11 : 0 6 15 28 42 106 149 224 349 522 819 536                           20   123      3.78 sec
+ 12 : 0 6 15 28 42 103 153 215 337 458 710 999 651                       23   131      5.63 sec
+ 13 : 0 6 15 28 42 101 153 200 312 393 618 792 959 553                   73   138      7.27 sec
+ 14 : 0 6 15 28 40 101 140 177 283 374 579 693 787 925 627               61   145      9.05 sec
+ 15 : 0 6 15 28 40 101 139 176 282 334 490 559 543 799 1213 753          30   152     11.45 sec
+ 16 : ... 6 15 28 40 101 139 176 280 335 479 530 476 637 926 1278 683    42   159     13.75 sec
+ 17 : ... 40 101 139 178 283 339 494 562 547 693 1073 1523 1688 1055    198   166     19.49 sec
+ 18 : ... 134 174 218 329 372 532 499 632 628 1015 1053 1453 1542 653   127   176     24.04 sec
 Block = 1092  Oblig = 22365  Clause = 14397  Call =286381 (sat=67.9%)  Cex =   0  Start = 941
-SAT solving =    20.31 sec ( 84.65 %)
-  unsat     =     4.03 sec ( 16.79 %)
-  sat       =    16.28 sec ( 67.86 %)
-Generalize  =    16.67 sec ( 69.46 %)
-Push clause =     4.53 sec ( 18.87 %)
-Ternary sim =     0.39 sec (  1.63 %)
-Containment =     0.12 sec (  0.50 %)
-CNF compute =     0.79 sec (  3.29 %)
+SAT solving =    20.36 sec ( 84.66 %)
+  unsat     =     4.04 sec ( 16.80 %)
+  sat       =    16.32 sec ( 67.85 %)
+Generalize  =    16.72 sec ( 69.51 %)
+Push clause =     4.53 sec ( 18.85 %)
+Ternary sim =     0.40 sec (  1.67 %)
+Containment =     0.12 sec (  0.49 %)
+CNF compute =     0.79 sec (  3.30 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    24.00 sec (100.00 %)
-Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/arbitrated_top_n3_w8_d16_e0_zero_then_fold2" was asserted in frame 18.  Time =    24.01 sec
-23.21user 0.81system 0:24.05elapsed 99%CPU (0avgtext+0avgdata 60864maxresident)k
-184inputs+8outputs (1major+13493minor)pagefaults 0swaps
+TOTAL       =    24.05 sec (100.00 %)
+Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/arbitrated_top_n3_w8_d16_e0_zero_then_fold2" was asserted in frame 18.  Time =    24.06 sec
+23.24user 0.83system 0:24.09elapsed 99%CPU (0avgtext+0avgdata 60672maxresident)k
+32inputs+8outputs (0major+13494minor)pagefaults 0swaps

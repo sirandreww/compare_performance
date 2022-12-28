@@ -3,26 +3,26 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     1      7.24 sec
-  2 : 0 1 48                                                              1    49     14.73 sec
-  3 : 0 1 198 297                                                         6   369     24.96 sec
-  4 : 0 1 194 181 493                                                     7   441     44.52 sec
-  5 : 0 1 114 121 116 636                                                 7   456     62.61 sec
-  6 : 0 1 88 77 136 131 1172                                              6   470     82.39 sec
-  7 : 0 1 49 12 2 2 4 871                                                 6   470     95.85 sec
-  8 : 0 1 47 9 0 0 0 0 872                                                0   470     96.43 sec
+  2 : 0 1 48                                                              1    49     14.76 sec
+  3 : 0 1 198 297                                                         6   369     25.00 sec
+  4 : 0 1 194 181 493                                                     7   441     44.55 sec
+  5 : 0 1 114 121 116 636                                                 7   456     62.60 sec
+  6 : 0 1 88 77 136 131 1172                                              6   470     82.34 sec
+  7 : 0 1 49 12 2 2 4 871                                                 6   470     95.79 sec
+  8 : 0 1 47 9 0 0 0 0 872                                                0   470     96.36 sec
 Invariant F[4] : 872 clauses with 469 flops (out of 718) (cex = 0, ave = 55.52)
-Verification of invariant with 872 clauses was successful.  Time =     0.73 sec
+Verification of invariant with 872 clauses was successful.  Time =     0.74 sec
 Block =  299  Oblig =  3315  Clause =  2070  Call = 49631 (sat=28.7%)  Cex =   0  Start = 160
-SAT solving =    93.95 sec ( 96.68 %)
-  unsat     =    86.68 sec ( 89.20 %)
+SAT solving =    93.88 sec ( 96.67 %)
+  unsat     =    86.61 sec ( 89.19 %)
   sat       =     7.27 sec (  7.48 %)
-Generalize  =    10.61 sec ( 10.92 %)
+Generalize  =    10.63 sec ( 10.95 %)
 Push clause =     3.01 sec (  3.10 %)
-Ternary sim =     0.66 sec (  0.68 %)
+Ternary sim =     0.67 sec (  0.69 %)
 Containment =     0.02 sec (  0.02 %)
-CNF compute =     0.29 sec (  0.29 %)
+CNF compute =     0.29 sec (  0.30 %)
 Refinement  =     0.00 sec (  0.00 %)
-TOTAL       =    97.17 sec (100.00 %)
-Property proved.  Time =    97.19 sec
-97.10user 0.10system 1:37.23elapsed 99%CPU (0avgtext+0avgdata 88984maxresident)k
-184inputs+32outputs (0major+24616minor)pagefaults 0swaps
+TOTAL       =    97.11 sec (100.00 %)
+Property proved.  Time =    97.12 sec
+97.04user 0.11system 1:37.17elapsed 99%CPU (0avgtext+0avgdata 89072maxresident)k
+184inputs+64outputs (0major+24618minor)pagefaults 0swaps

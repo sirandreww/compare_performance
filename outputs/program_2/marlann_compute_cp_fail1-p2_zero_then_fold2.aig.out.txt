@@ -4,7 +4,7 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 11                                                                1    11      0.00 sec
   2 : 0 30 25                                                            10    35      0.00 sec
-  3 : 0 5 9 24                                                            2    36      0.01 sec
+  3 : 0 5 9 24                                                            2    36      0.00 sec
   4 : 0 5 8 13 21                                                         3    38      0.01 sec
   5 : 0 5 8 5 4 17                                                        0    38      0.01 sec
   6 : 0 5 8 5 4 4 13                                                      0    38      0.01 sec
@@ -18,16 +18,16 @@ Frame Clauses                                                     Max Queue Flop
 Invariant F[12] : 250 clauses with 84 flops (out of 113) (cex = 0, ave = 10.26)
 Verification of invariant with 250 clauses was successful.  Time =     0.00 sec
 Block =   53  Oblig =   678  Clause =   365  Call =  4042 (sat=50.3%)  Cex =   0  Start =   5
-SAT solving =     0.04 sec ( 52.33 %)
-  unsat     =     0.00 sec (  6.23 %)
-  sat       =     0.04 sec ( 46.10 %)
-Generalize  =     0.04 sec ( 45.57 %)
-Push clause =     0.01 sec ( 12.82 %)
-Ternary sim =     0.00 sec (  5.17 %)
-Containment =     0.00 sec (  0.41 %)
-CNF compute =     0.00 sec (  4.46 %)
+SAT solving =     0.04 sec ( 52.86 %)
+  unsat     =     0.00 sec (  6.32 %)
+  sat       =     0.04 sec ( 46.54 %)
+Generalize  =     0.04 sec ( 46.16 %)
+Push clause =     0.01 sec ( 13.12 %)
+Ternary sim =     0.00 sec (  5.20 %)
+Containment =     0.00 sec (  0.46 %)
+CNF compute =     0.00 sec (  4.66 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.08 sec (100.00 %)
 Property proved.  Time =     0.08 sec
-0.09user 0.01system 0:00.11elapsed 96%CPU (0avgtext+0avgdata 37492maxresident)k
-8inputs+8outputs (0major+7662minor)pagefaults 0swaps
+0.08user 0.01system 0:00.10elapsed 96%CPU (0avgtext+0avgdata 37356maxresident)k
+0inputs+8outputs (0major+7657minor)pagefaults 0swaps

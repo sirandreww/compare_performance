@@ -13,7 +13,7 @@ Frame Clauses                                                     Max Queue Flop
   9 : 0 5 3 5 9 10 7 5 6 62                                               0    46      0.06 sec
  10 : 0 5 3 5 9 10 7 5 6 3 61                                             1    46      0.07 sec
  11 : 0 5 3 6 9 12 8 6 6 3 13 84                                         11    46      0.08 sec
- 12 : 0 5 3 7 9 12 8 5 6 3 5 38 101                                      15    48      0.11 sec
+ 12 : 0 5 3 7 9 12 8 5 6 3 5 38 101                                      15    48      0.10 sec
  13 : 0 5 3 9 10 12 8 5 6 2 2 13 31 99                                   16    50      0.13 sec
  14 : 0 5 3 9 9 12 8 5 6 2 2 9 11 28 101                                  6    50      0.14 sec
  15 : 0 5 3 9 9 12 8 5 6 2 2 4 2 3 4 86                                   0    50      0.15 sec
@@ -23,16 +23,16 @@ Frame Clauses                                                     Max Queue Flop
 Invariant F[16] : 98 clauses with 41 flops (out of 161) (cex = 0, ave = 29.76)
 Verification of invariant with 98 clauses was successful.  Time =     0.00 sec
 Block =  158  Oblig =   805  Clause =   460  Call =  5246 (sat=52.4%)  Cex =   0  Start =   9
-SAT solving =     0.10 sec ( 58.53 %)
-  unsat     =     0.01 sec (  8.38 %)
-  sat       =     0.09 sec ( 50.15 %)
-Generalize  =     0.08 sec ( 48.90 %)
-Push clause =     0.04 sec ( 21.29 %)
-Ternary sim =     0.03 sec ( 16.01 %)
+SAT solving =     0.10 sec ( 58.28 %)
+  unsat     =     0.01 sec (  8.44 %)
+  sat       =     0.09 sec ( 49.85 %)
+Generalize  =     0.08 sec ( 48.98 %)
+Push clause =     0.04 sec ( 21.21 %)
+Ternary sim =     0.03 sec ( 16.17 %)
 Containment =     0.00 sec (  0.40 %)
-CNF compute =     0.01 sec (  3.26 %)
+CNF compute =     0.01 sec (  3.29 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.17 sec (100.00 %)
-Property proved.  Time =     0.18 sec
-0.19user 0.01system 0:00.20elapsed 98%CPU (0avgtext+0avgdata 47092maxresident)k
+Property proved.  Time =     0.17 sec
+0.18user 0.01system 0:00.20elapsed 97%CPU (0avgtext+0avgdata 47160maxresident)k
 16inputs+8outputs (0major+10076minor)pagefaults 0swaps

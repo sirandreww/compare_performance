@@ -10,15 +10,15 @@ Invariant F[2] : 4 clauses with 5 flops (out of 454) (cex = 0, ave = 18.57)
 Verification of invariant with 4 clauses was successful.  Time =     0.00 sec
 Block =    5  Oblig =     9  Clause =     7  Call =    63 (sat=47.6%)  Cex =   0  Start =   0
 SAT solving =     0.00 sec (  1.35 %)
-  unsat     =     0.00 sec (  0.42 %)
-  sat       =     0.00 sec (  0.93 %)
-Generalize  =     0.00 sec (  1.32 %)
-Push clause =     0.00 sec (  0.35 %)
-Ternary sim =     0.00 sec (  0.42 %)
+  unsat     =     0.00 sec (  0.43 %)
+  sat       =     0.00 sec (  0.92 %)
+Generalize  =     0.00 sec (  1.31 %)
+Push clause =     0.00 sec (  0.36 %)
+Ternary sim =     0.00 sec (  0.43 %)
 Containment =     0.00 sec (  0.01 %)
 CNF compute =     0.00 sec (  0.37 %)
 Refinement  =     0.00 sec (  0.00 %)
 TOTAL       =     0.07 sec (100.00 %)
 Property proved.  Time =     0.08 sec
-0.09user 0.02system 0:00.17elapsed 66%CPU (0avgtext+0avgdata 41420maxresident)k
-240inputs+8outputs (0major+8806minor)pagefaults 0swaps
+0.11user 0.00system 0:00.12elapsed 94%CPU (0avgtext+0avgdata 41428maxresident)k
+240inputs+8outputs (0major+8807minor)pagefaults 0swaps

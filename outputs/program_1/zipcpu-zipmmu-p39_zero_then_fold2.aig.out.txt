@@ -1,21 +1,37 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.017127605
-Time in SAT calls = 0.002582101
-IC3 is on k = 2, clauses lengths = [0, 1000, 1010, 0]
-Number of SAT calls = 535250
-Time since start = 96.8112
-Time in SAT calls = 91.73386
-IC3 is on k = 3, clauses lengths = [0, 1460, 1538, 1553, 0]
-Number of SAT calls = 826585
-Time since start = 145.37128
-Time in SAT calls = 137.54694
-IC3 is on k = 4, clauses lengths = [0, 4303, 4444, 4514, 4534, 0]
-Number of SAT calls = 2439915
-Time since start = 444.5339
-Time in SAT calls = 421.27826
-IC3 is on k = 5, clauses lengths = [0, 4928, 5192, 5351, 5413, 5433, 0]
-Number of SAT calls = 2948338
-Time since start = 531.94257
-Time in SAT calls = 503.9894
-slurmstepd-thanos7_2: error: *** JOB 75006 ON thanos7_2 CANCELLED AT 2022-12-27T14:35:25 DUE TO TIME LIMIT ***
+Time since start = 0.026437782
+Time in SAT calls = 0.005814526
+IC3 is on k = 2, clauses lengths = [0, 305, 313, 0]
+Number of SAT calls = 165855
+Time since start = 21.597126
+Time in SAT calls = 19.980433
+IC3 is on k = 3, clauses lengths = [0, 1552, 1606, 1643, 0]
+Number of SAT calls = 873054
+Time since start = 113.28211
+Time in SAT calls = 104.85961
+IC3 is on k = 4, clauses lengths = [0, 2447, 2587, 2644, 2680, 0]
+Number of SAT calls = 1432095
+Time since start = 186.97137
+Time in SAT calls = 173.11633
+IC3 is on k = 5, clauses lengths = [0, 2119, 2447, 2587, 2644, 2680, 0]
+Number of SAT calls = 1442454
+Time since start = 187.9097
+Time in SAT calls = 174.02943
+IC3 is on k = 6, clauses lengths = [0, 4112, 4159, 4557, 4696, 4753, 4789, 0]
+Number of SAT calls = 2582604
+Time since start = 388.4923
+Time in SAT calls = 363.13632
+IC3 is on k = 7, clauses lengths = [0, 4107, 4112, 4159, 4557, 4696, 4753, 4789, 0]
+Number of SAT calls = 2609671
+Time since start = 390.24988
+Time in SAT calls = 364.8199
+IC3 is on k = 7, clauses lengths = [4107, 4107, 4112, 4159, 4557, 4696, 4753, 4789, 0]
+Number of SAT calls = 2640845
+Time since start = 392.3436
+Time in SAT calls = 366.8342
+Elapsed time = 392.34393
+Safe, checking invariant.
+Invariant check passed!
+426.72user 0.09system 7:06.92elapsed 99%CPU (0avgtext+0avgdata 214620maxresident)k
+40inputs+40outputs (0major+95877minor)pagefaults 0swaps

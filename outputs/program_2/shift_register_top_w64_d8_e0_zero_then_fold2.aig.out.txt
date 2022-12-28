@@ -5,24 +5,24 @@ Frame Clauses                                                     Max Queue Flop
   1 : 0 4                                                                 1     4      0.00 sec
   2 : 0 2 132                                                             2   133      0.02 sec
   3 : 0 3 133 132                                                         5   135      0.06 sec
-  4 : 0 3 133 264 263                                                     7   200      0.21 sec
-  5 : 0 3 133 262 267 136                                                 3   201      0.28 sec
-  6 : 0 3 133 263 229 556 524                                            12   329      0.83 sec
-  7 : 0 3 133 263 229 428 530 139                                         6   329      0.98 sec
-  8 : 0 3 133 263 229 425 404 672 768                                    11   457      1.88 sec
-  9 : 0 3 133 263 229 424 147 401 769 146                                 5   457      2.10 sec
- 10 : 0 3 133 264 232 429 153 406 652 159 14                             22   459      2.29 sec
+  4 : 0 3 133 264 263                                                     7   200      0.20 sec
+  5 : 0 3 133 262 267 136                                                 3   201      0.27 sec
+  6 : 0 3 133 263 229 556 524                                            12   329      0.81 sec
+  7 : 0 3 133 263 229 428 530 139                                         6   329      0.95 sec
+  8 : 0 3 133 263 229 425 404 672 768                                    11   457      1.83 sec
+  9 : 0 3 133 263 229 424 147 401 769 146                                 5   457      2.06 sec
+ 10 : 0 3 133 264 232 429 153 406 652 159 14                             22   459      2.24 sec
 Block = 1030  Oblig =  5117  Clause =  3478  Call = 46072 (sat=71.6%)  Cex =   0  Start = 145
-SAT solving =     1.90 sec ( 82.76 %)
-  unsat     =     0.23 sec ( 10.24 %)
-  sat       =     1.66 sec ( 72.52 %)
-Generalize  =     1.40 sec ( 60.94 %)
-Push clause =     0.55 sec ( 24.00 %)
-Ternary sim =     0.08 sec (  3.49 %)
-Containment =     0.01 sec (  0.28 %)
-CNF compute =     0.07 sec (  3.00 %)
-Refinement  =     0.00 sec (  0.03 %)
-TOTAL       =     2.29 sec (100.00 %)
-Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/shift_register_top_w64_d8_e0_zero_then_fold2" was asserted in frame 16.  Time =     2.30 sec
-2.26user 0.05system 0:02.33elapsed 99%CPU (0avgtext+0avgdata 37492maxresident)k
-200inputs+8outputs (1major+7614minor)pagefaults 0swaps
+SAT solving =     1.85 sec ( 82.60 %)
+  unsat     =     0.23 sec ( 10.45 %)
+  sat       =     1.62 sec ( 72.15 %)
+Generalize  =     1.37 sec ( 60.89 %)
+Push clause =     0.54 sec ( 24.11 %)
+Ternary sim =     0.08 sec (  3.60 %)
+Containment =     0.01 sec (  0.29 %)
+CNF compute =     0.07 sec (  3.05 %)
+Refinement  =     0.00 sec (  0.02 %)
+TOTAL       =     2.24 sec (100.00 %)
+Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/shift_register_top_w64_d8_e0_zero_then_fold2" was asserted in frame 16.  Time =     2.25 sec
+2.17user 0.09system 0:02.27elapsed 99%CPU (0avgtext+0avgdata 37312maxresident)k
+0inputs+8outputs (0major+7610minor)pagefaults 0swaps

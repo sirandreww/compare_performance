@@ -1,21 +1,21 @@
 IC3 is on k = 1, clauses lengths = [0, 0, 0]
 Number of SAT calls = 2
-Time since start = 0.023072513
-Time in SAT calls = 0.009617228
+Time since start = 0.02840523
+Time in SAT calls = 0.011326989
 IC3 is on k = 2, clauses lengths = [0, 1, 2, 0]
 Number of SAT calls = 295
-Time since start = 0.055515632
-Time in SAT calls = 0.037085667
-IC3 is on k = 3, clauses lengths = [0, 448, 454, 455, 0]
-Number of SAT calls = 79033
-Time since start = 8.891307
-Time in SAT calls = 8.628366
-IC3 is on k = 3, clauses lengths = [448, 448, 454, 455, 0]
-Number of SAT calls = 80391
-Time since start = 8.974235
-Time in SAT calls = 8.709621
-Elapsed time = 8.974671
+Time since start = 0.07007081
+Time in SAT calls = 0.04638716
+IC3 is on k = 3, clauses lengths = [0, 569, 582, 583, 0]
+Number of SAT calls = 99789
+Time since start = 7.787076
+Time in SAT calls = 7.438369
+IC3 is on k = 3, clauses lengths = [569, 569, 582, 583, 0]
+Number of SAT calls = 101524
+Time since start = 7.919095
+Time in SAT calls = 7.567886
+Elapsed time = 7.9195395
 Safe, checking invariant.
 Invariant check passed!
-32.84user 0.00system 0:32.86elapsed 99%CPU (0avgtext+0avgdata 39152maxresident)k
-24inputs+8outputs (0major+9284minor)pagefaults 0swaps
+33.47user 0.01system 0:33.49elapsed 99%CPU (0avgtext+0avgdata 49224maxresident)k
+24inputs+8outputs (0major+17172minor)pagefaults 0swaps

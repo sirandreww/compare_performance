@@ -3,26 +3,26 @@ ABC command line: "read /home/andrew/rust-formal-verification/tests/examples/hwm
 VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen = no. SolveAll = no.
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 4                                                                 1     4      0.00 sec
-  2 : 0 2 36                                                              2    37      0.01 sec
-  3 : 0 3 37 36                                                           5    39      0.02 sec
+  2 : 0 2 36                                                              2    37      0.00 sec
+  3 : 0 3 37 36                                                           5    39      0.01 sec
   4 : 0 3 37 72 71                                                        7    56      0.04 sec
   5 : 0 3 37 70 74 50                                                     3    57      0.06 sec
   6 : 0 3 37 71 74 164 145                                               15    89      0.16 sec
   7 : 0 3 37 71 74 122 173 43                                             4    89      0.19 sec
-  8 : 0 3 37 72 78 125 180 230 272                                       22   122      0.42 sec
+  8 : 0 3 37 72 78 125 180 230 272                                       22   122      0.43 sec
   9 : 0 3 37 72 78 125 176 205 231 83                                     2   122      0.48 sec
- 10 : 0 3 37 72 78 125 177 208 233 97 24                                 14   123      0.53 sec
+ 10 : 0 3 37 72 78 125 177 208 233 97 24                                 14   123      0.54 sec
 Block =  305  Oblig =  1800  Clause =  1153  Call = 15511 (sat=72.5%)  Cex =   0  Start =  44
-SAT solving =     0.44 sec ( 82.24 %)
+SAT solving =     0.45 sec ( 83.23 %)
   unsat     =     0.07 sec ( 13.20 %)
-  sat       =     0.37 sec ( 69.04 %)
-Generalize  =     0.33 sec ( 61.87 %)
-Push clause =     0.12 sec ( 21.63 %)
-Ternary sim =     0.01 sec (  2.48 %)
-Containment =     0.00 sec (  0.18 %)
-CNF compute =     0.02 sec (  2.88 %)
-Refinement  =     0.00 sec (  0.03 %)
+  sat       =     0.38 sec ( 70.03 %)
+Generalize  =     0.34 sec ( 62.28 %)
+Push clause =     0.12 sec ( 21.95 %)
+Ternary sim =     0.01 sec (  2.42 %)
+Containment =     0.00 sec (  0.17 %)
+CNF compute =     0.01 sec (  2.72 %)
+Refinement  =     0.00 sec (  0.02 %)
 TOTAL       =     0.54 sec (100.00 %)
 Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/mann/data-integrity/unsafe/shift_register_top_w16_d8_e0_zero_then_fold2" was asserted in frame 19.  Time =     0.54 sec
-0.54user 0.02system 0:00.57elapsed 98%CPU (0avgtext+0avgdata 31868maxresident)k
-168inputs+8outputs (1major+6333minor)pagefaults 0swaps
+0.52user 0.04system 0:00.57elapsed 99%CPU (0avgtext+0avgdata 32084maxresident)k
+16inputs+8outputs (0major+6337minor)pagefaults 0swaps

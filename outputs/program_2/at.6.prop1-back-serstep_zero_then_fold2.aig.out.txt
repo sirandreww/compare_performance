@@ -4,19 +4,19 @@ VarMax = 300. FrameMax = 10000. QueMax = 0. TimeMax = 0. MonoCNF = no. SkipGen =
 Frame Clauses                                                     Max Queue Flops Cex      Time
   1 : 0 1                                                                 1     5      0.00 sec
   2 : 0 5 5                                                               4    34      0.02 sec
-  3 : 0 5 2456 2201                                                     247   112     18.87 sec
-  4 : 0 5 3429 4204 514                                                1517   113     41.93 sec
+  3 : 0 5 2456 2201                                                     247   112     19.02 sec
+  4 : 0 5 3429 4204 514                                                1517   113     42.15 sec
 Block =    4  Oblig = 14686  Clause =  8182  Call =344752 (sat=53.0%)  Cex =   0  Start =1148
-SAT solving =    34.62 sec ( 82.55 %)
-  unsat     =     9.71 sec ( 23.15 %)
-  sat       =    24.91 sec ( 59.41 %)
-Generalize  =    38.41 sec ( 91.58 %)
-Push clause =     0.55 sec (  1.32 %)
-Ternary sim =     0.90 sec (  2.15 %)
-Containment =     1.09 sec (  2.61 %)
-CNF compute =     1.92 sec (  4.57 %)
+SAT solving =    34.81 sec ( 82.56 %)
+  unsat     =     9.79 sec ( 23.23 %)
+  sat       =    25.02 sec ( 59.33 %)
+Generalize  =    38.63 sec ( 91.62 %)
+Push clause =     0.55 sec (  1.30 %)
+Ternary sim =     0.91 sec (  2.15 %)
+Containment =     1.10 sec (  2.61 %)
+CNF compute =     1.95 sec (  4.62 %)
 Refinement  =     0.01 sec (  0.01 %)
-TOTAL       =    41.94 sec (100.00 %)
-Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/beem/at.6.prop1-back-serstep_zero_then_fold2" was asserted in frame 689.  Time =    41.94 sec
-40.66user 1.29system 0:41.98elapsed 99%CPU (0avgtext+0avgdata 35532maxresident)k
-16inputs+24outputs (0major+7179minor)pagefaults 0swaps
+TOTAL       =    42.17 sec (100.00 %)
+Output 0 of miter "/home/andrew/rust-formal-verification/tests/examples/hwmcc20/2019/beem/at.6.prop1-back-serstep_zero_then_fold2" was asserted in frame 689.  Time =    42.17 sec
+41.04user 1.16system 0:42.21elapsed 99%CPU (0avgtext+0avgdata 35656maxresident)k
+16inputs+16outputs (0major+7177minor)pagefaults 0swaps
